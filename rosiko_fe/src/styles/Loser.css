@@ -1,0 +1,15 @@
+.loser_card_content{
+    padding: 8px !important;
+    text-align: center;
+    height: 100%;
+}
+
+.loser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px !important;
+    padding: 32px !important;
+}
+
+.lose_emoji{margin: 16px;}

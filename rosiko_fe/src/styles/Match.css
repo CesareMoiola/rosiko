@@ -1,0 +1,68 @@
+.match{
+    position: relative !important;  
+    display: flex;
+    overflow: hidden;
+    height: 100vh !important;
+    width: 100vw !important;
+}
+
+.map{   
+    flex-grow: 3;
+    padding: 0;
+    overflow: auto !important;
+    margin: 16px;
+    z-index: 0;
+}
+
+.controlPanel{
+    flex-grow: 1;
+    z-index: 1;
+    margin: 16px;
+}
+
+.mission_div{
+    display: flex;
+    position: absolute;
+    bottom: -220px;
+    left: 16px;
+    padding-bottom: 40px;
+    transition: transform 0.5s !important;
+    z-index: 2;
+}
+
+.mission{
+    margin-left: 16px;
+    z-index: 2;
+}
+
+.gameCard{
+    margin-right: -154px;
+    z-index: 2;
+    transition: all 0.5s !important;
+}
+
+.mission_div:hover{
+    transform: translate(0px,-196px);
+}
+
+.cardList:hover{
+    transform: translate(0px,-196px);
+}
+
+.cardList:hover > .gameCard{ margin-right: -16px }
+
+.cardList:not(:hover) > .gameCard{ margin-bottom: 0px !important}
+
+.cardList{
+    left: 226px;
+    bottom: -220px;
+    min-height: 230px;
+    z-index: 2;
+    position: absolute;
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-end !important;
+    transition: all 0.5s !important;
+    margin: 0;
+    padding: 0 16px 40px 0;
+}

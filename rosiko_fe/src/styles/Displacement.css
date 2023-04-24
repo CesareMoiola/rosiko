@@ -1,0 +1,14 @@
+.arrow{
+    height: 16px;
+    width: auto;
+    display: block;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ends_turn_button{
+    margin-top: 16px !important;
+    min-width: 150px !important;
+}

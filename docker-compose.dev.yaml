@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  backend:
+    image: backend-dev-i
+    build:
+      dockerfile: Dockerfile
+    container_name: backend-dev-c
+    ports:
+      - "8081:8081"
+    environment:
+      - NODE_ENV=development
+  frontend:
+    image: frontend-dev-i
+    build:
+      dockerfile: Dockerfile.dev
+    container_name: frontent-dev-c
+    volumes:
+      - ./rosiko_fe:/app
+      - node_modules:/app/node_modules/
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+    depends_on: backend #to be tested
+volumes:
+  node_modules:

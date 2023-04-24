@@ -1,0 +1,12 @@
+.mission{
+    display: block;
+    width: 170px;
+    height: 230px;
+    border-radius: 16px !important;
+    border: 4px #e0e0e0 solid;
+}
+
+.mission_divider{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}

@@ -1,0 +1,44 @@
+.title{
+    margin-top: 0 !important;
+}
+
+.join-match{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.match-list{
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matchLabel{
+    display: flex;
+    align-items: center;
+}
+
+.matchName{
+    text-align: left;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.publicMatch{
+    visibility:visible;
+}
+
+.icon{
+    opacity: 0.87;
+    margin-right: 0.5rem;
+}
+
+.join-match-button{
+    margin-top: 16px !important;
+}

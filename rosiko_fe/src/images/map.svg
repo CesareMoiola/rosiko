@@ -1,0 +1,1707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 749.8 519.1" style="enable-background:new 0 0 749.8 519.1;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#9E9E9E;stroke-dasharray:4,4;}
+	.st1{opacity:0.7094;}
+	.st2{fill:#E0E0E0;stroke:#e0e0e0;stroke-miterlimit:4.3217;}
+	.st3{fill:#e0e0e0;}
+	.st4{font-family:'ArialMT';}
+	.st5{font-size:11.9596px;}
+</style>
+<g id="Routes">
+	<line class="st0" x1="385.8" y1="271.2" x2="392.5" y2="253.1"/>
+	<line class="st0" x1="400.8" y1="253.2" x2="436.6" y2="265.8"/>
+	<line class="st0" x1="32.1" y1="77.4" x2="0.6" y2="77.4"/>
+	<line class="st0" x1="749.8" y1="77.4" x2="712.1" y2="77.4"/>
+	<line class="st0" x1="678.1" y1="176" x2="645.8" y2="182.1"/>
+	<line class="st0" x1="654.2" y1="342.4" x2="631.4" y2="356.1"/>
+	<line class="st0" x1="655.6" y1="391.5" x2="665.5" y2="359.2"/>
+	<line class="st0" x1="697.4" y1="366.7" x2="701" y2="378.4"/>
+	<line class="st0" x1="347.3" y1="172" x2="332" y2="173.6"/>
+	<line class="st0" x1="320" y1="197.2" x2="319.4" y2="182.9"/>
+	<line class="st0" x1="355.3" y1="128.2" x2="319.7" y2="154.8"/>
+	<line class="st0" x1="380.8" y1="135.5" x2="386.9" y2="144.9"/>
+	<line class="st0" x1="311" y1="125.9" x2="314.6" y2="116.4"/>
+	<line class="st0" x1="353.3" y1="105" x2="342.3" y2="105.7"/>
+	<line class="st0" x1="304.6" y1="93.7" x2="291" y2="75.4"/>
+	<line class="st0" x1="236.3" y1="67.4" x2="196.2" y2="70.3"/>
+	<line class="st0" x1="164" y1="110.3" x2="236.3" y2="67.4"/>
+	<line class="st0" x1="219.9" y1="100.9" x2="236.3" y2="67.4"/>
+	<line class="st0" x1="281.9" y1="319.3" x2="307.6" y2="319.3"/>
+	<line class="st0" x1="346.6" y1="257.1" x2="337.6" y2="246"/>
+	<line class="st0" x1="373" y1="262.4" x2="373.8" y2="244.2"/>
+	<line class="st0" x1="655.6" y1="155.1" x2="677.2" y2="163.1"/>
+	<line class="st0" x1="618.8" y1="394.8" x2="628.9" y2="411.1"/>
+	<line class="st0" x1="622.9" y1="333.8" x2="621.3" y2="317.9"/>
+	<line class="st0" x1="441.5" y1="442" x2="463.5" y2="440.5"/>
+	<line class="st0" x1="449.5" y1="389.8" x2="478.9" y2="420.4"/>
+</g>
+<g id="Nations" transform="translate(-167.99651,-118.55507)" class="st1">
+	<g id="eastern_australia">
+		<path id="territory" class="st2" d="M832.1,509.7c0,0,0.2,0.5,0.7-1.6s0.2-3.2,0.9-4.8c0.7-1.6,1.1-1.4,2.5-2.1
+			s1.8-1.1,2.1-1.8c0.4-0.7,1.4-0.9,2.5-0.7c1.1,0.2,1.6,0.7,2.5-0.5s0.7-1.6,1.6-1.2c0.9,0.4,0.4,0.4,1.6,0.7
+			c1.2,0.4,2.5,0.9,4.9,0.4s2.7-1.8,2.8-0.4s0.2,1.6,1.1,1.6c0.9,0,0.9,0.2,0.4,1.2c-0.5,1.1-0.2,0.4-1.6,2.3
+			c-1.4,1.9-2.1,2.1-2.3,3.5s0.2,2.3,0.2,2.3s-0.7,1.9,0.5,1.9s1.4-0.5,3-0.7s3-0.4,3.2,1.2c0.2,1.6,1.2,4.6,2.3,4.8
+			s1.1,0.5,2.8,0.2c1.8-0.4,2.5,0.5,2.7-1.1s0.2-1.9,0.2-3.2c0-1.2-1.8,0.7,0.5-2.8s2.8-1.2,2.3-5.1s-1.6-3.5-0.7-6
+			c0.9-2.5,0.5-2.5,1.1-2.3c0,0,1.6-0.2,1.8,2.3s0.9,4.6,0.9,5.7s0.7,4.9,0.7,4.9s1.2,1.4,1.9,0.9s1.8-0.7,1.8-1.9
+			c0-1.2,0.4-2.7,0.7-1.9c0.4,0.7,1.4,1.2,1.4,2.3s-0.2,2.1,0,3.2s1.2,2.1,1.2,2.1s0.4,2.1,0.4,2.8s0.4,1.2,0,3s-0.4,1.9-0.2,3.5
+			s0.4,2.3,1.1,2.5c0.7,0.2,0.7,0.2,1.4,0.2s0.9-0.7,1.4,0.2s0.7,1.4,1.9,1.6s2.3,0,2.3,0s0.5,0.9,0.5,1.9c0,1.1-0.2,1.4,0.2,2.8
+			c0.4,1.4,0.4,1.6,1.2,1.8c0.9,0.2,1.4,0.4,1.4,0.4s0.2,0.9,0.2,2.3c0,1.4,0.4,2.3,0.4,2.3l1.4,1.1c0,0,0.4,0.9,1.1,1.8
+			c0.7,0.9,1.4,1.1,1.4,1.1s0.5,1.1,0.7,1.9c0.2,0.9-0.4,0.4,0.7,1.6s1.2,1.6,1.2,2.7s0.9,1.8,0.5,3.2s-0.2,1.9-0.4,3.7
+			s0.2-0.4-0.2,2.7c-0.4,3-0.2,3.9-0.4,4.9c-0.2,1.1-0.5,0.2-0.7,2.1c-0.2,1.9-0.4,3.5-0.4,3.5s-1.2,1.8-2.1,1.8s-2.5-0.7-2.5,0.2
+			s-0.9,1.6,0.4,1.9c1.2,0.4,1.6-0.7,1.6,0.5s-0.4,1.6-1.4,2.5c-1.1,0.9-1.1,0.7-2.3,1.4s-0.5-0.4-1.4,1.9c-0.9,2.3-0.7,2.3-1.4,3.2
+			s-0.9,0.9-1.2,1.9c-0.4,1.1-0.4,1.4-0.4,2.7c0,1.2-0.4,1.8-0.4,1.8s-1.4,1.4-1.4,2.7s0.9,1.8,0.2,2.7s0,0.9-1.6,1.1
+			c-1.6,0.2-2.3,0.2-2.3,0.2l-2.5,0.5c0,0-0.4-1.1-1.2-0.5c-0.9,0.5-0.5,0.4-1.2,1.2c-0.7,0.9-0.9,0.9-1.8,1.4
+			c-0.9,0.5,0,0.7-0.5,1.6c-0.5,0.9-0.7,1.8-1.8,1.2c-1.1-0.5-1.4-0.4-1.8-1.4c-0.4-1.1,0.2-1.2-1.6-1.8c-1.8-0.5-1.9-0.5-1.9-0.5
+			s-0.5,0.4-0.9,1.2c-0.4,0.9,0.2,1.2-1.1,1.8c-1.2,0.5-1.2,1.1-2.5,0.2l0.2-0.3c0,0,0-5.7,0.2-7.1c0.2-1.4-0.4-1.2-1.1-2.3
+			c-0.7-1.1,0.9-42.2,0.7-43.1c-0.2-0.9-29.9,0.4-29.9,0.4L832.1,509.7z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAiFJREFUeNq0lttLG0EUxmcmu6ZG
+TbGijRcEHyzxVbEBoQ/FP9wHQWopIr4oCiqiNaZeMEaTNJf1G/gGxmH2Ju3Ajw3s7PnmnDnzTaRI
+H9J52iNynokB4t4pEIAiCJ35OnAPdEEfDOPE4kQUg46DT6ACyhSUDKYDN0Ed3IMWRYdZRApgFMyA
+JfAFVMFnZmSGzuAGHIFjcAYaoA0GSSJGYAGsghpYAYvMJLTm9pjJBTgEu2APXLpCgVMiI/AVfAdr
+YJZl8+3JJJhyyiko9GJKF1gZhSzRKgVqFCxxATJh74pWLL1Xf8EVn1HBKlOZpdkEGyzRGN/JlA4M
+WYUSy9hgM3SNiMlCp7wOvoFlihZEtiGZScBM/oBr8KRLpjipSJEqMxjnCvMMxe8WGadiulFZmZTZ
+pmXPJmfNxhtHORNG3ikgkuKoHDaTV+xNHf/HiJJEon8QvMfz0TPxlMdRvSaXQ6BJT2saIWW9fAS/
+2eOddwjp+c/0siO6c1d4TrM+TBO091LKaXez6PIA/gI74NT4V8FTy4CmN8FWVClCQ353zwy2wT64
+5ekXtsiAQsIyvBFLyMyzGdDW67R7ncVPcG67sOtN5qNHElFEcLVthye6rQ6+BX6AE37b990npmR3
+rK9O/4GOOgc+eErVYbPoy+qAv1t2+8adcGldYNNgHny07nd7UX2u+opd2fb9oZAprhrG/FMRec6X
+zOhBMoOFxLrFqwADAEI2pp+fibFdAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 859.9965 529.655)">
+			</image>
+			<g>
+				<path class="st3" d="M872.5,551.4L872.5,551.4c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C881.6,547.3,877.5,551.4,872.5,551.4z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 865.9995 546.0233)" class="st4 st5">00</text>
+	</g>
+	<g id="indonesia">
+		<path id="territory" class="st2" d="M778.1,511.4c0.9,1.4,0.4,1.6,2.4,1.6s3.3-0.4,4.4-0.1s0.6,0.6,1.9,0.5s2.4-0.9,3.4-1
+			s2.3-0.3,3,0s1.9,1.1,3.3,1.3s4.5,0.1,5,0.3s2.1,1.4,2.9,0.5s1-0.6,1.3-2s0.3-2.1-0.6-2.4s-0.3-0.8-2.4-0.9s-2.8-0.4-3.4-0.6
+			s-1.6-1.3-2.4-1.5s-2.9-1.1-4.3-1.1s-4.1-0.3-5.5-0.3s-1.6-0.6-3.1,0.5s-2.8,1.6-3.6,2.3s-0.6,0.1-1,1.4S778.5,511.6,778.1,511.4z
+			 M801.5,503.3c0.5-1.8,0.1-1.5,0.3-3s0.5-1.1,1.1-2.1s0.3-2.6,1.4-0.8s0.8,2.6,2.1,3.8s1.6,2.4,2.8,1.3s3.3-2.3,2-3.6
+			s-2,0-2.1-3.3s-0.3-4.4-1.1-4.3s-1.6,1.4-1.8-0.4s-0.6-3.9,0.8-4s2.8,0.8,3.6-0.9s1.9-2.1,0.3-2.4s-2.9-0.5-3.8-0.4
+			s-1.5,0.1-1.4-0.6s-0.9-1.5,0.9-1.5s1.4,0.4,3,0.3s3.3-1,3.8-1.5s1.1-2.8,1.9-3.3s1.3-0.9,1.1-1.5s-0.4-1.1-1.1-1.4s-2-0.5-2.4,0
+			s-1.3,1.9-2.1,2.3s-5.1,0.1-6.1,0.6s-1.9,1.1-2.5,1.5s-2,1-1.8,2.5s0.3,2.8,0.3,3.4s-1.3,2.4-1.5,3s0.1,2.5-0.3,3.4
+			s-0.6,0.4-0.6,1.6s-0.3,1.5,0.1,2.4s1,0.9,0.6,2.1s-1,0.5-0.5,1.9s1.1,0.9,1.3,2.1s-0.3,1.8,0,2.8S801.6,503.4,801.5,503.3z
+			 M791,496.9c0,0-0.3-1.3,1.9-3.4s2.8-2.3,2.8-4.4s-0.1-2-1.1-3s-2.4-1.6-1.1-3.1s1.1-1.9,2.8-2.3s3.3-2.8,3.4-3.6s0.3-1.4-0.1-2.5
+			s-1.4-3.1-1.5-4.5s-0.3-2.4-0.1-3.4s1-1,2.1-2.4s1.4-0.8,1.4-2.8s-0.1-4.5-0.8-5s-0.9-0.3-2.3-0.8s-2-1.8-3.9-2.9
+			s-3.1-1.3-3.5-0.6s0.4-1.5-0.4,1.6s-0.6,3.9-1.5,4.5s-2.3,1-2.6,2.3s1,2.1-1,4.3s-5.6,6.1-8.3,6.6s-4.5,1.1-4.5,2s1.1,2,0.9,3
+			s-2,2-1.8,2.5s0.9,0,1.4,1.1s0.5,4.6,0.5,4.6l2.4,2.6c0,0-1.8,2.6-0.9,3.4s1.3,0.9,2.3,2s2.3,2.4,3.8,2.5s2.4,0.9,3.5,1.4
+			s1.5,0,2.9-0.1S791.4,497,791,496.9z M767.4,479.9l0.7-1.8c0,0,0.2,1.9,0.4,3s-0.4,2.5,0.2,3.2s0.2,1.1,0,2.1
+			c-0.2,1.1,0.7,2.8,0.7,2.8l1.3,1.5l1.4,0.3c0,0,0.6,0.9,0.9,1.5s1.1,1,1.1,1s0,1.4,0,2.3s-1,1.4,0.1,1.6s2.5,0.3,3.3,0.3
+			s0.5,0.4,1,1.4s1,1.1,1.1,2.5s0.1,2.4-0.4,3s-0.1,1.1-0.8,1.9s-1.6,0.9-2.4,1s-1,0.1-1.3,1s1.6,1.8-0.8,1.6s-2.3,0.5-2.8-0.8
+			s0.9-1.8-0.9-2.4s-0.3,1.9-2.9-1.6s-3.5-1.1-3.9-4.3s-1.5-3.9-3-6.3s-2.1-4-3.4-4.4s-1.8,1.1-2.4-0.5s-0.6-0.8-0.6-2.6
+			s-0.1-1.8-1-3.5s-1-1.6-1.5-3.5s-0.3-1-2.5-3.9s-2.5-3.1-4.5-4.6s-2.5-1.8-2.4-3.8s-1.3-4,0-4.4s1.5-0.8,2.8,0s1.4,1.6,2.4,1.9
+			s1.6,0.1,2.4,0.1s0.5-1,1.8,0.5s1.5,1.5,2.1,2.9s0.6,1.9,1.3,2.6s1.1,0.8,1.8,0.4s1.3-1.5,1.6-0.8s0.4,1.1,0.6,1.6s1-1.1,1,1
+			s-0.8,3.1,0.4,2.4s2.3-1.5,2.3-1.5s-0.1-0.4,0.4,0.9s0.6,2.4,1.8,2.9s1.5,0.5,1.5,0.5L767.4,479.9z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAhpJREFUeNq0lklLA0EQhWcmk7hM
+cAsmghuIiggevQj+dkHEi9vFQ0BF3HfRqFFjzPhKXktTdsaJ0YaPDpmkXm1dPb6XbvlqlxWr/cc/
+Jz0PQAg6QJbfieE3UOMeW6QWMcbFaAQGwBDooWAdVMAluAMvRAQbaUSM8TwogDEwBWZACeQYwQXY
+BScUk/0KPIP3JBER6AJFMAGmwRxFRh2RXNDwAdgAm+BYC4VKMEuBebAAZsE4I4pUTfqZwmc6MUB7
+8vzIFgpVFHlGIAKLTFWexgMVecDURZYDgdVxElFVahSqKApM0SwF+kCmSe18q0EiptNj4SWdr+BU
+6hdaXkVMzRz3fIKAq1m6wQib4gYccq+ZFITM6SQpWPlPu+ymGQa9xobJYQeLOMM0RVZ+vRaFsurg
+fhUzy/YscW81isTzF6jC5/5AwBnevy+7r/XAa2fFWsQImDFRaUPI6ayJRA7OOSizv59c0zSlwDdn
+TSRyQm85VXfANb1pJRpx6pFOlum0OP95ou0feTwjRbZyzjGzmglUOa/WwCrYN7Mro8Jt0Ggnp0DO
+EtJnwNyE70pgGWxzpNR1JMYjGdH3JKaIr2rUYL6rzL1cWOtgifsZUxW7RGI+vGONHiha4ee65bnc
+hnvM/xZYoYC5tBpJ169vDbtBDjsz9Cb52aPIr65f17DrJH1WQ3jtvki4LiZ7tpk7qN7uK1GaF7zU
+L3cfAgwA1IyzvCmBSZMAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 773.9965 473.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M786.8,495.7L786.8,495.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C795.9,491.6,791.8,495.7,786.8,495.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 780.2963 490.3207)" class="st4 st5">00</text>
+	</g>
+	<g id="new_guinea">
+		<path id="territory" class="st2" d="M832.8,455.5c0,0,0.5-2.8,1.5-3.5s0.3-1,0.3-2.3s-1-2.5,0.3-2.8s1.5,0,3.3-0.3
+			s3.5-1.3,3.5-1.3l1.5,1.5c0,0,0.8,0.8,3,0.8s3,1,4,2.8s0.5,2.5,3.3,4.3s5.5,2.5,7,3s2.8,1.3,2.5,2.8s1.5,2.3-0.5,2.8
+			c0,0,5.7,2.5,6.4,4.1s1.9,2.3,0.5,3.2c-1.4,0.9-3,0.2-2.8,1.2c0.2,1.1,1.2,1.8,1.6,3c0.4,1.2,1.6,1.9,1.6,3.4s-0.4,2.3,1.1,3.2
+			c1.4,0.9,1.6,0.9,1.6,1.9s0,2.5,0,2.5s-1.1,1.1-2.8,1.1c-1.8,0-2.7-1.4-3.4-1.4s-2.5-0.4-2.5-0.4s-1.2-4.9-4.8-5.8
+			s-3.5-1.4-3.5-0.7c0,0.7,1.2,2.3-0.2,2.8s-2.1,0.5-3,0.5s3,1.6-1.4,1.4s-4.8-1.8-6.7-0.5c-1.9,1.2-7.8-3.7-7.8-3.7
+			s-2.7,0.2-2.7-1.2s-0.7-1.6,0.2-2.8c0.9-1.2,0.9-1.4,0.9-2.8s0.4-1.8,0.4-3.2s0.9-1.9-0.4-2.5c-1.2-0.5-2.3-0.9-2.5-2.1
+			s-0.2-1.4-1.1-1.4c-0.9,0,0,0.2-1.4,0.2s-2.5,1.1-3.7-0.5s-1.4-1.6-3.7-1.6s-7.2,3.4-3.4,0s4.6-3.5,4.6-3.5s-4.1,0-4.2-1.4
+			c-0.2-1.4-0.5-3.7-1.4-4.1s-1.9-0.9-1.6-2.1c0.4-1.2,1.1-5.7,4.6-5.5s4.2,1.6,5.3,2.1s3-1.4,3.4,0.4s0,4.8,0,4.8s1.2,0.9,1.6,2.7
+			L832.8,455.5z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkNJREFUeNqklk1P20AQhm0TO0AC
+jaiaEAHtBapypaKH3qr+7x4qcQJxRC0CIUFaBRCIBgiqCXZnpWeq0RKMYyy9Wjux99n52JkNg/JX
+aMac+3zSj4v+V8WiRDQlehClontgz4KLQBGTT6OW6I1oVjQUnYv+AHP6y5hNAnKrnmHiJVGbcVX0
+CsCh6FR0K7oS/QJ+h8XPghSyLNoQfRS9A9oxFp0BdKCeaBf1xsFqT0BWRJuiL8Da/F43MeriqhTo
+a+Zziz/xYTUvJmqJg3xlXOb3yCRGDWhOTJokSmSSooflmVqgLkxYpUI+YVmD90IvxVWaNLMAY6y5
+HAdy47xoHchn0VsgUcltUsPyaUC/RRe49r873EsLovfAuqwwmmBDq+vbuLuFdWFgJnL+XhR9wJLm
+hBALS/BEg/vQWhTjug5jXKJqFLlwHsvmNBMj84KWmKoQvRJSfYUxCSq6p9Jl8/7eK5RVr5RsO/Gz
+TiEDatfgBTD3zYg5XLW45jlXi1zl7Yt+iI6pX1kFUIYFtyjVBUdmFW4nH6CLClZlbNQzys+VnWPK
+ezEg/7tkTN0rPUWQIYAd0ZZoD9iDD9JOGVMlWqZah08Acw+yLfoGrE9IHlkUQB/xcc6zFs7IgHIT
+j4EH2TY9KbP9x19hSkM7RzaoI+7vyCgXj59M/h1Lxja+sOCs0CROrvatUQc7uFMz9ZRM3RcdAS7d
+ygOvzzSI2SI1TJul7pc+GXtT5XDiA7Wjxl6c9PRj41rpXDfu8OjHtNRB8p8AAwDvO7rqQfbpLAAA
+AABJRU5ErkJggg==" transform="matrix(1 0 0 1 835.9965 452.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M848.9,474.9L848.9,474.9c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C858,470.8,853.9,474.9,848.9,474.9z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 842.3608 469.4848)" class="st4 st5">00</text>
+	</g>
+	<g id="alaska">
+		<path id="territory" class="st2" d="M254.5,242.3c-0.6-1.3-0.5,0.1-0.9-2s-1.1-1.9-1.8-2.5s-1.5-0.8-1.1-1.9s0.6-1.1,0.3-2.3
+			s-2-1.8-2.5-2.9s-0.5-0.3-0.5-2s0.5-2-1-2.5s-2.5,0.8-3.3-0.9s-0.6-0.8-2.1-1s-2.1-0.1-2.6-1.1s-0.8-1.9-1.8-1.9s-2.3-0.4-2.5-1
+			s-1.6-2.4-2.5-2.4s-0.6,0.6-2,1.3s2.5,1.3-0.5,2s-4.4,1-5,0.5s-2.9,1.1-2.5-0.8s0.5-1.6,1.1-2.1s2.4-0.6,1.6-1.1s-0.4-1.4-3-0.8
+			s-3.4,0.9-4.3,1.5s-0.9,1.9-1.3,2.6s1.1,0.5-1.8,1.8s-1.4-0.6-4.4,2s-2,2.9-4.3,3.3s-0.9,0-2.6,1.9s-1.5,2.8-3.3,2.8
+			s-1.1,3.1-2.8,1s-2.8-1.3-1.5-2.3s1.5-0.8,2.5-1s0.5,0.4,1.6-1.3s0.9-2.3,2.6-2.4s1.5,1.5,2.3-0.9s0-2.3,1.4-3.5s2.9-2.5,1.1-2.6
+			s-1.9-0.5-3.5,0.3s-1.8,1.1-3.3,0.9s-1.9-0.4-1.9-1s-0.6-2.6-0.6-2.6s1.3-0.6-0.9-1.1s-2.3,1.1-2.1-0.5s1.1-1.4,0.3-2.1
+			s-1.1-1.3-2.3-0.8s-2.4,1.8-1.6-0.1s2.3-2.6,2.8-3.4s1.3-2.9,1.5-4s-1-0.5,0.5-1.6s0.9-1.4,2.8-1.3s1.4,0,2.6,0.6s1.6,1,2.4,0.6
+			s1.5-1.3,2-1.9s1.1-1,1.3-1.8s0.8-1.5-0.6-1s-0.9,0.5-2.8,0.9s-1.6,1.8-2.4,0.1s-0.9-2.4-0.9-2.4s-0.8,0-0.6-1.8s-1.1-4.6,2.3-5.5
+			s5.5-0.1,5.6,0.4s-1,1,0.5,1.1s1.6,0.5,2.5-0.8s1.9-1.1,0.9-1.6s-1.9-0.4-2.4-1.4s0-1.3-0.5-2.6s-0.5-1.6-1.3-2.6
+			s-2.8-2.5-0.3-3.1s5.1-1.3,4.6-0.9c0,0,2.8-3.2,4.6-2.8s3.9,0,5.7-1.4s4.6-0.7,4.6-0.7l2.1,1.8c0,0,2.8,2.8,4.6,1.8
+			c1.8-1.1,1.8,1.8,4.9,2.1c3.2,0.4,4.6,1.1,7.8,2.1c0,0,0.9-0.4,0.7,0.9c-0.2,1.2-1.9,30.6-1.4,30.9l0.2,0.2l7.5,0.9
+			c0,0,0.1,0.1,0.6,1.6s0.9,2.5,2,4.5c1.1,2,0.1,8,0.1,8l2,2.8c0,0,1.6,0.8,2.3,0.9s0.4,3.3,0.3,4.5s-1.6,0.6-2.5,0.9
+			s-1.1,2.4-1.3,3.6S254.5,242.3,254.5,242.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfBJREFUeNq0lttLAkEUxttxt80S
+o5slXaAXsVeDfO5vL4Ioeoigy0ugEirYg5SRumvfxDdwmPaqNPBjoGbPN2fOnG90ltKHY81yzKw5
+MUDc/xRwgQ88a70OPAHfYArCOLE4EcWgJbAJ9kCZgg6D6cBD0AXv4IOiYRaRAiiCCjgGNVAHu8zI
+DJ1BDzyBF/AK+uALBEkiRuAANEATnIAjZuKJtRNm0gKP4BrcgY4t5FpHZATOwDk4BVUeW1RNNsBW
+xHG2pZArMvJ4RA0KNCm4yg04CbXzGUuJDeiMRrpGrlhcYg2azEALrIkP4y5OgesO+beQl0LX7A2M
+TXoub1GNNaiKDLIMxfV6Y2MwYK30PDZBfJ5rnUUu5RCwa6qPfB+smzoqUY8yr2k5osh5hDy7eZVV
++OUFBGJbQ+WwmbmHijG8fxExZjfmvKjYzBaZCYvocZ5XKHKzSphdl2bXoqOGcwr82WzBWuTRi7bZ
+xXluWsjAz+AS3PMJCKRIQBw2VZld7KYIzSgwol/dgCta/6932Znos/xkmj47v0h/MmskIb8ZUuAW
+XIAHWsrUtvqQ9twROzdBKtZbkvam9GXhXeujgEJt8cQO6EUrESJJr2OY1uHmhdwRZudGPFqZ3nkn
+r9nFXNvEXyxORqNzMnR3bPP+CDAATa6iryPM6TsAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 212.9965 187.655)">
+			</image>
+			<g>
+				<path class="st3" d="M225.7,209.5L225.7,209.5c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C234.8,205.4,230.7,209.5,225.7,209.5z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 219.1952 204.1161)" class="st4 st5">00</text>
+	</g>
+	<g id="ontario">
+		<path id="territory" class="st2" d="M333,219.6c-0.7,2.5-1.1,9.2-1.1,9.2l1.8,1.4c0,0,1.4,2.5,3.2,4.2
+			c1.8,1.8,2.8,5.3,5.7,4.6c2.8-0.7,3.9,2.5,3.9,2.5l2.1-1.4c0,0,2.1-1.2,2.5-0.5s2.5,1.4,2.5,1.4s2.1-1.2,4.1-1.4s0.4,1.6,0.4,1.6
+			l-4.1,1.9c0,0,0.9,2.7,1.9,2.3c1.1-0.4,1.6,4.1,0.4,4.9c-1.2,0.9,0.4,2.7,0.4,2.7l0.7,2.5l1.9,1.4l0.5,2.3h-0.2
+			c-0.7,1.9-1.1,18.9-1.1,18.9s1.1-1.4,1.8-1.6c0.7-0.2,1.8,1.4,2.5,1.6s0.4-1.4,1.1-2.1s0.9,0,1.6,0.5s0.5,0,1.6-0.2
+			s1.1,2.8,1.1,3.7s-1.8,1.4-1.8,1.4s-2.5,0.9-3.5,0.7c-1.1-0.2-2.3,1.4-3,2.3s-2.1,0.4-3,0.7s-0.4,1.2-0.2,2.5
+			c0.2,1.2-3.9,4.4-4.8,3.5s-2.3-2.3-3.9-3.2c-1.6-0.9,0.4-2.7,1.1-3.9c0.7-1.2,0.2-4.1-0.9-6.9s-1.2-3.9-1.8-4.6
+			c-0.5-0.7-1.8-2.7-2.3-4.9s-2.8,1.6-5.3,0.9s-5.8,1.1-5.8,1.1s0.4-4.9-0.4-5.3c-0.7-0.4-19.8,0.4-19.8,0.4s0-0.5,0-2.8
+			s3.9-45.4,3.9-45.4L335,217L333,219.6z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAglJREFUeNq0lt1LAkEUxXfWVTNl
+oQ/KIIQeCns1Sgh6iP7yXuqpegospCiMtC9CLVtd3c7AGRmHdd2VGvgx4M7eM/fe2TMKa/YQxqxG
+YMwzA0x7ZgMHZEFaWy8DD0Cfc6ARW8Rm0AJYBkXgUlAOH7TBC/gEP0QKjuKIpEAOrIEtsAPKYJ0Z
+yeGBFqiDJ4rJ+RX0wDBKRAlsggqogl1QYiZprhswkxYDP4ALcAkappBjlEgJHIBjsAc2WDazJ0ss
+owy4zbKqeFLoW5XO0TJKs0QVClQpuMgNiJC+ZUCepLV+9Vk+OQcprUwuS3MCDlmiPJ+JKYdGaIck
+xw0N2KMP9i5IaVnI1PfBEdN3KWDF/JYc4rNPz6AjS2ZzUZYiZWZQ4A6TDJvvlRinqE6jrWXi8pi6
+RpOtBNmExrGNBZk5BayoOHYCm0kqNlHH/xhBlEjwB8FN4xyLhD6cU0DZTVvFsqMeJhSRFvIFHkEN
+NPkxjjPx+GONi7phlh0ji3c6c51fvK/bilooj90KWKWlOJp9RAkMWQG5yVNwBd4oMmEbQyIDLtCH
+HMO7AoMR+9hmBaTdn4N73YXNTPqsa4/p+4az9gw6NMMbCpyBa5bND7tPRnyxwYAtpm/eivrwtHW3
+4I6iEwdHJLzfhZG5uuubbHQ37J4Xc/xTCTtVHgVHYUdfxPQgEcNCpn5XvwIMAOVGr88Eg5wSAAAA
+AElFTkSuQmCC" transform="matrix(1 0 0 1 326.9965 239.655)">
+			</image>
+			<g>
+				<path class="st3" d="M339.4,261.6L339.4,261.6c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C348.6,257.5,344.5,261.6,339.4,261.6z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 332.9194 256.2377)" class="st4 st5">00</text>
+	</g>
+	<g id="northwest_territory">
+		<path id="territory" class="st2" d="M334.8,217.1c0.7-2.5,8.8-10.2,8.8-10.2s3.2-0.4,4.6-1.4c1.4-1.1-1.8-4.2-1.8-4.2l0.7-2.1
+			l2.1,1.8c0,0,0.7,1.4,2.8,1.4c2.1,0,1.4-2.1,2.8-2.5s2.8-3.9,2.8-3.9s2.8,1.1,5.7-1.8s0.7-1.4,0-2.8c-0.7-1.4,0.7-2.5,0.7-2.5
+			l-2.1-0.7c0,0,1.4-1.1,0-3.2s-1.8,1.1-3.2,2.1c-1.4,1.1-1.1,2.1-4.9,1.4c-3.9-0.7,0-2.1-0.4-3.5s-4.2,0.7-4.9-1.4
+			c-0.7-2.1-1.8,1.1-1.4-1.1c0.4-2.1-0.4-5.3-1.8-6s2.8-7.4,2.8-7.4s2.8,1.4,3.2-1.1c0.4-2.5,1.8-2.1,1.8-3.5s-3.5-0.4-3.5-0.4
+			L349,167c0,0-4.2-3.2-4.2,0s-1.4,3.2-3.5,7.4s-0.4,6.7-0.4,6.7s2.1,0.7,1.4,2.8s-4.9,1.8-4.9,1.8l-0.4-3.9h-2.8c0,0-0.4,3.9,0,5.3
+			c0.4,1.4-7.8,0.4-9.9-1.4c-2.1-1.8-4.6,1.4-6.7,2.5s-3.9,0.4-6-0.4c-2.1-0.7-1.1,2.8-5.7,2.5c-4.6-0.4-2.1-6.4-3.2-4.2
+			c-1.1,2.1-5.7-1.8-8.1-3.9s-7.1-1.4-7.1-1.4l-0.4-2.5h-2.5l-3.2,0.7c0,0-2.5,1.1-4.6,0.7c-2.1-0.4-1.8,1.8-1.8,1.8
+			s-2.5,1.1-5.7,0.7s-2.8,1.1-4.2,2.1c-1.4,1.1-6.4-1.4-9.5-2.8c-3.2-1.4-5.3,1.5-8.4,0.5c0,0-1.7,31.3-1.4,32.1s82.6,3,86.8,2.9
+			S334.8,217.1,334.8,217.1z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjBJREFUeNq0lt1LAkEUxffLLBQp
+JbMog6iooIceegmivz2CXqyefCgKoigqpSitTFO3c+MMDLdtXZMGfgy6s3PuPTNzZ10nWXNVLy1U
+/cCX4557IABpkOJ/MvEn6LAPLRKLmMll0gzIgxLIUbALGqAGnsEHEcF+EhEzeRYUQBmsgDUwA8aY
+wQO4ALcUk74OWqAXJyICE6AIlsAq2KTIQkQmD5z4ChyDE3CjhQIlmKLANtgBG2CRGWXUmkzRwhaD
+yFvzidC7sS5QWWSZgQjs0qosJ/dU5h6ty1gBOMyyQ/ukDwOVRYEWbVBgEvi/rJ1rbRARmVc2vnBT
+9Hy+4NPvdbAHtsC0ZU+SoxBY6yXrdAeaYplnDRBPl0lhCAFtd5k7scSz9f3A4Y8SH5aZvucM14zl
+OW71nAnUi3voDN/MXGP2HF7cwxGaq3389+ZZlVQXvFFaqEWMgNnfjRGEIoM1mbTBPTgF1+Atqpom
+FPgRrMlEDtATq6rw+IdsJKhXBnnKoNvmpNuDHJ6RWR7ItFU+4jLosyBKYayAQ3BpiqSvBofcwnnW
+rXRE7XLV5B1aIwJH4ABU6UZXZ+LwDujy5dC6E/pqjfq0s2mtZYUCJ6xbbWO3H5F6hxW0Tl5IkwH0
+aIPchmeMfp8WVSnQsoMadP3muT5SkedYPIscV2MG51zsRy78j3t+0IeEVOdxMkmBHMc0aNUTt/yn
+ZfPQn0Suqm2BdQO21Rr+6bsr7gMv8cfdlwADALiztxxagSTDAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 278.9965 186.655)">
+			</image>
+			<g>
+				<path class="st3" d="M291.7,208.7L291.7,208.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C300.9,204.6,296.8,208.7,291.7,208.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 285.2202 203.3139)" class="st4 st5">00</text>
+	</g>
+	<g id="venezuela">
+		<path id="territory" class="st2" d="M317.4,414.9c1.9-1.3,1.5-3.8,1.5-4.5s0-2.1,0-3.1s-0.1-1.8,1-3s1.8-2.4,1.8-2.4l1.3-1.1
+			v-2l0.8-2.3c0,0,0.5-1.1,0.6-1.6s-0.3-2.5-0.3-2.5l0.3-1.6l3.1-0.9c0,0,0.4,0.4,1.4,0s2-1.3,2-1.3l2.3-1.3c0,0,1.5-1,2-1.5
+			s2.3-1.1,2.3-1.1s0.9-0.3,1.5-0.3s2.8-0.6,2.8-0.6s0.1-0.6,0.9-1.1s1.3-1.1,1.9-1.3s4-0.6,4-0.6s1.3,0.9,1.4,2.1s-0.4,2,0.6,1.9
+			s2-0.4,2.5-0.6s0.3-1.4,1.5-0.5s1.4,1.1,1.9,1.1s1.9-0.4,1.9-0.4l5.5,1.9c0,0,1.3-0.3,1.9-0.4s3.8-0.4,3.8-0.4s1.4,0.4,1.9,0.9
+			s3.6,2.4,4.6,3.9s2.5,2,2.8,2.6s1.3,1.3,1.8,1.3s0.5,1,1.1,1.1s2,0.1,2,0.1s0.1,0.5,0.6,1.1s1.6-0.6,1.9,0.8s-0.1,2.1,0.6,2.1
+			s1.5-0.5,1.5-0.5l1.3-0.5c0,0,0-1,1,0s1.8,0.8,2.6,1s-0.4,0.9,1.8,1.4s4.1,0.8,4.6,0.8s0.5-2,2.3-0.4s3,2.4,3,2.4
+			s-4.3,3.6-4.9,4.6c-0.5,1.1-0.9,3.4-2.1,3.5c-1.2,0.2-8.7,0.5-8.7,0.5s0.4,2.1-0.7,2.1s-11.5-0.4-11.5-0.4l-1.4-4.2
+			c0,0-1.2,0.9-1.4-0.9c-0.2-1.8-0.2-4.6-0.2-4.6s-2.7,1.4-4.2,1.9c-1.6,0.5-3,3.2-4.4,2.7s-2.1-2.3-2.5-0.9s0.2,5.7-0.9,6
+			c-1.1,0.4-1.4-0.3-2.3,0.8s-3.3,1.3-4,0.7c-0.7-0.6-1.2-1.3-2-1.6s-1.2-0.7-2.1-0.8s-1.1-0.5-1.8,0.3c-0.7,0.8-2.2,2.1-2.5,2.8
+			s-1.7,3.3-1.3,4.2c0.4,1,1.8,0.7,1.8,2.5s-0.5,2.7-1.5,2.9c-1,0.3-5.8,1.9-5.8,1.9s-0.8-2.1-1.3-2.7s-1.5-0.8-2.2-1
+			s-1.9-1.4-2.7-1.3c-0.9,0.1-3.2,0.1-3.8-0.6c-0.6-0.7-1.7-1.5-3.3-1.6s-2.3,1.1-3.4-0.6s-3-4-3.5-4.1
+			C319.2,415.9,316.7,415.6,317.4,414.9z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgZJREFUeNrElttLAkEUxvdmZhez
+wsoKJbCo14J66Mn+dSGIoqegC0IkmZUUpuU1d/sWvonT4HorbODHYWeH8805c/bMmkb/YWpWH55m
+ezoJemcBB4RBqMt633kbNMEncIMEg4QsOp4BC2AFRClqChHfeQU8glfwTmF3ECEbRMAS2ABbYBss
+MzI5/EiewBW4AbfgGdRBp5eQElkHu+AA7IAkIwpp69uMKA8uwQk4B/egJiNztHQpkX2QAXsgwRQG
+ndE8WGR6ZznfAgVaTwqZdBRnJBlG44tOcRP9zlOltcp0voGySqEtFk+DTXAEDkGKc/YQ1emwQEqg
+SFFXCajFkyyAFG1EvB9kWExxksWToE/TECnxQ4+BVaZvWBFD87NGPz+E/DHBKNKijE1j+KEyE+em
+Y6qIZERRikQDKmxQoTD9pLn5Cf2MHE46I4ooPzYrdY7WVhHJdtKi9UYU8ljONZZ3jc+eJRpjhfVf
+4bM3opBqSzm2o5ZMXYuTOS5q/kKowe/ogR9sW4+ozJclNkV3BBHlp0A/DbVhS9uJH9Wd6MDDiLm8
+JvLs5kUpZGs78kTVRPnhqirsdcO6PHi/a5+CY14Z3x3c7hL6B22Igo7W7zyBy/OtUOQMZMEFeGEF
+G92EOkxZlbYtFqvyrwuqTPM1I8nyPirqBfVvN+xY/xnG+hf05/91XwIMAKWCucat6ZyJAAAAAElF
+TkSuQmCC" transform="matrix(1 0 0 1 332.9965 388.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M345.9,410.4L345.9,410.4c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C355.1,406.3,350.9,410.4,345.9,410.4z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 339.4086 404.9633)" class="st4 st5">00</text>
+	</g>
+	<g id="madagascar">
+		<path id="territory" class="st2" d="M659.8,534c0.3,1,1,0.8,1,3s0.5,5.5-1,3.5s-1.5-2.8-1.5-1.5s0.3,3.5,0.3,3.5
+			s1.2,1.7-0.4,1.7s-1.8-0.2-1.8,0.5s0.2,2.1,0.2,2.1l-1.1,1.1l-0.5,2.3c0,0,1.8,0.2,0.7,1.9c-1.1,1.8-1.4,2.3-1.4,2.3
+			s0.2-1.6-0.2,1.9s-0.4,4.1-0.4,4.1s1.1-0.4-0.4,1.4c-1.4,1.8-1.9,2.3-2.3,3.2c-0.4,0.9,0.4,1.8-0.7,2.7c-1.1,0.9-1.6,1.6-1.6,1.6
+			l-1.1,1.1c0,0-0.4,1.4-0.4,2.1s-0.5,1.2-0.5,1.2s-0.5,0.5-0.5,1.2s0.2,1.1-0.7,1.8s-0.5,0.9-1.6,1.8c-1.1,0.9-1.4-0.4-1.4,1.6
+			c0,1.9-0.5,2.8-1.4,2.8s-9.4,0.2-10.8,0c-1.4-0.2,0.9-7.2-1.1-8.5c-1.9-1.2-3.2-5.5-1.9-6.4s0.5,0,1.4-0.9s0.9-0.9,1.4-1.9
+			s1.4-1.1,1.4-1.1s-1.1-2.3-0.4-2.3s0.4-2.7,0.4-2.7s0.4-1.2,0.9-2.1s-0.5-1.8,0.9-1.9c1.4-0.2,2.1,0.2,2.1-0.7s-0.9-1.1-1.6-1.2
+			c-0.7-0.2-1.1,0-1.1-1.2s-0.5-0.7-0.9-1.9s-1.4-0.5-0.2-2.1s1.2-0.5,1.6-2.1c0.4-1.6-1.1-2.7,0.7-2.7s2.3,0.5,4.1-0.2
+			s-0.2-0.9,2.7-0.7s3,1.1,4.1,0s1.6-0.7,1.8-1.9s0-1.6,1.2-2.1s1.2,0,2.1-0.7c0.9-0.7,1.6-1.6,1.4-2.7s-1.1-1.6,0.5-1.6
+			s1.4,0.5,2.1-0.4c0.7-0.9,0.5-0.9,0.9-2.5s0-1.9,0.9-2.5c0.9-0.5,2.5-2.3,2.5-2.3s0.5-1.6,1.2,0.9s0,2.1,0.9,2.8s1.1,0.2,1.1,1.1
+			c0,0.9-0.4,2.7-0.4,2.7L659.8,534z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAiBJREFUeNqslltLw0AQhZuk9Vbv
+9wtaFBURfPRF0L8uiC+i+OgNQZSq1YLWqlVbzXpWzpRhiWmMDXwsbZI9ObMzs+tlkl2eM+rLOGPs
+BHH3fZAFnSDnvGMnb4AP8AnC3wS9FgJ24jwYBpOgn6IeJ7STV0EJPIAXCodJhESgF4yAObAEVsAE
+ncllndyBE3AGLsA9eANfcUJWpBuMgwWwDNYoNEtHOfV8g46uwDHYA4egCGraWdYRzVFkHWyAVVCg
+s/wvazTE+za0ffy/Dq45GlfIZ7gWKLLJsPVSwG8RagnpM8P5BCoSwsBxM0k3W1yTwRYibmZmmSBl
+JsiLCPnq4S4wRQFxEiQoATciBa5rgeH2o4TGwIxyklRER8Wu1yIZlnLw1QN28mmKdf1RRLvKMyIr
+XIpO7aiD2baoaiWNkHx0P+eRcmg6smvRAwY4BimFRCzLj5cu8uPIMDNqTMkaf5uUQtKa6hyNDl2d
+reOcNfCRUsiobnHH0f42vrppi+uGNfD+DyHpf+f8+Lp2ZDh5ma2jIl/yR6GQDbXMj65oR1rolp34
+ilUdphCxLi45NiMTRFiXohtlTUjmeDHhCplEtmsfgF1wBB7dXifXF5FO0UMhne5GEXINqhTZB9sU
+K+mkinJkX3xlGBpM0YxK2TfFM0N0SpEdihR5P4zbYQO1+c1z84vaXf+1w0Zt51HnhUw7zgxJT0Bt
+OQUlPdMlPtd9CzAA4Qq3BQRpp+MAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 630.9965 545.655)">
+			</image>
+			<g>
+				<path class="st3" d="M644.1,567.4L644.1,567.4c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C653.2,563.3,649.1,567.4,644.1,567.4z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 637.5878 562.0321)" class="st4 st5">00</text>
+	</g>
+	<g id="north_africa">
+		<path id="territory" class="st2" d="M544.6,385.4c-0.9-1-1-1.4-1.4-2.1s-0.6-2.1-1.9-2.3s-1.1,1.1-1.5-0.8s-0.8-3.4-1.3-3.8
+			s-1.4-0.8-2.5-1.9s-1.3-2.3-1.3-2.3l-2.1-1.4c0,0-5.5,0.3-6.1,0.3s-1.8,0.1-2.5,0.6s-0.4,0.8-1.8,1.4s-3.6,1.8-4.3,2
+			s-3.5,0.4-3.5,0.4s0,1-1.1,1.8s-2.6,1.6-3.9,1.5s-1.4-0.6-2.4-0.4c-1.8,0.4-3.1,1.6-3.8,1.5c-0.6-0.1-1.8,0.4-2.9,0.8
+			s0.1,0.5-2.3,0.5s-3.6,0-4.4-0.1s-1.4,0.3-2,0.4s-1.5,0.3-1.3,0.4c-1.4,0-2.1,1.1-2.1,1.1l0.4,4.6l-3.2,3.5c0,0-0.7,2.8-1.4,4.9
+			c-0.7,2.1-1.8,4.2-1.8,4.2l-1.4,3.9c0,0-1.6,0.8-1.4,1.4s0.4,1.9-0.1,2.3s-1.1,0-1.8,1.3s-1.1,2.4-1.1,2.9s0.6,1-0.3,2
+			s-1.8,1.1-2,3.3s-1.3,4-0.3,5.3s1.6,2.3,1.6,3.6s-0.4,1.3-0.3,3.3s0.4,1.9,0.4,3.3s-0.1,3.3-0.4,4.9s-0.8,2.1-1.1,4
+			s-2.6,2.6-0.9,4.3s1.5,3.1,2,4.5s5,1,5,3.9s3.4,3.3,3.6,4.8s-0.6,3.6,2.4,4.9s2.8,3.1,3.4,3.6s3.4,0.9,4,1.6s1.5,2,2.1,2.6
+			s1.3,1.6,3.4,1.5s2.4,0,5.8-0.4s5.8-0.5,6.6-0.6c0.8-0.1,2.8,0.5,4.1-0.1s1.1-1.8,2.9-2.1s2.4,0,3.5-0.3s5.5-0.3,6.1,0.3
+			s1.4,0,2.1,1.6s-1.5,4.1,3.3,3.9s7.5-1,8.1,0.1s-1.5,2.8-1.1,4.3s0.9,1.9,0.4,2.6l0.6,0.3c0.5,1.1,0.5,1.6,1.2,1.9
+			c0.7,0.4,2.7-1.2,2.7-1.2s1.6,0,3.2,0.4c1.6,0.4,1.8-0.4,3.4-0.7c1.6-0.4,1.9,1.2,1.9,1.2s1.2,0.9,2.7,0c1.4-0.9,1.1-1.2,0.5-2.7
+			c-0.5-1.4,0.4-1.8,0.7-5.7c0.4-3.9-1.2-1.9-1.2-1.9s-0.5-1.2-0.4-3.7s0.9-0.7,1.4-1.8s1.2-1.1,2.1-1.8c0.9-0.7,2.1-0.7,3-1.2
+			s1.4-1.6,2.8-2.1c1.4-0.5,2.8-1.2,5.1-2.3s1.8-2.1,1.8-3s2.3-3.4,2.3-3.4s-0.5-2.1-1.4-3.4c-0.9-1.2-0.4-2.7-0.4-3.5
+			c0-0.9,0.4-1.4,0.9-2.1s0.2-1.1,0.2-1.1l0.9-1.8c0,0,0.5-1.4,0.5-2.7s-0.7-0.7-1.4-0.9c-0.7-0.2-0.2-0.4,0.9-0.9s0.7-1.8,0.9-2.8
+			c0.2-1.1-0.4-5.5-0.5-6.4c-0.2-0.9-3.9,0.2-4.8-0.2c-0.9-0.4-1.4-1.1-1.4-1.1s-0.7-2.1-0.9-3.2s-2.7,0.2-3.5,0
+			c-0.9-0.2-0.2-1.4-0.5-2.7c-0.4-1.2-1.8-0.7-2.7-0.7s-2.3-0.7-3.5-1.6s-1.6,0.4-3,0.5c-1.4,0.2-1.4-0.2-1.9-1.1s-2.3,0.5-3.9,0.4
+			c-1.6-0.2-1.2-0.9-2.1-2.3c-0.9-1.4-1.8-0.4-3.7-0.9s-1.2-0.7-1.4-2.1s-1.4-1.2-1.4-1.2s-0.2-1.6-0.4-2.8
+			c-0.2-1.2,0.2-3.2,0.2-3.9c0-0.7-0.4-3.4-1.6-3.9s-0.4-1.8-0.4-1.8s-0.5-1.8-0.4-2.7c0.2-0.9,1.4-1.9,2.3-1.9
+			c0.9,0,1.4-1.1,1.4-1.1s-1.4-2.1-2.1-3.4c-0.7-1.2,1.2-1.1,1.2-1.1l0.9-1.1c0,0,0.4-0.5,1.9-1.4S544.6,385.4,544.6,385.4z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAhpJREFUeNq0lklLA0EQhWcmk7hM
+cAsmghuIiggevQj+dkHEi9vFQ0BF3HfRqFFjzPhKXktTdsaJ0YaPDpmkXm1dPb6XbvlqlxWr/cc/
+Jz0PQAg6QJbfieE3UOMeW6QWMcbFaAQGwBDooWAdVMAluAMvRAQbaUSM8TwogDEwBWZACeQYwQXY
+BScUk/0KPIP3JBER6AJFMAGmwRxFRh2RXNDwAdgAm+BYC4VKMEuBebAAZsE4I4pUTfqZwmc6MUB7
+8vzIFgpVFHlGIAKLTFWexgMVecDURZYDgdVxElFVahSqKApM0SwF+kCmSe18q0EiptNj4SWdr+BU
+6hdaXkVMzRz3fIKAq1m6wQib4gYccq+ZFITM6SQpWPlPu+ymGQa9xobJYQeLOMM0RVZ+vRaFsurg
+fhUzy/YscW81isTzF6jC5/5AwBnevy+7r/XAa2fFWsQImDFRaUPI6ayJRA7OOSizv59c0zSlwDdn
+TSRyQm85VXfANb1pJRpx6pFOlum0OP95ou0feTwjRbZyzjGzmglUOa/WwCrYN7Mro8Jt0Ggnp0DO
+EtJnwNyE70pgGWxzpNR1JMYjGdH3JKaIr2rUYL6rzL1cWOtgifsZUxW7RGI+vGONHiha4ee65bnc
+hnvM/xZYoYC5tBpJ169vDbtBDjsz9Cb52aPIr65f17DrJH1WQ3jtvki4LiZ7tpk7qN7uK1GaF7zU
+L3cfAgwA1IyzvCmBSZMAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 502.9965 414.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M515.8,436.7L515.8,436.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C524.9,432.6,520.8,436.7,515.8,436.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 509.2963 431.3378)" class="st4 st5">00</text>
+	</g>
+	<g id="greenland">
+		<path id="territory" class="st2" d="M429.1,209.9c0,0,0.6,3.9-0.3,5.5s-1,0.8-1.5,3.1s-0.1,3.3-1,4.6s-0.6-0.9-1,2.8
+			s-0.1,4.5-1,4.9s0.3,1.8-1.3,1.8s-2,1-2.4-0.4s0.3-2-1.3-2.1s-2.4,1.6-2.6-0.1s0.4-2.4-0.9-2.9s1.3,3.6-2.9-1.3s-3.4-8.3-3.4-8.3
+			s-1.3-1.4-1.3-2.3s0.9-3.6-0.3-5.1s-2.3-4.5-0.9-5.4s2.8-0.6,3.1-2.6s0.3-1.8,0.5-2.8s0.8-1.4-0.3-1.5s0,0.4-1.9-0.1
+			s-1.6-1.3-2.1-1.4s0.4,0.8-1.3,0.1s-2.9-1.1-1.1-1.8s2.9-0.9,3.6-0.6s1.1,1.6,0.9-0.3s-4.4-2.9-4.4-4.1s0-1,0-2.3
+			s-0.3-1.9-1.3-2.9s-0.8-1-1-2.6s-0.3-1.5-1.1-2.5s-1,0.4-1.6-1.4s-0.6-2.1-1.9-2.1s-1.1,0.8-2.1-0.6s-0.8-1.6-2.4-1.5
+			s-2.9,0.9-3.1,1.4s0.4,1-1.3,1.1s-2,0.1-2.9,0.1s-1.8,0.4-1.8-0.1c0,0-1-1.5-2.6-1.1s-2,1.5-2.5,0.3s-1.5-1.1-1.6-1.8
+			s-1.6,0.1-0.1-1.5s0.5-2,2.4-1.9s1.5,0.3,2.5-0.3s2.4-0.6,1-0.8c0,0,0.5-0.8-0.9-1s-2.9,0.5-2.9-0.5s-1.3-2.1,0.5-2.1
+			s2.8,0.5,3.6-0.4s0.9-0.6,2.1-0.5s2.5,0.8,2.9-0.3s2.4-1.1,0.8-1.6s-2.5-0.4-2.1-1.1s1.4-0.9,1-1.8s-2.1-1.6,0.4-1.8
+			s3.8,1,4.1-0.4s-1-2.5,1.3-2.5s4.6-1.1,4.8-1.9s-0.5-1.6,1.6-1.1s1.8,1.6,2.9,0.3s-0.1-1.8,2.1-1.3s2.5,0.8,3.4,0.1
+			s-0.8-0.9,1.4-0.6s1.8,1,2.1-0.9s-1.4-1.6,0.8-2.1s2.3,0,3.3-1.4s0.1-1,2-1.4s2.1,0,1.3-1.4s-2.5-2.1,0-2.4s3.9-0.5,4.1-1.3
+			c0,0-0.1,1,1.4,0.6s1.3-0.9,2.1-2s0.6-1.4,1.5-0.8s-0.1,1.1,2.1,0s0.5-1.1,2.8-0.8s2.1,0.1,4.8,0.3s1.3,0.5,2.8,0.9s1.1,0.3,3,0.3
+			s1.5-0.4,2.6,0.4s0.6,0.9,2.9,0.9s2.9-0.6,3.3,0.8s-0.6,1.5,2.1,1.9s3.6-0.1,2.1,1s-4.6,1.3-3.8,2s0.8,0.5-1.6,1s-5.9,1-3,1.4
+			s4.9-0.9,5.6,0.4s-1,1.4,2.3,1s1.9-1.1,4.5-0.6s2.1,1.3,3-0.4s-1.5-2.5,1.4-1.9s2.3,0.6,4-0.4s2-3,2.8-0.6s0.6,2.9-1,3.6
+			s-1.5-0.4-2,1.4s-0.4,2.3-1.6,3.3s-1.9,0.1-1.6,1.9s0.3,1.5-0.1,3.3s-1.3,2.3-0.1,3.3s1.1,0,1.9,1.5s1.1,1.5,0.4,3.3
+			s-0.9,0.9-1.1,3s-0.5,3.4,0.4,2.8s1-2.4,1.1-0.6s0.6,2.9-0.9,3.5s-1.4-0.3-1.6,1s0.6,1.6-0.5,2.6s-0.1,2-1.4,0.9s-2-2.9-3-1.8
+			s-2.4,0.1-1.3,1.5s1.9,1,2.1,1.5s0.1,1,0.5,1.8s0.1,1.1,1.1,1s1.4,0.4,1.1,1.3s-0.4,1.4,0.4,2.3s1,0.9,0.4,1.3s-0.8,0.5-1.6,1
+			s-0.8,1.3-1.3,1.4s-1.5,0.8-1.6-0.5s-0.3-2.9-1-3.5s-1.9-2.3-2.1-0.8s0,2-0.4,2.8s-1.9-0.3-0.4,1s2.1,1.6,2.1,1.6s1.4,0.8,0.8,1.4
+			s0.1,0.9-1.8,1.1s-1-1.6-2.8,0.4s-3,2.5-3,2.5l-0.9-1c0,0-0.8-2.1-1-0.8s0,1.3-1,3.4s-0.5,2.6-1.6,2.8s-2-0.8-2.6,0.1
+			s0.3,0.6-0.9,1.5s-1.5,1-2.3,1s0.4-2.1-1.1,0.1s-0.6,2.5-1.9,2.8s-1.5,0.3-2.6,0.3s-1.8,0.1-2.9,0.1s-2,0.1-2.8,0.5
+			s-1.5,1.3-1.5,1.3v0.6L429.1,209.9L429.1,209.9z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfxJREFUeNq0lttLAkEUxnfW3UwT
+owtd6EYPhb0W2UNP0f/dQ2+h+BQovQRSZEpCappt7vZNfBPDsDclB34MOrvnm3PmzDkrrOQhjFkf
+gTHHGohas4EDssA1npeGPTAG38CPEosSsWm0AFbBFihSUNCYNNwDLdAFA4r6aUQyIAc2wCE4BiWw
+SY/UkB68ggZ4AI+gDUZgEieiBHbBKbgAJ2Cfnrjasx49aYI6uAM18GQKOSECe+AcXIEzsM2whZ3J
+ClgzwmlRaKhC52hnoDyQAtec5e8810XM2WU1W/KsvsAz5yDDlxe4mzIFyvRoiR6KhAx0uck8w9hm
+Mox1Ebl4xBBdggMK2Fa6IeiJQ0864AX0ZchUGOROlsEOsyo3hYAeugKTpMTIZC3NkNBi684goNso
+Mt1VNgp7igowjdCCno22NZ8hzDjOYwRxIsE/GPd4Pzxlz45bnFGgx5rWU7bsuMUpRXxW4iaLZouX
+8c+TMf9s8KFBWMlOEBjyAtZZlbu8mL83XnfXZcFb541X/UOkEJBFsQJuwT14o4ili0yINLjIUuMY
+tSswmBgCN6BKj8Yq5KYn8uA/2A88tROtso4M+hSoUqCi9RM/qWkldUU1PlnSa1ENy0roEVH9Xfdc
+evhOoU6YgJWiT0R9qYR9sXhRGSlS1iCRooRE3qsfAQYAvOCi+zNs0J4AAAAASUVORK5CYII=" transform="matrix(1 0 0 1 420.9965 163.655)">
+			</image>
+			<g>
+				<path class="st3" d="M433.3,185.5L433.3,185.5c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C442.5,181.3,438.4,185.5,433.3,185.5z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 426.8461 180.0477)" class="st4 st5">00</text>
+	</g>
+	<g id="iceland">
+		<path id="territory" class="st2" d="M474,212.5c0,0,2,1.9,2.5,0.9s-0.6-2.3,0.9-1.1s1.4,0.8,1.9,1.4s3.5-1.5,2.4,0.5
+			s-1.9,2.8-1.1,2.6c0.8-0.1-0.1-0.8,0.9,0.5c1,1.2,0.9,2.2,2.3,1.1l1.3-3.9c0,0,3.5,0.1,3.3,1.4s-1.1,1.1,0.8,0.1s0.9-2.8,2.1-1.6
+			s1.9,2.3,2.4,1.1s-1.1-2.4,0.4-2.1s1.6,1.6,2.5,0s-0.1-2.5,1.3-2.3s0.8,0.6,1.8-0.3c1-0.9,0.8-1.8,1.8-0.9s1,1.3,1,1.3
+			s2,0.2,2.5,0.5c0.5,0.2-0.3-1,0.3,1s0.6,2.6,1.3,2.4s1-1.1,1,0.5s-1.1,2.1,0.4,1.9c1.5-0.2,1.9-0.4,2,0.8s0.8,2,0.8,2
+			s0.1,0.9,0,1.4s-0.4,0.7-0.1,1.4s0.5,1.6,0,1.9c-0.5,0.2-1.3,0.7-2.1,0.9s-1.4,0.8-1.6,1.4c-0.3,0.6,0.8,0.2-0.4,1.6
+			c-1.1,1.4-0.8,1.6-1.5,1.9c-0.8,0.3-1.6,0.8-1.6,0.8l-3.4,0.5l-0.8-1.4c0,0-0.5-1.1-1-0.6s0.1,1.5-0.4,1.6s-1.8-2.1-1.8-1.1
+			s0.6,2.8,0.6,2.8s0.1,1.5-0.5,1.7s-0.6,1-2.3,1.1c-1.6,0.1-1.8,0.9-2.6,1s-1.1,1.9-2.8,0.6c-1.6-1.2-6.1-3.3-7-3s-1.3,0.6-3,0.1
+			c-1.8-0.5-2.5,0.6-2.9-0.1s-0.5,0.4-0.1-1.4c0.4-1.7,2-2.6,2-2.6s0.6-0.4,0.5-1s0-0.9-0.8-1s-0.5-0.5-0.9-1.5s-0.8-0.9-1.8-0.6
+			s-1.3,1.4-2.4,0.1s-1.6-1-1.1-1.7c0.5-0.8,0.4-1,1.6-1.3s1.4,1,1.9-0.5s1-2.1,1-2.1s-0.5-0.3-1.4-0.1s-0.6,1.1-1.6-0.9
+			s-2.1-2-2.1-2s-0.3,0,0.4-1s1.3-1,1.9-2s-0.5-1.9,0.4-2.8s1.1-0.3,1.1-0.3L474,212.5z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgxJREFUeNrElllLw0AUhdssdY8b
+7lItVNEHX0TxyTf/uSCI4pPggiCKWrUoNdWqqWY8I2fkMjS1jaKBjyFNOueeO3fuJJv5/spao30p
+a2w6SdIzB3igA/gN3teT18EreANxkmCSkMOJe8EQGAcBRbNCRE8egmtwDx4pHLci5IIuMAoKYB4s
+gDE6k5d2cgMOwTE4BbfgGbw3E9JOusE0WAZrYBHk6ci33q/T0Tk4ANtgD1yAmnTmWaI+nWiRDbAC
+JpjCpDUaBMNMbx9/j8AlR2ULOZywQCdaZJYOnRbW06S1ynQ+gIpJoSvc5Bj9KlgHc0yX20Z1eiyQ
+MihRNDbRmLEHzIAljr3ieSuXyUiexaOD7jRBmpR4LOMiGU5Yk+/2pP7PAJgCI7ZQhvkdZyR5umvH
+jRTrpMgkRT8DdkQkAfdKkMKNFOrgPEVWcE46MunLWbs/jZDLSu3n6BpHsp1EHFVKIcVyrrG8a7xX
+jmiMIes/5L1KKWTa0gnbUSRTF/HHE770+gOhF+6jK27Yuu2owodlNsU4hYiZ55LzvJiAHSsS7epM
+dOB2xGIeE+fs5iUp5FoRKVE1AY8LU4XNTtiYC6+79g7Y4pHx1cHdBtafOPoU9Kx+pwQx1zekyC7Y
+BPvgjhWcaST0zpRVOdbFy6b8nwVVpvmITjZ5HpXsgvq3E/ZPvxn+9Cvo17/rPgQYAA+8ueInrOgq
+AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 479.9965 211.655)">
+			</image>
+			<g>
+				<path class="st3" d="M493,233.4L493,233.4c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C502.1,229.3,498,233.4,493,233.4z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 486.456 227.9926)" class="st4 st5">00</text>
+	</g>
+	<g id="great_britain">
+		<path id="territory" class="st2" d="M466.5,294.2c0,0-0.4,0.5-1.8,0.5s-1.6-0.2-2.5,0.4s-1.9,0.7-2.8,0.9
+			c-0.9,0.2-1.9,1.2-1.9,1.2s0,0.7-1.2,1.1s-1.1,0.2-2.3,0.2c-1.2,0-0.9-1.1-1.1-1.8c0,0-4.2,0.4-2.9-0.3s2.3-0.3,1.4-0.9
+			s-2.3-0.8-0.8-1s1.9,0,1.9-0.5s-1,0.6,0-1s1.3-1.6,1.9-2.1s0.3-2,1.1-1.8s1.9,0.5,1.9,0.5l0.5-1c0,0-3.1-0.1-3.4-0.6
+			c0,0-1.6-1.1-2.1-1.1s-1.6,0.1-1.3-0.4s1.1-2,1.1-2s-1.6-1.3-1-1.8s0.8-0.4,0.8-1.3s-1.1-1,0.1-2.3s1.5-1,2.4-1.8s0.9-0.9,1.5-0.3
+			s0.6,1.6,1.8,0.3s1.3-2.1,1.3-2.1s-0.5,0.1,1.4-0.9s0.4-1.9,3.1-1.5s2.3,0.5,2.9,0.4s1-1.8,1.4-0.4s-0.5,1.6,1.3,2.1
+			s2.5,0.3,2,1.1s-0.6,0.8-0.1,1.5s0.9,1.1,0.9,1.8s-0.4,1.1-1.3,1.5s-0.8-0.1-1.9,1s-1.8,0.9-1.8,0.9s-0.3-0.6-1-0.1
+			s-0.4,1.3-1.5,0.5s-2.5-0.8-2.5-0.8s-0.5,0-0.4,0.8s0.8,3.3,0.8,3.3s1.1,2,0.8,2.9s-2.3,1.4-0.6,1.5s1.5-0.3,1.5,0.9s0,1.8,1,1.6
+			S466.6,294.4,466.5,294.2z M478.7,283.3c-0.5-0.6-0.3-0.5-0.4-1.1s0.1-0.7,0.1-1.3s0.1-0.9,0.4-1.7c0.3-0.8-1.4-1.5-1.4-2.1
+			s-1.1-1.4-1.2-1.8c-0.2-0.4-0.7-0.8-1.3-0.7s-0.6,0.4-1.3,0.8c-0.7,0.4-0.7-0.2-1.2-0.6s-0.4-1-0.4-1.9c0-1,0.1-0.5,0.4-1
+			c0.4-0.4,0.4-0.4,1-1s0.3-0.4,0.3-1.1s0-1.1-0.3-1.9c-0.3-0.7-1-0.2-1.2-0.9c-0.3-0.7-0.4-0.5-0.8-0.8s-0.6-0.1-1.6-0.2
+			s-0.3-0.6-0.4-1s-0.1-0.5-0.3-1.5c-0.2-1-0.6-0.3-1.1-0.2c-0.5,0.1-0.7,0.1-0.9-0.8c-0.2-0.9,0-0.5-0.1-1
+			c-0.1-0.4-0.2-0.4-0.8-1.4c-0.6-1,0.1-0.4,0.8-1c0.7-0.5,0.6-0.8,1.2-1.2c0.6-0.4,0-0.6-0.2-1.3c-0.2-0.7-0.5-0.9-0.5-0.9
+			s-0.6,0.2-1.7,0.2s-1-0.2-1.5-0.9s0.1-0.7,0.9-1.3s0.5-1,1.3-1.9s1.2-0.8,2.2-1s0.5-0.7,1-1.8c0.4-1.1,0.6-1.2,0.9-1.9
+			c0.3-0.6,0.8-1.4,1-2.6s1.6,0.8,4.6-0.2s3,0,3,0s1.5,2.5-1,3.5s-1,5-1,5h0.7c0,0,0.9-0.7,1.6-0.8s0.6,0.4,1.5,0.4s0.7-0.5,1.8-1.2
+			c1.1-0.7,0.8,0.8,0.8,1.4c0,0.6,1.4,2.4,1.4,2.4l-0.4,0.6c0,0-0.6,0.4-0.6,1.3c0,1-0.3,0.7-0.4,1.1c-0.2,0.4-0.5,0.4-1,0.7
+			c-0.4,0.3,0.1,0.4,0.3,1.3c0.2,0.9-0.1,0.4-0.5,0.5s-0.9,0.1-1.2,0.7c-0.4,0.6-0.1,0.7-0.6,1.4c-0.5,0.7-0.4,0.4-1.6,0.8
+			c-1.1,0.4-0.6,0.4-0.4,1.7s1.1-0.4,2.7-0.6s1.2,0,2.3,0s0.6,0.1,1.3,0.6c0.7,0.5,0.2,0.8,0.5,1.4c0.4,0.6,0.7,0.3,1.1,0.9
+			s0,1.2,0,2.1s0,0.8,0,0.8s1.1,3.2,2.5,4s0.9,0.8,1.5,1.3s1.8,3.4,2.1,3.9c0.4,0.4,0.4,0.8,0.5,2.4c0.2,1.6,0,1.2-0.2,1.9
+			s-0.3,0.5-0.5,1.5c-0.3,1,0,1.1,0,1.5s0.5,0.6,2.3-0.3s1.1-0.6,2.2-1s0.9-0.4,1.9-0.2s0.9,0.4,1.9,1.4s0.4,1.1,0.6,1.9
+			c0.3,0.7-0.1,0.6-0.4,1.3c-0.3,0.7-0.3,0.6-0.7,1.5c-0.4,0.9-0.2,0.7-0.5,1.2c-0.4,0.5-0.6,0.3-1.7,0.5s-0.9,0.9-1.4,1.4
+			s-0.4,0.7-0.4,1.1c-0.1,0.4,0.4,1.2,0.4,1.2s0.8,0.4,1.2,0.8c0.4,0.4,0.3,0.8-0.3,1.7c-0.5,0.9-0.7,0.4-1.8,0.9
+			c-1.1,0.4-1.4,0-2.5-0.1s-1,0.4-2.5,0.9s-1.4,0.1-2.6,0s-1.1-0.1-2.2,0s-1.1,0.4-2.4,1.2c-1.3,0.8-0.8,0-1.2-0.4
+			c-0.4-0.4-0.7-0.4-1.3-1.1c-0.6-0.6-0.6-0.4-1.1-0.2c-0.5,0.2-1.7,2.2-2.5,2.6s-0.9,0.2-2,0.2s-0.8,0-1.3,0.1s-0.9,1-1.6,1.8
+			s-0.5,0.3-1.9,0.4c-1.3,0.2-1.2-0.1-1.4-0.4c-0.2-0.4,0.2-0.4,0.6-1s1.2-1.8,1.8-2.7s0.8-0.4,2.1-1.2c1.3-0.8,0.3-0.4,0.9-1.7
+			c0.6-1.3,0.7-1.3,2-1.8c0,0,0.6-1.2-0.6-1.8s-1.6-0.4-2.8-0.9s-2-0.3-1.8-0.9c1.1-1.3,1.4-1.9,1.8-2.6s0.1-1.3,0.6-1.3
+			s0.8,0.3,1.4-0.1s0.8-0.6,0.8-1.4s-0.1-1,0.1-1.8s1-1.4,0.4-1.9s-0.1-0.4-0.9-0.6s-1.3-0.8-1.3-0.8l0.3-1l0.2-1.8
+			c0,0,0.2,0.1,1.4,0.6s2,2.1,2,2.1C478.6,284,479,284,478.7,283.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNrElk1PwkAQhulSWj6M
+QROq0Rov+Ackcjf+b07e/Dh64mIAo5BUQhT5bJ1N3kkmEyClGGzyZNvu7rw7s7PTOrn0l6PaRLWp
+Jm/qZwqER7joWxAzYg6xZJPoJiED40VQJQLiEP0jok8MiQmwovE2QnmiRNSIcwjYto77HETaRA/3
+th0QP8QyjRCLhMQ10SAuIXqiPPqA8VfiiXgmuqvE3DUiF8QNcQuxAO99MeeIOIXRK+IYfXbxHS3m
+qj1hT6zIHdoQ741IDF6UTY4KKGAMZ6L1bMx7lhch9LDCJkSa8KyCcY4KNT9z0pSJA9xbbyIp5IpJ
+Ray+gXCFmGxSHBODsSEyL0L4Ik5/o4QCbHwgwpX24tBLG0WOghGH0Z6TM2TXtiJarAZbVdh22JiH
+FdSRwn6KqrHuXPqwwWfOkx65OB988t0dhFbayhKeTJdBzi9E7RrhOclgb60t9mgmapctK9MdhKaw
+0YbNmfRojir8JgpjnEEoxtwBbA31OUpQ5vsokP0MYiwibUw4MnnldoJ3ZWRMOWUGxig3tr49EvfE
+C/HJhVULWTe/0fqoXSU1zlELWwqRB6IFsXe511poCfe/MKgAIUeFMcZixsisHoy3INbVodffIxbq
+iFSN/uLD96+f8r3+nOz1d+tPfyB/BRgA7iG4YBgQqbsAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 465.9965 264.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M479,286.8L479,286.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C488.1,282.7,484,286.8,479,286.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 472.4965 281.393)" class="st4 st5">00</text>
+	</g>
+	<g id="scandinavia">
+		<path id="territory" class="st2" d="M579.1,237c-0.6-0.1-1.5-0.5-1.9-1.3s-1.3-1.6-1.9-1.4s-0.4,0.4-1.6,0.4s-1.9-1.8-2.9-1.1
+			s-0.3,1-1.5,1.3s-2.6,0.4-3.9,0.4s-1-0.3-2.4,0s-2.4,1-2.9-0.3s-0.6-0.9-0.6-2.1s0.8-2.1,1-3.3s-0.5-2.3,0.4-3.4s1.5-1.4,1.9-2
+			s0.8-1.4,0.9-2.3s0.1-0.6,0.1-1.5s-0.4-1.6-0.9-2s-0.4-0.4-1.5-0.5s-0.8-0.9-1.9,0.4s-2.1,1.4-2.3,2.4s0.5,1.4-0.1,2.6
+			s-0.8,1.1-1,1.6s0.3,1.3-0.3,1.8s-0.9,0.5-1.8,1s-1.5,0.1-1.6,1.6s-0.4,1.1,0,2.1s0.6,1.1,0.9,1.9s0.8,1.1,0.8,2.6s0.4,2,0.4,2
+			s0.5,1.8,0.4,2.6s-0.5,2.4-0.9,3.3s-0.8,1.4-1.4,2s-0.4,0.8-1.1,1.5s-1.6,1-2.3,1.4s-0.8,1.6-0.8,1.6v2.4c0,0,0.6,1.6-0.5,2.1
+			s-1.4,0.6-2.1,1.8c-0.7,1.2,0,2-0.9,2.8s-0.6,0.9-2.1,0.8s-1.8-0.1-2.3-0.8s-1.1-1.8-1.9-1.9s-0.6,0.1-1.1-0.1s-0.1-0.8-0.9-0.8
+			s-1.1,0.5-1.1,0s0-0.3,0-1.4s0-4.6,0-4.6l-1.9-2.9l0.6-1.6l-0.8-1.3l-0.9-0.5c0,0-1.4,0.5-1.5,1s-0.1,0.9-0.4,1.4s-1.4,2-2.3,2.1
+			s-2,0.3-2,0.3s-0.4,1-1.1,0.6s-0.5-0.3-1.4-1.3s-1.1-2.1-1.1-2.6s0.3-0.6-0.4-1.1s-0.6-0.5-1.3-1.1s-1.5-1.1-1.4-2.3
+			s0.4-2.3,0.6-3.4s-0.4-2.3-0.4-2.3l-0.5-0.9c-0.5-1.1,0-0.9-0.9-1.8c-0.9-0.9-1.6-1.2-1.1-2.7c0.5-1.4-0.4-2.3,1.1-2.7
+			c1.4-0.4,1.2,1.6,1.6-0.9s-0.7-1.8,0.7-3.4c1.4-1.6,1.6-1.9,1.6-1.9s0.9,0,1.2,1.2c0.4,1.2,0.4,2.3,1.1,1.4
+			c0.7-0.9,0.9-1.9,1.4-2.7s1.4-1.6,1.4-1.6s-1.6-2.7,0.4-2.5c1.9,0.2,1.9,0.5,2.5-0.2s0.4-0.7,1.6-1.1c1.2-0.4,1.4-0.2,1.6-1.2
+			c0.2-1.1,0.7-1.1,1.4-1.8s0.7-1.1,0.9-2.5s-0.2-1.2,1.4-3.4s1.6-1.9,2.1-3.4c0.5-1.4,0.5-1.2,1.1-2.1s1.2-0.5,1.8-1.2
+			s0.7-1.6,0.7-1.6l0.9-1.6c0,0-1.8-0.7-0.2-1.4s1.8-0.9,3-1.2c1.2-0.4,2.1-0.4,2.1-0.4s1.1,1.7,1.3,0.4c0.2-1.2-0.5-1.4,0.5-2.2
+			c1.1-0.8,1.7-0.7,2-0.4s0.2,0.5,1,0.4c0.8-0.2,1.7,0.9,1.9-0.4c0.3-1.2-1.1-2.2,0.5-2.9c1.7-0.7,2.6-0.1,3.1-0.6s-0.3-0.8,0.8-1.3
+			s1.4-0.3,2.5-0.6c1.1-0.4,1.1-1.5,1.7-1.6c0.5-0.1,1.2,0,1.8,0.5s-1,1,1.1,0.6s4.9-1.7,5.7-1.1c0.8,0.6,0.1,1.7,1.1,1.7
+			s2.1-0.4,2.7-0.1s0.4,0.6,1.2,1c0,0,0.9,4,0.3,4.5s0.8,3.6,0,4.1s-1.1,6.3-1.1,8.9s1.4,6.8,1,8.9s0.6,5.1,0.6,5.1s0.6,0.6,0.6,2.3
+			s0.9,2.5,0.9,2.5s0.4,0.1,0.5,0.7s0.1,1.4-0.2,1.7s-0.8,0.7-0.8,1.6s0.3,1.3-0.1,1.8s-0.6,0.6-0.7,1.6s-0.3,2.5-0.1,3.1
+			S580,237.3,579.1,237z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAhtJREFUeNqslstLw0AQxps0Tdoo
+UoX6qg+EKnq1WM/i/+3Jm4+jp17EVrRCLKK1Vpv4LXwrw5DaNLrwY0mymW9ndnZ2nUK25qjetET1
+mQz89t0FHghAie+M8U8wYp8IZhZyaXgeLIFVsEDRL/ACeqAPhsSIxrMIFUEFLIMdsAf2wQrw6ckj
+aIMuBU3/BN7BOIuQFdkAh+AYHICtFI8eafwWXIFr0EkT8yaIbIIjcAKaYI0hlGu0yHAao7sMr8fv
+d1rMU2tiPTEip+zNc8jvjhpvwjhHSnxnM9F4NrBrVhQh9DnDFkVa9GyO45yUsDsiaULhtfEmkkKe
++KnM2Te5NtKTac3l2A1mXsTwRTb9XSVksmybfSWjiA69tFG2kbBxN+5WwTqo5RDRYjXaqtoEssZ8
+zqDBvRJkqBqT9mVAGw3a9KVHHvfIstgreYVSbeUJT67mMudl7Xrhc5LD3kRb1qMRP7RZVj7+IPQh
+6mCPtn88+mQVvheFMc4hFPPfJ9rq632UsMz3WCB7OcSsiLQxtJEpKrcTvguZMWHGDIxZbkx9uwTn
+4AY828KqhYybb+wD1q6KGueoiY2FyAU4o9iDXGstNKb7rxxUopCjwhhzMgNmVpfGzyjW0aHX55EV
+uhOpGrF21bjjFzh2poNv2lFujNe5y+uirBTEdsh9lOvLSZlURVkp/NflRB9utsL7Itxf/3XdmnaJ
+nOkC+S3AAAC8vV9vras0AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 534.9965 203.655)">
+			</image>
+			<g>
+				<path class="st3" d="M548,225.8L548,225.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C557.2,221.6,553,225.8,548,225.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 541.5073 220.3559)" class="st4 st5">00</text>
+	</g>
+	<g id="japan">
+		<path id="territory" class="st2" d="M829.4,335.3c0-1.2,0.5-4.4-0.2-4.6s-0.7-0.7-1.9-0.5s-2.7-0.5-2.7-0.5s-0.4-1.2,1.8-2.5
+			c2.1-1.2,3.4-1.9,3.4-1.9l-1.1-0.7c0,0-2.3-0.2-1.2-0.9c1.1-0.7,1.2-1.6,2.1-2.7c0.9-1.1,3-6.5,4.2-8.7c1.2-2.1,4.1-1.4,4.1-1.4
+			l1.9-4.9c0,0-1.6-3.7,1.1-4.9c2.7-1.2,2.8,0.2,3.5-2.8s2.8-2.5,3.2-3.5c0.4-1.1,0.7-1.1,0.2-2.8s-1.9-3.4-1.9-3.4
+			s-0.7-2.7-0.7-4.1s-0.4-3.7,0.9-4.2s-1.1-3.4-1.1-3.4s0.7-1.1-0.2-1.8c-0.9-0.7-1.4-1.6-1.4-2.5s0.2-3.2,0.2-3.2s0.9-1.4,1.6-1.6
+			s1.4,0.2,1.4-1.6c0-1.8-0.9-4.4-0.9-4.4s-3.7-5.5-4.4-5.8c-0.7-0.4-0.7-0.7-0.2-1.8s4.1,4.2,6.5,4.6c2.5,0.4,4.8,0,4.8,0l2.3-1.1
+			l4.6,0.2c0,0,1.9,0.2,2.3,2.1c0.4,1.9,2.8,1.2,1.6,3s-1.1,2.7-2.3,2.5s-1.1-1.1-1.9-0.9c-0.9,0.2-1.6,0-1.6,1.9s1.4,2.1,0.2,3.7
+			s-0.7,2.3-2.5,2.3s-3.4-0.2-5.1,0.2c-1.8,0.4-2.7-0.9-2.7,0.7s0,1.9,0.9,2.1s1.6,0,1.2,1.1c-0.4,1.1-1.4,1.8-0.7,2.1
+			c0.7,0.4,1.6-0.5,1.6,0.4l3,0.2l0.5,1.8c0,0,0.4,0,1.4,0.2s1.8-0.7,2.1,0.5c0.4,1.2,0.9,1.8,0.9,1.8s0.5,0,0.7,1.2
+			s0.4,1.6,0.4,2.5s-0.9,3.7-0.9,3.7s-0.7,0.7-0.5,2.1s0.9,0,1.1,1.8c0.2,1.8,0.2,2.3,0.2,3.5s-0.2,1.1,0.9,1.9s1.4,1.8,1.4,1.8
+			s0.9,0.5,0.9,1.8s0,2.3,0,2.3s-0.5,0.2-1.2,0.2s-1.6-0.2-1.6-0.2s-0.2,0.5-0.5,1.8c-0.4,1.2-1.9,1.9-1.9,1.9s0,1.8-0.7,1.9
+			c-0.7,0.2-1.2,0.2-1.9,0.4c-0.7,0.2-1.2,0-1.6,0.9c-0.4,0.9,0,1.1-0.9,1.2c-0.9,0.2-1.8-1.4-1.9,0.9c-0.2,2.3,1.2,3.2-0.5,3.7
+			s-2.8,0.9-2.8,0.9s0.4,1.4-0.9,1.1c-1.2-0.4-2.7-1.6-2.7-2.5s-0.2-1.4-0.2-1.4l-2.5,1.6c0,0,0.4,0.9-1.4,0.9s-2.5-1.9-2.1,0
+			s1.1,3.4,1.2,4.1c0.2,0.7,1.2,0.2,1.1,1.2c-0.2,1.1,0.2,1.1-0.5,1.8c-0.7,0.7-2.1,0.9-2.8,0.9s-0.9-0.2-2.3,0
+			c-1.4,0.2-2.1,6.8-2.1,6.8l-1.3,1.1L829.4,335.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAflJREFUeNqslllLAzEUhWemm9pS
+tYuKK+KCPuiDKP4Af7jgm1h8Eqx9EapoFfShVqXbjCdwrlxi080GPtJOkntyb5Kb+N7g4lu1LpFV
+9zXgagtAHKRAwupvDLdBE3RA6BLz+xg3RtMgB5ZAloI+jRnDdVAD76BB0XCQiDZeAOtgB+yBRXok
+xXjwAsqgAu7BK/gGXZeI+Z0EeRreBwdgF6zRk4Tq36YnVXALLsE1eLSF4pYXGQqcgWOwRdG0Y03m
+2a7D6VHoS0IXVwLTYJmzP2Gdo3eBY/0kvCllq8NQPoGWmYwspOlYBIfglCHKc/CgHRijp6sModkE
+D6zN/yhgZ2NsBRxRaIEe+N5wRSJhxm2wnpLxgfJkluEqskPgjVZEqEg7c7KOgXI7oQ7dqAJiI8Wt
+vq2i8ceY741fZKJZCmVtTyZVRCipt/ykRZyL1SurjlskabZk+2qRno1jCtSZ0+r6nDgbRxQJmYmr
+TJo1nvxfT5r8WGanRq+UPUDA5KpnJssKT7xJMVHMcjfBdFJgqpC04/cJkQiYpHgFLsANeKOIp0W6
+xOeJn6FITIlEipBrWFcC56BEj5oSctsTM+iT90FbZsK6xe/CBy+pO+VBSd0noeuEx1Si22Q27nUr
+jn0z2ndExnG/e/+944d9qfz7tTLsm2vod9ePAAMAfUOh/K4sVpQAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 840.9965 281.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M853.2,303.4L853.2,303.4c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C862.3,299.3,858.2,303.4,853.2,303.4z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 846.7006 298.0307)" class="st4 st5">00</text>
+	</g>
+	<g id="yakursk">
+		<path id="territory" class="st2" d="M810.1,170.4c-0.5-1.1,0.8-1.3-1.1-2.3s-2.6-0.8-3.8-1.1s-0.9-0.6-0.4-2s2.1-1.5-0.1-2
+			s-2.1-1.4-3.8-1.4s-1.3,0-2.1,0.4s-1,0.4-1.4,0.9s0.4,1.1-0.5,0.9s-0.4,0.1-1.3-0.9s-0.6-1.4-1.8-1.3s-0.3-0.1-1.9,0.3
+			s-2.1,0.4-3.3,0.5s-3,1.6-3,1.6s0.1,0.3-1.3,0.4s-0.5-0.6-2.4,0.8s-1,1.5-2.5,1.4s-0.8-1-2.4-0.3s-1.8,0.4-1.8,1.4s-1,1.6-1,1.6
+			s0-0.4-0.4-1.6s-0.9-0.8-0.8-2s-5.3-2-6-3.8s-0.6-1.5-0.9-3.1s-3.3-2.4-3.8-2.3s-1.9,1.6-2.5,2.4s-0.9,1.4-1.9,2.1
+			c-0.9,0.9-1.7,1.4-2.4,1.9l0.3,2.6c0,0.5-0.1,2,1,3.1s1.5,0.6,2,1.1s-0.1,3.8-0.3,4.5s-0.6,0.8-1.1,1.6s-0.1,1.4-0.5,2.9
+			s-0.9,0.9-1.3,2.4s0,1.4,0.5,2.4s0.5,1.9,0.5,3.4s-0.3,0.6-0.9,0.8s-1.3,0.6-2.5,0.8s-2.6,0.6-3.3-0.1s-1.3-0.9-3.5-0.6
+			s-0.6,1-0.9,2s-1,0.9-2.5,1.1s-1,0.4-1.1,2s1.8,2.6,2.8,3s1.3,0.6,1.6,1.3s1.5,0.4,3,1.8s0.3,1.6-0.8,2.6s0.6,4.5,1.4,5
+			s1.1,1.3,1.5,4.3s1.5,3.3,1.5,3.3s0.9,0.5,1,3.6s0.9,5.8,0.9,5.8s4.9-1.5,6.1-2.3s1.1-0.9,1.5-2.6s0.5-4.6,1.9-4.9
+			s1.1,1.8,1.1,1.8c0.1,0.8,1.5,0.5,3,0.8c1.1,0.2,0.6-0.8,0.4-1.7c-0.1-0.4-0.1-0.8,0-1.1c0.4-1,12.3,0.1,12.3,0.1
+			c0.4-1.1,1.2-1.8,2.6-3c1.3-1.2,0.3-3.4,0.4-3.9s1.8-1.9,2.6-4.9s1.8-0.8,1.8-0.8s2-1.8,2.7-3s4.6-1.1,5-0.9
+			c0.4,0.2,0.2,1.9,0.8,3.2c0.6,1.2,0.3,0.5,1.3,0.4c1.1-0.1,1.8-0.4,2.7-0.4s0.5,1.4,1,1.6c0.4,0.2,2,0,2.5-0.1s1.4-0.8,2-1.3
+			s0.2-2.3,0.3-3.1s1-1.1,1.2-1.7c0.3-0.6,0-2.3-0.1-3.1s-0.7-1.8-1.3-1.9s-3.1-0.4-4.1-0.4c-1-0.1-1-4.8-0.5-7.8
+			c0.4-3,0.2-2.3,0.6-2.8c0.4-0.5,1.9-0.8,2.5-0.8s1.2-1.1,1.3-2s0.8-0.7,1.1-1.6c0.4-0.9,1.5-0.4,2.7-0.6c1.2-0.2,0.4-1.5,0.4-2.9
+			L810.1,170.4z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAe5JREFUeNq0lt1LAkEUxXdm/SCT
+pQzKIISCwl6NEoIeoj/dCKLoIYKylyAq0yhIQ7Nt3c7GGZim/TS68GMfdrxn752ZcxVWcgjjqYdv
+PGMTRL2TIAeKIG+sDxK7YAw+wSRKLEpEMmkZVEAVOBQUTBYk7oNH8ALeKDpJI2KDGbAIVsEGqIMl
+VqQiqKALrsA1uAE9MAJenIgSWAEN0ASboMZK8tpal5XcgktwDM7AnSmUM1qkBHbAPtgCy2xb2J7M
+gwWjnRaFhqp1Oa2iPFvUoECTgiV+gIjZu6KWK9irD3DPp29rbXLYmgOwyxbN8p1IOIF5dqHENvZ4
+GMZKRFURlLwN9sA6RW0rXQhWkmMlT6ADBkHLJBcVKVJnBWV+YZaQ/F2NearqNEqtEofH1AnZ5LTV
+hOaRxoLClAJWXB6ZwWayiv3o47+HjHDVv4YfJqI7aqjJZUju8hK6SkxqL17BA8/4+xRCvuZnXT5d
+/TLqXubQ3pNuuxkTJm6DQ3DOW+/ZIWUW6GEVXiaRIORTYEhjPAFHtP5vk9RFPFqCTXedo4hejW8w
+4Yf1KXAKWuACPDPfL2/yjFHqGc46MhjQDNusoMWZ0lHmGHb5pDYV12KmYqbpKKaY7/pepJrzSXMi
+6p9Kpn8sIqUHiRS3O9ItvgQYADvkni6JMM3MAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 761.9965 177.655)">
+			</image>
+			<g>
+				<path class="st3" d="M774.6,199.6L774.6,199.6c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C783.7,195.5,779.6,199.6,774.6,199.6z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 768.0551 194.1644)" class="st4 st5">00</text>
+	</g>
+	<g id="kamchatka">
+		<path id="territory" class="st2" d="M818.4,289.5c1-0.8,0.8,0.1,1.6-1.8s0.6-2.5,1.3-3.1s2-2.9,1.9-4.5s-0.6-1.5-0.3-3
+			s0.5-1.5,0.8-3.5s-0.3-1.8,0.4-4.1s0.8-2.9,0.4-3.8s-0.6-1.9-0.6-3.4s0.1-2.8,0-3.3s-0.3-1-0.6-2.4s-1.4-2.4-1.4-2.4
+			s-0.3,1-0.8-0.6s-0.4-1.1-0.6-2.1s-1,0.5-0.6-2.9s0.3-4.5,0.3-4.5s-0.1-3.4-2.4-3.4s-3,0.6-3.3-1.3s-1.3-2.3-2.8-2.5
+			s-1.8,0-2.5-0.4s-0.4-0.6-1.6-0.6s-0.5,0.5-2.3,0s-1.8,0.8-2-0.5s-0.1-2.1,1.6-4.9s1.6-3.4,1.9-4.8s-1.3-0.8,1-2.8
+			s1.6-2.6,4.3-2.6s3,0,4.9-0.9s0.4-1.9,2.6-0.9s2,2,3.3,0.9s1.6-1.9,2.3-1.9s3,1.4,3,1.4s1,0.5,1.9,0.3s1.6,1.6,2.5-0.1
+			s0.5-2.3-0.4-2.8s-1.9,1.8-1.4-1.3s1-4.1,0.6-5.1s-3-4.5,0.1-2.4s2.4,2.5,3.5,3.1s0.6,0.6,1,3s4.1,1.9,3.6,4.9s-0.5,3.9-0.8,5.1
+			s-1.6,0.4-1.3,5.5s0.8,14.3,5.3,18.3s5.6,4.5,6.3,2.8s1.3-2.5,0.9-4.5s-1.4-2.8-0.6-4.1s1.4-2.3,1.5-3.4s0.4-2,0.3-3.3
+			s0-2.8-0.3-3.8s-0.5-2.6-0.6-3.6s-1.1-2.8-1.5-3.6s-1.5-2.6-1.8-3.9s-0.8-1.8,0.5-3.5s-1.1-2.8,1.8-2.4s2.8,0.8,4.3,0.5
+			s3,0.6,3.5-1.1s0.1-1.5,1-2.8s1.3-1,2.3-2.5s-0.5-2,2-4s4-2.8,4.6-3.5s1.9-1.1,0.9-2.1s-1.1-1.9-2.5-2.8s-2.1-1.5-2.8-1.6
+			s-1.5-0.4-0.9-0.9s1.6-1.4,2.6-1.4s1,1,2.5,0.3s2.1-1.3,3.1-0.5s0.4,0.1,1.1,1.6s-0.8,1,1.3,2.1s3.9,1.4,4.5,1.4s0.3,0.8,1.8-0.1
+			s1.3-0.5,2.3-1.9s1.6-1.6,1.3-3.4s-1-2.9-1-3.4l-1.1-1.9c0,0,0-0.9-1.8-0.9s-2.8,0.1-2.8-0.5s0.5-1.8-0.6-1.8s-1.8-1-2.5-0.1
+			s-1.3,1.9-2.1,1.4s-1.9-1.8-1.9-1.8s0.3-1.3-0.1-1.8s-1.5-1.6-1.5-1.6l-1.6-0.8c0,0-3.4-3.4-4.6-3.5s-2.4,0.1-2.8-0.9
+			s1.8-1-1.4-1.5s-3.3,0-4.3-1.4s0.4-1.8-2.1-1.9s-3.6,0.3-5.8-0.6s-2.1-1.8-3.1-0.8s-0.5,1.1-1.9,2.3s-0.6,2.1-2.8,2.1
+			s-1.8,0.3-3-0.3s-1-0.9-2.5-1s-1.1,0-2.6,0.1s-0.3,1-2.6-0.1s-2.4-1.4-4.1-2.3s-2.3-1.1-3.1-1.1s-4.5-0.4-5.5,0.5
+			c0,0-1.3,1.4-1.3,2.8s0.8,2.7-0.4,2.9c-0.6,0.1-1.1,0-1.6,0s-0.9,0.1-1.1,0.6c-0.4,0.9-1.1,0.7-1.1,1.6c-0.1,0.9-0.8,2-1.3,2
+			s-2,0.3-2.5,0.8c-0.4,0.5-0.2-0.2-0.6,2.8c-0.4,3-0.4,7.7,0.5,7.8c1,0.1,3.4,0.3,4.1,0.4s1.2,1.1,1.3,1.9c0.1,0.8,0.4,2.5,0.1,3.1
+			c-0.3,0.6-1.1,0.9-1.2,1.7c-0.1,0.8,0.4,2.6-0.3,3.1c-0.6,0.5-1.6,1.2-2,1.3s-2,0.3-2.5,0.1c-0.4-0.2,0-1.6-1-1.6
+			s-1.7,0.4-2.7,0.4c-1.1,0.1-0.7,0.8-1.3-0.4s-0.4-3-0.8-3.2c-0.4-0.2-4.3-0.4-5,0.9c-0.7,1.2-2.7,3-2.7,3s-1-2.2-1.8,0.8
+			s-2.5,4.4-2.6,4.9s1,2.7-0.4,3.9c-1.3,1.2-2.1,1.9-2.6,3c-0.4,1.1-0.4,2.5-0.1,2.9c0.3,0.4,1.4,2.9,1.1,4.9s-0.9,8.1-0.6,9.3
+			c0.3,1.1,0.4,4,1.1,4.8c0.8,0.8,1.1,1.4,1.5,2.1c0.4,0.7,4,1.9,4.6,3.4s0.3,1.9,1.3,2.5c1.1,0.6,2,1.9,2.1,3.2
+			c0.1,1.2,0.1,3.1,1,2.8s1.9-1.5,2.2-1.9c0.4-0.4,1.7-0.8,2.8-0.4s1.4,0.4,2.6,0.3s2.2,0.2,2.2,0.2s0.9,1.3,1,2s-0.4,1.2,1.1,1.1
+			c1.6-0.1,1.9-0.2,2.1,1.6c0.2,1.8,1.1,2.7,1.1,2.7s0.3,1.9,0.2,2.3s-0.7,1.5-0.4,2.7c0.3,1.1,0.9,2.3,0.4,3.1
+			c-0.5,0.8-1.4,2.6-1.4,3.3s-0.2,2.6,0,3.2s-0.5,0.2-0.3,2.1c0.3,1.9,0.4,2.3,0.4,3s-3.9,0.5-2.1,2.7c1.8,2.1,2.1,4.7,4.1,4.6
+			c1.9-0.1,2.8,2.7,3.1,3.7s1.1,1.7,2.3,1.8c1.2,0.1,1.4,1.9,2.4,2.1S818.6,289.6,818.4,289.5z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgdJREFUeNqslktLAzEUhSdpp1Vb
+RlR8S8GFUreKFgQX4k8XBFFcCT5BKEofWkWrLfUx44mcQExnpjPVwEcWTe+59yY5GeEMHsKazRFY
+c2yAqN8kyII8cK31KvAH6IFP4EeJRYlIBi2CSTAHPAoKBlOBX0AdPIJXivpJRDJgFMyAZbAKymCW
+FemhKmiAc3AJbkATdMFXnIgWWALroALWQImVuMbaD1ZSBWfgEJyAW1soa7VIC2yBXbAB5tm2sD2Z
+AFNWOx0KdXTrskZFLlu0ToEKBceYgIjZu7wRS+3VO7jjHGSMNnlszR7YZosK/E0MOIEuuzDGNjZ5
+GHpaRFehSt4EO2CFohkn2RCsJMtK7kENtFXLJBflKVJmBUVmmGZI/q/EOHP6NEqjEo/H1AvZ5KTV
+hMaR1oLckAJOXByZwmbSiv3qY5jh/euQltm9c/6rWGCLBIZFNDgPKxSarDTMrk6zU170FuamCQX6
+kpWGbasbeg2uwIO2hBQiPu2+ymTrTP7XjdaZF+hhHo+iHHDqAv63Q2M8Age0/h+TzIQsVkFHaBE5
+Q0ivMfFZ8QsFjsE+OAUtdqjPm3y+Bc8koIjDYF2LNs3wghXs802paXO03xO9cS0uUHv0xCALrM4e
+ca+jH3fDhfGATYNFMG6872ZSid55MeCiuhFfKqm+WERCDxIJbnfkcf8WYAC3TaxoJmGX1QAAAABJ
+RU5ErkJggg==" transform="matrix(1 0 0 1 811.9965 194.655)">
+			</image>
+			<g>
+				<path class="st3" d="M824.6,216.6L824.6,216.6c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C833.7,212.4,829.6,216.6,824.6,216.6z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 818.0717 211.143)" class="st4 st5">00</text>
+	</g>
+	<g id="siberia">
+		<path id="territory" class="st2" d="M683.9,193.6c0.6,1.8,1.1,0.8,2.3,0s0.3-0.6,0.4-2.1s-0.4-1.3-1-2s-0.4-0.1-2-0.1
+			s-1.1,0.3-2.3,0.4s-0.8,0-2.6-0.4s-1.1-1.4-1.1-2.1s-0.5-2.1-0.5-2.1s-1-0.4-1.5-1.4s0-1.1,0.1-1.6s0.3-1.1,0.1-2.6
+			s-0.5-0.5-1-1.3s0-1.3,0-1.3l1-1l1.8,0.6l1.1,0.4l2.3,0.8c0,0,0.1,0.3,2.1,2.5s1,0.3,2.5,0.4s1.1-0.6,1.1-0.6s-2-1-2-1.5
+			s0.5-1.3,0.5-1.9s-0.1-2-0.4-2.5s-1-0.9-1.5-1.4s-1.3-1.9-1.3-1.9s-0.4-0.8,0.5-3.3s1.1,0.9,1.1,0.9l0.8,0.4l1.5,1.3
+			c0,0,1.3-0.3,2-0.5s1.9,1.8,1.9,1.8s2.3,0.3,2.8,0.3s1.5-1.4,1.5-2.4s-2-0.1-2-0.1l-3-0.6c0,0-3.9-1.1-4.6-2.1s0.1-1.5,0.1-1.5
+			l2-2.5c0,0,1.4-1.4,2-1.4s3.3,0,3.3,0s0.9-2.1,1-3.8s2.3-0.5,2.3-0.5s1.6-0.5,2-1s2.5-2,5.9-4s3.4-1.1,4.9-1.3s2.9-0.1,3.4-0.4
+			s2.1-1.4,2.6-1.6s3-1.5,3-0.9s0.3,2,0.5,2.5s1.6-0.6,3.3-1.9s1.1-1,1.9-2.1s1.5-0.4,2.6-0.3s0.8,1.9,0.9,2.6s2,2.1,3.1,2.9
+			s4.3-3.8,4.8-1.4s3.3,3.3,3.3,4s-1.3,2.3-2.1,3s-1.6,1.6-2.1,2.8s0,0.8,0,1.8s-0.8,0.3-1.9,1s-1.1,1-2,2s-1.4,0.5-2.3,0.9
+			s-0.6,1.5-0.9,2.4s0.5,0.8,0.5,0.8s1.3-0.9,1.9-1.3s3-1.6,3.6-2s2.3-1.8,3.6-3.3s3.3-0.8,4.3-1s1.6,0.4,1.6,0.4s1.3,0.1,2.4-0.5
+			s4-1.3,4.6-1.3s2.3,0.3,3.1,1s2.4,1.8,3.3,2.4l1.4-0.1l0.3,2.6c0,0.5-0.1,2,1,3.1s1.5,0.6,2,1.1s-0.1,3.8-0.3,4.5
+			s-0.6,0.8-1.1,1.6s-0.1,1.4-0.5,2.9s-0.9,0.9-1.3,2.4s0,1.4,0.5,2.4s0.5,1.9,0.5,3.4s-0.3,0.6-0.9,0.8s-1.3,0.6-2.5,0.8
+			s-2.6,0.6-3.3-0.1s-1.3-0.9-3.5-0.6s-0.6,1-0.9,2s-1,0.9-2.5,1.1s-1,0.4-1.1,2s1.8,2.6,2.8,3s1.3,0.6,1.6,1.3s1.5,0.4,3,1.8
+			s0.3,1.6-0.8,2.6s0.6,4.5,1.4,5s1.1,1.3,1.5,4.3s1.5,3.3,1.5,3.3s0.9,0.5,1,3.6s0.9,5.8,0.9,5.8s-4.1,7.7-2.9,11
+			c1.2,3.4,2.8,9.5,0.9,11.7c-1.8,2.2-2.8,2.2-3.4,0.9c-0.6-1.2,0.3-1.5-1.8-1.8c-2.2-0.3-1.8,0.6-3.4,0.9c-1.5,0.3-2.2,1.8-3.4,0.6
+			s0-1.5-1.8-0.9s-0.9,2.8-3.2,3.2c-2.3,0.5-2-0.3-2.9,1.2s-1.4,2-1.7,2.8s-0.9,0.6-0.3,2s2.2-0.6,2,2.2c-0.2,2.8-0.5,4.5-0.5,4.5
+			s-1.1-0.8-1.1,1.1c0,1.8,0.8,1.7,0.5,3.2s-1.1,0.6-0.6,2.5c0.5,1.8,1.7,1.8,1.7,1.8s0.3-1.8,0.9-0.3c0.6,1.5-0.2,2.5,0.9,2.9
+			s0,0.3,1.7,0.9c0,0,0.7,0,1,0.9s1.2,2.4,0.3,3.5c-0.8,1.2-1.5,3.3-0.6,5.4s2.5,2.3,2.4,3.5c-0.2,1.2-0.4,0.9-0.5,2.6
+			c-0.2,1.7,0.2,2.8-0.2,3.5s-0.6,1.8-1.2,2.1s-1.4-0.3-1.9-0.6s-0.2-2-1.1-1.3c-0.9,0.7-1.1,1.6-1.8,1.2s-0.7-1.2-1.4-1.4
+			c-0.7-0.2-2.1,0.3-1.4-1c0.7-1.3,1.5-1.5,1.6-2.4s0.5-1.6,0-2.5s-0.8-1.9-1.5-2.1c-0.8-0.2-0.8-0.6-1.7-1.5s-1-1.9-1.7-1.7
+			c-0.7,0.2-1.8,2.1-3.5,1.8c-1.6-0.3-2.2,0.4-2.8-0.7s-0.8-1.5-1.4-1.6s-0.9-0.2-0.8-0.9c0.2-0.7,0.2-0.4,0.2-1.6s0.1-3.9-0.8-5.2
+			s-0.9-1.4-0.9-1.8c0-0.5,0.5-0.7-0.3-1s-1.9-2.4-2.2-3.2c-0.2-0.8-1.4-0.8-1.8-0.8c-0.4,0-1.3-2.5-1.3-2.5s-3.9,0.1-3.8-0.8
+			c0.1-0.9,0.5-1.8,0.6-2.2s0.7-2.8,0.1-3.6s-1.7-1.6-2.3-1.7s-1.7-0.4-2.3,0.5s-1.2,1.5-1.5,1.4c-0.3-0.2-0.8-0.1-0.9-0.9
+			c-0.2-0.8-0.5-3,0.6-4.6s0.8,0.5,1.5-0.2c0.7-0.8,1.1-2.2,1.1-3s-0.5-1.5,0.5-2.5s1.8-0.7,2.2-1.6c0.5-0.9,1.2-1.1,0.7-1.9
+			c-0.5-0.8-1.4-1.6-1.5-2.7c-0.1-1.1,0.3-1-0.4-1.7s-1.2-1-1.3-1.8s1.4-0.5-0.1-1.3s-1.9-0.2-1.7-1.6c0.2-1.4,0-2.5,0.5-3.3
+			s-0.3-3.2-0.6-3.6s-1.1-1-1.5-1.5s-0.3-1.8-0.6-2.1c-0.3-0.2-1.5-1.2-1.8-1.6s-0.3-0.7-0.6-1.5s-1.5-1.3-1.8-1.7s-2.7-1-2.8-1.4
+			c-0.2-0.4-0.2-1.3-0.1-2.1c0.2-0.8,0.4-1.9,0.2-2.8c-0.2-0.9-0.3-1.8-0.4-3.2c-0.1-1.3-0.6-1.9-1.6-1.9s-1.5,0.5-1.5,0
+			c-0.1-0.5-0.6-2.1-0.6-2.5s-1.4-4-1.7-4.2s-0.3-0.3-1.2-1.1c-0.8-0.8-1.5-1.4-2.1-1.5s-1-0.8-1.1-1.5
+			C684,195.7,683.7,193.8,683.9,193.6z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgdJREFUeNq0lslLw0AUxpvphm0t
+uOCGiAWVehXFkzf/b8GDF4sH9eByEIpLrShYl5qkSfymfAPjOEmTigM/pqST97335uXNOLnk4Riz
+bUTGHGvE9lyAAiiDYsxaadgHLucwrYig0RqYBgugTkHHEBiAV3AHnkCfQlGSSB5MgDnQABugCeYZ
+kTm+wD04Aaf8/W5GVTAikALLYAvsgk2wwkiKFhGfEUinpsAZuAbPwFMRFbSIilwsBfbBNlhk2uL2
+RHo7yTWzfF9FKFMZ6CKCCxuMQAqsggr/iysQwTVLTGfElD2AT7U/eS0KucE7YA+sM0X5EeWrspCn
+DSn6ATpMmay6SHBhmSJN7kGNL6QdUqjElEkH11iZw4oUWiR1VlE9YQ+ShrRVpZNNOl3Oad4qodKY
+ArkkZ0XKDpBV6IezIvc/wzHzaGt2fx2RTUQ1Oo9z9Afjv+wI7Y8eeOQ8jlCsHRWJyw/oArTZ5MKM
+IiHfa9NOh3aHX6ruiayIGX5U1QzlHLKN3IJjcARuVGvRRQLisBvXOatzJO7QMgUOwTnbysAWicfe
+4zOKCkX0HhZpxj3mXgkcgBYbpKv21RQJeLq9cfaVN5w9PldruuBSi6BFwb6+p7YUpD0dXVaR3OQr
+7kGXAkGaNjLqnFfne49V9GI7dtP0qlE3Fv2mMrBdILI0xKS7V5SmHX0LMAAaOqMAXhQelgAAAABJ
+RU5ErkJggg==" transform="matrix(1 0 0 1 713.9965 200.655)">
+			</image>
+			<g>
+				<path class="st3" d="M726.4,222L726.4,222c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C735.5,217.9,731.4,222,726.4,222z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 719.8852 216.6181)" class="st4 st5">00</text>
+	</g>
+	<g id="ural">
+		<path id="territory" class="st2" d="M665.8,265.9c1.1-0.5,0.2-1.5,0.2-3.3s-0.5-1.9-0.7-3.2c-0.2-1.2-0.5-1.6-0.7-2.5
+			s1.6-1.8,2.3-3.2s0-1.9-0.2-3.2c-0.2-1.2-1.8-1.2-1.8-1.2l-3.2-2.1l-1.4-0.7c0,0-0.2-1.4,0-3s1.1-2.1,1.8-3.4
+			c0.7-1.2,0.7-2.7,0.7-3.5s-1.8-1.2-1.8-1.2s0-3.2,0-4.1s0-3.5,0-4.8s-0.7-3.5-1.2-4.4s0.5-2.5,0.5-2.5s-0.9-1.9-1.1-2.8
+			c-0.2-0.9,1.1-4.8,1.1-4.8l1.9-4.8l1.2-2.1c0,0,0-3.2,0.5-3.9s0.4-4.1,0.4-4.1s-0.7-6.7-1.4-7.2l0.7-2.3l-1-0.9l-0.4-2.5l-2.5-0.6
+			l0.3-3.4c0,0,1.5-1.5,2.1-1.5s-1.5-2.1-1.8-3s0-1.3,0.5-1.5s0.3-1,0.1-2s-0.1-1.1-0.1-1.1l0.9-2.5l2.9,1c0,0,0.6,1,1.3,1.1
+			s1.3,0,1.8,0s0.3,0.1,1,1.6s0.8,0,1.9,0.3s1.1,1.4,1,2.1s-0.8,1.4-1.4,2.5s-0.5,0.8-1.5,1.9s1.5,1.9,1.5,1.9s0.3,1.5,0.9,2.4
+			s0.1,0.3,1.1,0.8s0,0.9,0,2.3s0.8,0.3,0.8,0.3s0.5,0.6,0.9,1.9s0.1,0.5,1,2.4s1.3-0.1,1.3-0.1s0.8,0.6,1.3,1.6s2.4,0.6,2.4,0.6
+			s1-1,1.8-1.6s0.5-0.4,1.5-0.8s0,0.1,0.7,1.9s0.4,3.1,0.5,3.8c0.1,0.8,0.5,1.5,1.1,1.5s1.2,0.7,2.1,1.5c0.8,0.8,0.8,0.8,1.2,1.1
+			c0.3,0.2,1.7,3.8,1.7,4.2s0.5,2,0.6,2.5s0.5,0,1.5,0s1.5,0.6,1.6,1.9c0.1,1.3,0.2,2.2,0.4,3.2c0.2,0.9,0,2.1-0.2,2.8
+			c-0.2,0.8-0.1,1.7,0.1,2.1c0.2,0.4,2.5,1,2.8,1.4s1.5,0.9,1.8,1.7s0.3,1,0.6,1.5s1.5,1.4,1.8,1.6c0.3,0.2,0.2,1.5,0.6,2.1
+			c0.4,0.5,1.2,1.2,1.5,1.5s1.1,2.8,0.6,3.6s-0.2,1.9-0.5,3.3c-0.2,1.4,0.2,0.8,1.7,1.6s0,0.5,0.1,1.3s0.6,1.1,1.3,1.8
+			s0.3,0.6,0.4,1.7c0.1,1.1,0.9,1.8,1.5,2.7c0.5,0.8-0.2,1-0.7,1.9s-1.2,0.6-2.2,1.6s-0.5,1.8-0.5,2.5s-0.4,2.2-1.1,3
+			c-0.7,0.8-0.3-1.4-1.5,0.2s-0.8,3.8-0.6,4.6s0.6,0.8,0.9,0.9c0.3,0.2,0.8-0.5,1.5-1.4c0.6-0.9,1.7-0.6,2.3-0.5s1.7,0.8,2.3,1.7
+			s0,3.2-0.1,3.6s-0.5,1.3-0.6,2.2c-0.1,0.9,3.8,0.8,3.8,0.8s0.9,2.5,1.3,2.5c0.4,0,1.5,0,1.8,0.8c0.2,0.8,1.4,2.8,2.2,3.2
+			c0.8,0.3,0.3,0.5,0.3,1s0,0.5,0.9,1.8s0.8,4,0.8,5.2s-0.1,0.9-0.2,1.6l-2.5,0.2c0,0,0.7,4.2,0,4.6c-0.7,0.3-3.8,0.8-3.8,0.8
+			s-0.1,3.3-0.2,3.8s-1.6,1.5-2,2.1c-0.3,0.5-0.7,0.5-0.3,1.2c0.3,0.7,0.5,1.5,0.4,2s0.5,1.3-0.7,1.5s-1.7,0.7-2.4,0.1
+			c-0.7-0.5-0.9-1.7-1.7-2.2c-0.9-0.4-1.2-0.4-1.3-1.3s-0.4-2.2-0.4-2.2s-1.1-1.6-1.6-1.6s-2.7,0.5-3.2,0.2
+			c-0.4-0.3-2.5-0.1-3.3-0.8s-0.9-1.2-1.8-0.8s-2.7,0.5-2.7,0.5l-1.6-1.1c0,0-0.9-0.3-1.7-0.9c-0.9-0.5-1-1.8-1.3-2.4
+			s-1-1.4-1.4-1.7c-0.4-0.3-0.9-1-1.4-1.5s-1.2-0.9-2-1.1s-1.4-0.3-1.6-1c-0.2-0.7,0-1.2-0.4-1.3c-0.4-0.1-1.5-0.5-1.5-0.5
+			s-0.1-1.5-0.7-1.8c-0.5-0.3-1.6-1.2-2.3-1.5s-1.4-0.4-1.6-1.3c-0.2-0.9-0.5-1.2-0.5-1.2s-1.3-0.9-1.5-1.4s-0.9-1.6-0.9-1.6
+			l-1.4-1.5l-1.6-0.5L665.8,265.9z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfBJREFUeNq0lslLw0AUxptpYt2I
+uC+IKKjo1QUPohf9vwUPXuxRRD1YKC5VXKB1wbRJ/Aa+kXGcbC0O/BjI8r6892a+iVNKH44x20Zs
+zIlBbNcFcEEFeAnPysBt8AU6ILKJ2V4UDDoMxsAM8CnoGAIycBM0wAt4o2iUJlIGA2AKLIFVsAam
+mZE5ZAYP4AJcgWvwCD51IcfIYBDMgw2wA9bBAjPxLCJtZlIH5+AEnII7EKjSuZqYxwykwCHYArMs
+W1pPRsE4KbFsLfAKQlUeNfv88gOwCxa1DARFTATfrZCIwZ/YH9mzuKxlIRu8DfbACgXKGcu3pAm6
+JGYmMqMPKayCyF4sg32wybJ5OQTMJd9HZONvwbPsjdAy8bmK/IIC+sLpB5NgDoyoOMJofF+XAuYe
++7WBRU4HKDocU/nfh0gwu15HbBNRRhdwjnsI/ieO0G406UPNLoUS4wjN6Bo0ujp3a1RQJOJ7dcZp
+MO6Pragv8ehBE2CowHKOuLtvaJDSKGv6jlcjJA7t3ufsatZhK5EpcAzOuNs7tkxkw95ZS4924xoe
+FmvBA9ZeCRyBKrhnqWKbSEjfaXFuq6/hHPC6ekYeUJdaBlUKJh5aRU9H81SsaadimMdGss753Od7
+lldl/bHk+lPJa4hp/15xHjv6FmAAHpWprQxoe+wAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 674.9965 232.655)">
+			</image>
+			<g>
+				<path class="st3" d="M687.5,254L687.5,254c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C696.6,249.9,692.5,254,687.5,254z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 680.9506 248.6102)" class="st4 st5">00</text>
+	</g>
+	<g id="afghanistan">
+		<path id="territory" class="st2" d="M707.6,296.8l-0.1-0.2c-0.7-0.5-0.9-1.7-1.7-2.2c-0.9-0.4-1.2-0.4-1.3-1.3
+			s-0.4-2.2-0.4-2.2s-1.1-1.6-1.6-1.6s-2.7,0.5-3.2,0.2c-0.4-0.3-2.5-0.1-3.3-0.8s-0.9-1.2-1.8-0.8s-2.7,0.5-2.7,0.5l-1.6-1.1
+			c0,0-0.9-0.3-1.7-0.9c-0.9-0.5-1-1.8-1.3-2.4s-1-1.4-1.4-1.7c-0.4-0.3-0.9-1-1.4-1.5s-1.2-0.9-2-1.1s-1.4-0.3-1.6-1
+			c-0.2-0.7,0-1.2-0.4-1.3c-0.4-0.1-1.5-0.5-1.5-0.5s-0.1-1.5-0.7-1.8c-0.5-0.3-1.6-1.2-2.3-1.5s-1.4-0.4-1.6-1.3
+			c-0.2-0.9-0.5-1.2-0.5-1.2s-1.3-0.9-1.5-1.4s-0.9-1.6-0.9-1.6l-1.4-1.5l-1.6-0.5l-2-0.1l-0.5,0.5c-1.1,0.5-0.5,0.5-1.4,0.8
+			c-0.9,0.4-4.1,0.4-4.2,1.6c-0.2,1.2-0.4,1.6-1.1,3c-0.7,1.4-0.9,1.8-1.8,1.9c-0.9,0.2-1.2,0-2.1-0.2c-0.9-0.2-2.5-0.9-2.5-0.9
+			l-1.4-0.2l-1.2-1.2c0,0-0.7,0.5-1.4,0.9s-2.3,1.8-2.3,1.8s-2.5,0.7-3.2,0.7s-0.7-0.2-1.4,0s-1.9,0-2.5,0.7
+			c-0.5,0.7,0.7,1.4-1.9,1.6c-2.7,0.2-2.7,0.2-3.4,0.2s-1.9,3.7-1.9,3.7s1.4,1.2,0.4,1.6c-1.1,0.4-1.8,1.4-2.3,2.1s-0.9,1.2-0.7,2.1
+			s0,1.4,0.4,2.5s1.2,3.2,1.2,3.2s0.7,0.4,0.5,1.4c-0.2,1.1-0.7,1.6-0.2,2.5s1.6,1.2,1.6,1.2l1.1,1.4c0,0,1.4-0.4,1.4,0.9
+			c0,1.2,0.2,1.8,0.4,3.2c0,0,1,1.4,1.7,0.9s1.9-1.4,1.9-2.5s-0.2-1.4,0.7-1.6s1.4-0.2,2.3-0.5c0.9-0.4,0.5-0.4,1.6-0.4
+			s0.9-0.5,1.4,0.5c0.5,1.1-0.2,0.4,0.2,1.9c0.4,1.6,0.5,1.4,0.7,2.5s0,0.7-0.4,2.1s-0.4,1.6-1.2,1.9c-0.9,0.4-2.7,1.2-2.8,2.7
+			c-0.2,1.4,0-0.4,0.2,1.9s0.2,3,0.9,3.4s0.9,0.2,0.9,1.2c0,1.1-0.5,1.4,0.7,1.6s2.1-0.2,2.1-0.2s2.3,0.4,1.8,1.8s-1.6,0.5-0.9,2.1
+			c0.7,1.6,0.9,0.4,1.1,2.1c0.2,1.8-0.5,2.3,0.4,2.3s2.5,0.7,2.5,0.7l0.2,2.3l0.4,1.4c0,0-2.3-0.9-1.9,0.7c0.4,1.6,0.7,1.6,0.7,1.6
+			s2.3-0.2,2.3,1.4s-0.4,2.1-0.2,3s1.1,0.2,0.9,1.4c0,0-0.1,1.9,0.8,2.5c0.9,0.5,1.8,0.6,2.3,0.4c0.4-0.2,1.3-1.6,2.1-1.5
+			s1.4-0.4,2,0.2c0.6,0.5,1.2,0.4,1.7,0.5s0.9,0.3,1.7,1c0.8,0.8,1.1,1.3,1.3,1.5c0.2,0.3,0.2,1,0.5,1.6s1.3,0.7,1.5,0.8
+			s1.9-0.2,2.4,0.2c0.5,0.4,1.7,2,1.8,2.4s1.3,0.9,1.3,0.9s2.7-0.3,3.2-1.5c0.4-1.2,2.7-2.7,2.7-3.5s0-2,0.5-2.1s2.8-0.9,3.6-0.8
+			s2.3,0.4,2.7-0.5c0.4-1,0.3-3.8,1.8-3.9s2.4-1,3.4,0s3.7,2.5,3.7,2.5s3.7,0.5,4.9-0.8s2.3-2.9,2.3-3.8s0.3-1.2,0.3-2.2
+			s-0.9-3.7-0.9-3.7s-0.8-1.2-1.4-1.4c-0.7-0.2-1.6-1.3-1.6-1.3s-0.8-2.1-0.8-2.9s0.4-4.5,1-4.6c0.5-0.1,2.1-1.1,2.9-1.1
+			s2.3,0.1,2.7-0.2c0.4-0.3,1.2-4.5,1.6-5.5c0.4-1.1,0.7-2,1.4-1.8c0.8,0.1,2.2,0,2.1-1.8c-0.1-1.8-0.3-5.4-1.1-6.6
+			s-1.3-1.4-0.9-2.5c0.4-1.1,1-1.4,1-1.4L707.6,296.8z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgdJREFUeNqslktLAzEUhSdpp1Vb
+RlR8S8GFUreKFgQX4k8XBFFcCT5BKEofWkWrLfUx44mcQExnpjPVwEcWTe+59yY5GeEMHsKazRFY
+c2yAqN8kyII8cK31KvAH6IFP4EeJRYlIBi2CSTAHPAoKBlOBX0AdPIJXivpJRDJgFMyAZbAKymCW
+FemhKmiAc3AJbkATdMFXnIgWWALroALWQImVuMbaD1ZSBWfgEJyAW1soa7VIC2yBXbAB5tm2sD2Z
+AFNWOx0KdXTrskZFLlu0ToEKBceYgIjZu7wRS+3VO7jjHGSMNnlszR7YZosK/E0MOIEuuzDGNjZ5
+GHpaRFehSt4EO2CFohkn2RCsJMtK7kENtFXLJBflKVJmBUVmmGZI/q/EOHP6NEqjEo/H1AvZ5KTV
+hMaR1oLckAJOXByZwmbSiv3qY5jh/euQltm9c/6rWGCLBIZFNDgPKxSarDTMrk6zU170FuamCQX6
+kpWGbasbeg2uwIO2hBQiPu2+ymTrTP7XjdaZF+hhHo+iHHDqAv63Q2M8Age0/h+TzIQsVkFHaBE5
+Q0ivMfFZ8QsFjsE+OAUtdqjPm3y+Bc8koIjDYF2LNs3wghXs802paXO03xO9cS0uUHv0xCALrM4e
+ca+jH3fDhfGATYNFMG6872ZSid55MeCiuhFfKqm+WERCDxIJbnfkcf8WYAC3TaxoJmGX1QAAAABJ
+RU5ErkJggg==" transform="matrix(1 0 0 1 661.9965 297.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M674.6,319.5L674.6,319.5c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C683.7,315.4,679.6,319.5,674.6,319.5z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 668.0776 314.0868)" class="st4 st5">00</text>
+	</g>
+	<g id="middle_east">
+		<path id="territory" class="st2" d="M652.7,343c-0.2,1.1,0.5,1.6-0.9,1.9c-1.4,0.4-2.5,1.4-2.5,1.4s1.6,1.6-1.8,0.9
+			c-3.4-0.7-2.8-1.2-4.2-1.6s-1.2,0.4-2.3-0.4c-1.1-0.7-1.4-0.4-1.8-1.4c-0.4-1.1-3-2.5-3-2.5s-0.9,0-1,0.9s1.8,0.9-0.4,1.3
+			c0,0-1.3,0.1-1.9,0.3s-1.3-0.3-1.9,0.3s-0.6,0.9-1.5,1s-0.8,0-1.8,0.1s-1.8,1-1.8,1s0.3,0.5-1.4,0.4s-2.3,0.3-2.3,0.3
+			s0,1.5-1.4,0.5s-2-1-2-1.5s0.6-1,1.1-1.5c0,0-0.5-1.5-2.3-1.1c-1.9,0.4-3,0.3-3.4,0.9s-0.9,1.9-1.6,1.9c-0.7,0.1-2.7,0.3-3.3-0.4
+			c-0.5-0.6-1.5-2.6-4-3.3s-4.6-1.4-5.5-0.8s-0.1,1.4-1.9,0.9s-3.5-1.3-4-1s-2.1,0-2.1,0.6s0.8,1.6-0.3,1.8s-2.3,0.6-2.9,0.9
+			s-0.3,0.5-2.5,0.5s-4.5,0.4-5.4-0.4s-1.3-1.6-1.6-2.1s-1.4-1-1.4-1h-1.3c0,0-1.4,0.4-1.9,1s-0.5,1-1,1.4s-0.5,0.3-1.1,1
+			s-0.1,1.1-0.6,1.8s-0.9,0.1-1.1,1s0,0.5,0.1,1.4s0.8,0.9,0,1.9c0,0,1.1,2.2,1.5,3.3s1.9,1.6,0.8,2s-2.5,0.4-2.3,1.4
+			s2.6,3.4,3.3,4.6s0.2,3.9,1.3,4.9s2.9,1.9,3.5,1.9s2.5-1.4,2.8-0.1s-0.3,3.6,0.5,3.8s2.5,1,2.9,0.4s-1.3-2.4,0-2.9s0-3,2.7-1.8
+			s2.7,2.1,4.2,2.3s2.7-0.4,3.7-0.2c1.1,0.2,2.3,1.2,2.7,0s1.2-1.9,2.1-1.9c0.9,0,2.8-0.5,3.2,0.5c0.4,1.1-0.5,2.3-0.4,3.4
+			c0.2,1.1,1.2,1.4,0.9,7.4s1.1,9,0.2,9.5c-0.9,0.5-2.1,2.1-1.8,3c0.4,0.9,1.8,3.9,1.9,6c0.2,2.1,0.9,2.7,1.1,3.7
+			c0.2,1.1-1.2,1.2,0.2,3s4.4,2.8,4.2,4.1c-0.2,1.2,1.9,1.8,2.8,3c0.9,1.2,2.3,4.8,2.7,6.4s1.6-0.7,2.3,1.9c0.7,2.7,2.8,2.3,3.4,4.2
+			s2.5,3.8,3.5,4.3s4.3,1.3,4,3s2.8,3.5,2.8,4.8s-0.3,3.8-0.3,3.8s-0.2,0,0.8,1s1.8,1.8,2,3.3s1.3,1.3,1.3,1.3s9.8-1,13-2
+			s7.3-2.8,7.3-3.8s0-0.8,1.5-1.3s2.5-2.5,2.5-2.5l1.5-1.3c0,0,0.3-2,1.5-1.8s2.8,1,2.8,0s-0.8,0.3,2.3-4.8s3.5-6.8,3.3-7.8
+			s-0.3-1,0.8-1.8s1.5-3.3,1.5-3.3l-0.5-2.3l1-2.3c0,0,1.4-3.9,0.2-4.4s-1.1-0.9-1.1-2.3S671,403,671,403s0,0.5-1.4,0
+			s-3.2-2.1-3.2-2.1s-1.6,0.7-1.8-0.4s0.4-2.7-0.5-2.1c-0.9,0.5-1.9,0.4-2.5,1.1c-0.5,0.7,0.7,1.8-2.5,1.8s-3.9,1.1-4.6-0.2
+			c-0.7-1.2-0.7-1.2-1.1-2.7c-0.4-1.4,0.7-0.7-0.9-1.8s-1.9-1.1-1.9-1.9s-0.5-1.4-0.5-1.4s-1.2,0.7-1.8-0.7s0.7-2.3-0.7-3.5
+			s-1.4-1.4-1.9-2.5s-1.1-1.8-1.1-1.8s-1.2-0.7-0.7-1.4c0.5-0.7,0.2-0.9,1.8-1.1s1.9-0.5,2.7-1.1s0.4-0.9,1.6-1.1
+			c1.2-0.2,1.4-1.2,1.9,0.2s0.4,1.9,0.4,3.9s-0.2,3.4,0.4,4.4s0.9,1.6,1.1,2.3c0.2,0.7,0.4,1.2,0.4,1.2s0.2,0.2,1.1,0.2
+			c0.9,0,1.1-0.7,1.4,0.2s0,0.5,0.5,1.2s0.4,1.1,1.2,0.7c0.9-0.4,1.1-1.2,1.9-0.9c0.9,0.4,1.6,0.5,1.6,0.5s1.2,0.2,1.2-0.9
+			s-0.2-1.6,0.4-2.3c0.5-0.7,0.9-2.5,1.9-0.2c1.1,2.3,0.5,2.7,1.1,3.5s0.9,1.6,1.9,1.2c1.1-0.4,1.6-0.4,2.3-1.1s1.4-1.1,1.4-1.1
+			s-0.2-1.8,0.9-2.1c1.1-0.4,2.3-1.4,2.3-1.4l1.2-1.4l1.1-1.4c0,0,1.9,0,2.7,0c0,0-1.1-4.1-1.3-5.6s-2-1.7-1.4-2.9
+			c0.6-1.2,1.2-2.8,0.3-3.7c-0.9-0.9-2.5-1.8-2.5-3.1c0-1.2,0.5-1.2-0.3-2.5c-0.8-1.2-1.2-2.6-1.2-3.4s0-1.6-0.5-2.8
+			c-0.6-1.6-2.4,0-2-2.8c0.9-6.6,0.9-8.2,0.8-8.2l0.3-2.3c0,0-1.2-0.4-1.3-0.9c-0.1-0.4-1.3-2.1-1.8-2.4c-0.5-0.4-2.1-0.2-2.4-0.2
+			s-1.1-0.2-1.5-0.8s-0.4-1.3-0.5-1.6c-0.2-0.3-0.5-0.8-1.3-1.5c-0.8-0.8-1.1-0.9-1.7-1s-1.1,0-1.7-0.5c-0.6-0.5-1.1-0.1-2-0.2
+			s-1.7,1.4-2.1,1.5c-0.4,0.2-1.4,0.1-2.3-0.4c-0.4-0.1-1-0.2-1-0.2L652.7,343z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNq0lltLwzAcxdu0szi7
+gRfUgYg+OOarCPsCfm/BB0EcPgleXoThZSqKm7rp6lpPxgnEkNZ208CPQlty/pfkJK6TPVzjaY7E
+eGZOYnsvgA8CULL8KyeOwCf4AnGamE1EcNIQLIBVUKWgqwnIiXugA57BG0Xj30Q8MAuWwSaogwZY
+YUb6kBncg3NwCa7AAxiAUZqIzKAM1sAOaIJtsM5MSoZIxEza4AwcgRNwbQr5mliJGUiBPbALaixb
+Wk/mwaJRUodCfVU6X8siZImaFNhgZiJjgaj+BdpcsldDcMNnoprps8l1lqhGAS/HEpf/zLHMajHI
+XnXBiyyb4M8BU26wByGjzDtUP2sMss6gx0kIrR9VrqJqSg/yCIUMssGgA0eLVgnNTCjgZAUrcjpA
+UaEfwQrnf4Zr1vE/RpIlkvzB5BH3R6TmExZHtZpcAQG1T3pKSGgf5ea5BY/gYwKhmE7cpml2GPR4
+t+pNkpunwo1UtnzPEujTs47BIV157F+epZY+Ta/CZag2rJtSIlPgAJyCJ9qMo4uMKKRsxiPCMMlE
+m3zI2iuBfdACdyxV4lgMcMSzoMvT7l1bJcpdB+SVh9SFlkFLO0/itB2urFu66hJ9aCvldJzoZDQv
+EUrMds5PdcYXubFMdVspcvfKde/6FmAARdKemBjqvq0AAAAASUVORK5CYII=" transform="matrix(1 0 0 1 616.9965 365.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M629.2,387.2L629.2,387.2c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C638.4,383.1,634.3,387.2,629.2,387.2z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 622.747 381.7929)" class="st4 st5">00</text>
+	</g>
+	<g id="india">
+		<path id="territory" class="st2" d="M701.4,335.5c0,0.9-1.1,2.5-2.3,3.8s-4.9,0.8-4.9,0.8s-2.7-1.5-3.7-2.5s-1.8-0.1-3.4,0
+			c-1.5,0.1-1.4,2.9-1.8,3.9c-0.4,1-2,0.7-2.7,0.5s-3,0.7-3.6,0.8c-0.5,0.1-0.5,1.3-0.5,2.1s-2.3,2.3-2.7,3.5s-3.2,1.7-3.1,1.5
+			c0.1-0.2-0.4,2.3-0.4,2.3s0,1.7-0.8,8.2c-0.4,2.7,1.4,1.2,2,2.8c0.5,1.2,0.5,2,0.5,2.8s0.5,2.2,1.2,3.4c0.8,1.2,0.3,1.2,0.3,2.5
+			c0,1.2,1.5,2.2,2.5,3.1c0.9,0.9,0.3,2.5-0.3,3.7s1.2,1.4,1.4,2.9s1.2,5.5,1.2,5.6c0.8,0.1,1.4-0.9,2.1-1s3-0.9,3.4,0.4
+			s0.2,3.2,0.5,3.9c0.4,0.7,2.7,1.6,2.7,1.6s0.7,0,1.4,0s1.1-0.9,1.2,0.4c0.2,1.2-0.2,1.8,0.2,2.5s2.7,0.7,2.7,0.7s2.3,0,1.2,1.1
+			s-1.8,1.2-2.1,1.9c-0.4,0.7-1.1,0.9-0.2,1.2c0.9,0.4,0.7-0.5,1.4,0.7s0.5,0.9,1.1,1.6c0.5,0.7-0.4,0.9,1.2,1.1
+			c1.6,0.2,2.1,0,2.1,0l0.7-1.8c0,0,0.9-1.2,1.6,0.2c0.7,1.4,0,1.4-0.2,3.2s-0.4,3.5-0.4,4.8s-0.8,1.9-0.6,3.2
+			c0.2,1.2,0.4,2,0.4,3.4s1.4,0.9,1.4,2.1s-0.2,1.6,0.5,2.3c0.7,0.7,1.5,2.2,1.5,3c0,0.7,0.7,1,0.7,2.2s-0.1,2.4,0.7,2.7
+			s1.9,0.6,1.9,2s1.2,2.9,1.2,2.9s0.6,1.3,0.6,2s1.2,1.1,1.2,1.8c0,0.7,1.4,0,2.3,4.8c0.9,4.8,1.4,1.8,2.8,5.8
+			c1.4,4.1,2.1,5.1,3,5.1s1.9-0.4,2.1-1.2s0-0.9,0.9-1.2c0.9-0.4,0.7-0.2,0.9-1.2s-0.7-1.2-0.4-1.9c0.4-0.7-0.5-2.1,0.9-2.1
+			s2.5-1.2,2.5-1.2s-0.5-0.7-0.5-1.6s-0.7,1.8,0-2.1s1.1-4.6,0.9-6.9c-0.2-2.3-1.1-1.2,0-4.2s1.6-1.6,1.6-3.9s1.1-4.8,1.2-6.2
+			c0.2-1.4,0.7-0.4,0.7-1.9c0-1.6-0.9-2.5,0.2-3.5c1.1-1.1,2.5-1.4,2.5-2.7s0-1.8,0-2.7s0.4-2.7,0.4-2.7s2.3-0.2,1.8-1.2
+			c-0.5-1.1-0.4-2.3,0-3.2c0.4-0.9,1.4-4.6,2.9-3.6s2,1,2,1s1.4-1.4,1.3-2s0.5-1.8,0.5-1.8s0.3-1.8,0.8-1.9s2.9-0.3,2.9-0.3
+			s-0.4-3.8,0.5-3.9s1.4,0.1,1.6-0.9s1-2,1.5-2.2s0.7-2.6,0.7-2.6l1.8-0.6c0,0,0.5-3.9,1.2-4.6s1.7-2.5,1.7-2.5s-2.5-7-2.9-7.4
+			s-9.8-0.5-9.8-0.2c-0.1,0.3-1.2,1.8-1.6,1.8c-0.5,0-1.7-1.3-1.7-1.3s0.4-3.6,0.1-4c-0.3-0.4-2.9-1.4-3.2-1.2s-0.9,2.2-1.4,2.2
+			s-3.7-1.8-4-3s0.6-1.2-0.8-1.3s-0.3,1.4-2.4,0.9c-2.1-0.5-2.3-0.8-2.6-1.1s-1.2-1.5-2.3-1.5s-3.2-1.2-3.4-1.5
+			c-0.2-0.4-0.5-0.8-0.8-1.2s-0.3-1.7-0.8-2.1s-2.1,0.9-2.5,1s-1.7-0.5-1.5-1.2c0.2-0.8,0.6-1.8,1.1-2s1.4-1,1.5-1.5s0.4-0.8,0.5-2
+			c0.2-1.2-0.5-4.1-0.7-5s-0.2-3.8-0.2-3.8s0.1-1.1,0.1-1.4s0.2-1,0.2-1s-1.4,0.4-1.7,0.5s-3.4,0.1-3.7,0.1s-2-0.9-2.1-1.2
+			s-0.2-2.1-0.4-2.4s-0.2-1.4-0.5-1.1l-1.4,2l0.1,0.2C702.6,336,701.5,335.7,701.4,335.5z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAiVJREFUeNq8ll1PE1EQhvejdW0L
+xGgFVKIx0QRvIeoF8YLwy73RKzDRxBAhGlERkRptqFA+dn1P8pxmONB2WwmbPDkNZ5l3Zs7M7Imj
+ck8crEWwlvrnfnueqrgmKuydiCNxjFAxSLCfSILh63BDTIsp9ttiV/wWh+AE87IiqaiJ2+Iext36
+iN8RApviG7/d+lMcIFQMEvECc2JBLIoHCM4EkfzA8GexJt6KbbEfRpUGKaoj8EysiCXxhL/dEpOi
+gVhT3EF80pyXi6ZrRSomoirpcBEsi+cYr+FAbCJPKQQnOAFNk85DiuPUiiS8+BDjiwg02OtXeT76
+uyLjLFzKvou//nxSE8WseCpeiMekJC3ZBik2nGhH7IgWaSu8lxki8+I+USVR+ScmfU0cdJV4k0zF
+iYlkylRQdUij9uutBk7O43QWGW9tV48jEA1yNhlhzIwidMbZJLqC57JFCrrdDs9zIsUlCPiR0/ZC
+SfBCd9A0HfLk9MiWWKdXuj4SL/DHTNWDEYW8jRbT2fGL0dLreDvL6pRf3TdTCYFT0uMieCneiD1E
+emPDe9Jhzej6WjBa4sB4ziG3SdOqeC0+mdnVG5A5KfpqDOUITiOWmdq3TrX4prwXr8RHvinnRn1E
+yE7oC0ZOyGv40aqw1+bdDfFOfEBg15bvOJ/fGbr5iDJdR2SLiPYvqs5xLhI2kh2i7Rjjxf9eicIz
+6SKYj3MlGna5G+mC90+AAQDqzqm2iPXrfQAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 704.9965 376.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M717.2,398.9L717.2,398.9c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C726.4,394.8,722.3,398.9,717.2,398.9z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 710.7358 393.4926)" class="st4 st5">00</text>
+	</g>
+	<g id="siam">
+		<path id="territory" class="st2" d="M788.4,388c-1.9-0.4,0.4-1.9-3.3-2.4s-3.4,9.1-3.1,10.1s1.3,1.5,3.5,1.3s1.8,0,2.3,2.3
+			s-0.3,4-0.3,4s0.8-0.3,2-0.8s3,0.8,3.8,4.3s1,3.5,2.3,5.5s1,3,1.5,5.8s-0.5,6-0.8,7.8s-3.5,5.3-3.5,6.3s-3.3,3.5-3.5,4.5
+			s-1.5-0.8-1.5-0.8s-1.3-3.5-1.8-4.5s-1.3-1.5-1.3-1.5l0.3-2.3c0,0-1.3-0.8-2.3-0.8s-1-1-1-1l-2.3-1.8c0,0-0.3-0.3-1.5-0.5
+			s-1,0-1.3,1s-0.8,1-2,2.3s0.5,0.8,1.8,2s0.8,0.8,0.8,2.8s0,2.8,1.8,7.5s1.5,1.8,1.5,1.8s0.5,0.8,0.5,2s-1,1.3-1,1.3
+			s-1.8,0.3-3.3,0s-0.5-0.5-3-3.8s-2.5-3.5-3.5-4.3s0.3-1.8,0-3s0-3-0.8-4s-0.8-1.5-1.3-3.3s0-3.3,0.3-4.8s-1.3-1.8-1.5-3.8
+			s-0.5-1.8-0.5-1.8s-4.5-2.8-5.3-1.8s-2-2-2-2s-3.3,1-3.5-0.5s-6.8-8.3-7-10s-0.3-3.5-1.5-3.8s-2.1-3-2.1-3l-0.9-2.1
+			c-0.3-3.4,0.2-3.6,0.5-3.9c0.9-0.1,1.4,0.1,1.6-0.9s1-2,1.5-2.2s0.7-2.6,0.7-2.6l1.8-0.6c0,0,0.5-3.9,1.2-4.6s1.7-2.5,1.7-2.5
+			c0.7-0.9,1.1-0.4,1.1-0.4l1.2-0.9c0,0,0.7-1.2,1-1.7s0.5-0.6,1-0.5s0.8,1.1,1.6,1.5s1.2,0.5,1.5,0.8s0.5,1.8,0.8,2.7
+			c0.3,0.9,0.5,0.7,1.5,1.2s0.4,0.7,0.3,1c-0.1,0.3,1.4,2.3,2.2,2.2c0.8-0.1,2.2,2,2.8,2.6c0.5,0.6,2.3,0.8,3.3,0.7
+			c1-0.2,0.7-1.5,0.7-1.9s0.7-1.9,1.1-2c0.4-0.1,2.3,0,3.2-0.2c0.8-0.2,0.5-0.7,0.5-0.7s1.1-0.9,1.2-1.4s0.8-1,1.1-1.2
+			s1.1-0.1,1.5,0s1,1.2,1,1.2s1.5,0.2,1.8,0.2c0.4,0,0.7,0.8,0.7,1.5c0,0.8,0,0.9,0,1.5c0,0.5,0.8,0.6,0.8,0.6s0.5,0.1,0.7,0.5
+			c0.2,0.5,0.2,0.6,0.6,0.6c0.5,0,0.5,0.8,0.5,0.8s1.5,1.4,0.9,1.7S788.4,388,788.4,388z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAi9JREFUeNqslt9r01AYhpMs6aYt
+RevmpuhUUJkX3ohjV975j4vgzXRXu1AUxKG4H8xtVVfbronvJ8+Rw2lM0+CBhwNN8r7n+07znsRR
+vREHs40imGc+XHU9EalYFBm/mfBYjJgLj9omTtxE26In1kQXwwvRF4fiVPwCM8zrmDjxjrgm1sUD
+sSFWRYsKDsQH8QUzm4/EQEyqTBbEJXFd3BMPxWNMbpdUcoDwJ/FG7IjPoVEaVGAGt8QTsSUeiTtU
+1A725CotHLCInqdnRueudalXUUYFZvBcPBU3aFvGIuJgUS3M3QIiqhzRPpuL1HugQ4u2MLgrLpeI
++612f5A2HfDbeMafYrLgVWGlb4pnlN9lj+Ka71Hq7Zft01fx3VqWcNMiJhv8mzqscJ7hurGOzhq6
+f1uRsfJV5qxmBWE1pTpJcEOroUFUpZPMGTPRnFkXRQ363miEJsV/0i3KTMpStan4lE7iXXAvUb+h
+0T91XCVDsS/eij3xoyyyZ4yc5/bQ2Uf3zxvtryQjDJeJitSLj6oKcgLRgnFbvBIfXUj6JhMwwSVy
+Ky2JljgQH9EaM3gtXopdcUzETFViD/wkvsfuJsTyoDVjssm1eRuDHXJr6PY1NJlgcMJpd0SaniF4
+wT3nXH/H6l/Qol0MBv6iZh2/Pc6UFXFT3OfMiTCxCt6z2cds/NQ5P+tDImV/jCsYdLmnT6u+0WIn
+XjT5JIqD4Eu9E3DInFe9V3GD0Ivn/bj7LcAAg0yyK2ZCJggAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 761.9965 392.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M774.6,414.8L774.6,414.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C783.7,410.7,779.6,414.8,774.6,414.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 768.0551 409.3656)" class="st4 st5">00</text>
+	</g>
+	<g id="china">
+		<path id="territory" class="st2" d="M802.1,324c-1,0.5-0.1,0.5-0.1,1.1s0.9,0.3,0.9,1.1s0.3,0.8,0.8,1s0.1,0.8,0.1,2.1
+			s0.1,0.6,1.1,0.9s0.5,0.4,0.8,1.9s1,0.5,1.5,0.5s0.5,0.3,0.9,1s0,0.5-1.3,1.3s1.3,0.9,2.6,1.3s0.9,2,0.6,3.4s0.6,1.1,1.5,2.6
+			s0.1,2.4-0.9,4.8s0.5,1.6,1.6,1.8s0.9,3.4,0.1,5s0.1,1.5,0.1,3.6s-0.4,2.5-0.6,4.1s-0.4,1.4-1,2.4s-0.3,2-0.3,3.6
+			s-1.6,1.6-2.8,1.9s-0.6,0.1-0.5,1.3s-0.5,1.4-1.5,2.4s-0.5,0.3-1.1,1.9s-0.1,0.9-1.5,2.1s-1.4,1.9-1.4,1.9s0,1.1-0.3,2.4
+			s-1.1,0.3-1.6,0.1s-1.4,0.6-1.8,1.4s-1.9,1.1-3.1,2.4s0.1,0.3,0.5,1.1s-0.9,1.5-1.5,2s-1.1,1.8-2.1,2.4s-1.8-2.1-3.4-2.5
+			c0.3-0.1-1.6-2.1-0.9-2.4s-0.9-1.7-0.9-1.7s0-0.8-0.5-0.8s-0.5-0.2-0.6-0.6c-0.2-0.5-0.7-0.5-0.7-0.5s-0.8-0.1-0.8-0.6
+			s0-0.7,0-1.5s-0.3-1.5-0.7-1.5s-1.8-0.2-1.8-0.2s-0.6-1.2-1-1.2c-0.4-0.1-1.2-0.2-1.5,0s-1,0.8-1.1,1.2s-1.2,1.4-1.2,1.4
+			s0.4,0.5-0.5,0.7c-0.8,0.2-2.8,0.1-3.2,0.2s-1.1,1.5-1.1,2s0.3,1.8-0.7,1.9c-1,0.2-2.8-0.1-3.3-0.7s-2-2.7-2.8-2.6
+			s-2.2-1.9-2.2-2.2c0.1-0.3,0.6-0.5-0.3-1s-1.2-0.3-1.5-1.2c-0.3-0.9-0.5-2.4-0.8-2.7s-0.8-0.5-1.5-0.8c-0.8-0.4-1.1-1.3-1.6-1.5
+			s-0.7-0.1-1,0.5c-0.3,0.5-1,1.7-1,1.7l-1.2,0.9c0,0-0.4-0.5-1.1,0.4c0,0-2.5-7-2.9-7.4s-9.8-0.5-9.8-0.2c-0.1,0.3-1.2,1.8-1.6,1.8
+			c-0.5,0-1.7-1.3-1.7-1.3s0.4-3.6,0.1-4c-0.3-0.4-2.9-1.4-3.2-1.2s-0.9,2.2-1.4,2.2s-3.7-1.8-4-3s0.6-1.2-0.8-1.3s-0.3,1.4-2.4,0.9
+			c-2.1-0.5-2.3-0.8-2.6-1.1s-1.2-1.5-2.3-1.5s-3.2-1.2-3.4-1.5c-0.2-0.4-0.5-0.8-0.8-1.2s-0.3-1.7-0.8-2.1s-2.1,0.9-2.5,1
+			s-1.7-0.5-1.5-1.2c0.2-0.8,0.6-1.8,1.1-2s1.4-1,1.5-1.5s0.4-0.8,0.5-2c0.2-1.2-0.5-4.1-0.7-5s-0.2-3.8-0.2-3.8s0.1-1.1,0.1-1.4
+			s0.2-1,0.2-1s-1.4,0.4-1.7,0.5s-3.4,0.1-3.7,0.1s-2-0.9-2.1-1.2s-0.2-2.1-0.4-2.4s-0.2-1.4-0.5-1.1l-1.4,2l0.1,0.2
+			c-1.9,1-3,0.6-3.1,0.4c0-0.9,0.3-1.2,0.3-2.2s-0.9-3.7-0.9-3.7s-0.8-1.2-1.4-1.4c-0.7-0.2-1.6-1.3-1.6-1.3s-0.8-2.1-0.8-2.9
+			s0.4-4.5,1-4.6c0.5-0.1,2.1-1.1,2.9-1.1s2.3,0.1,2.7-0.2c0.4-0.3,1.2-4.5,1.6-5.5c0.4-1.1,0.7-2,1.4-1.8c0.8,0.1,2.2,0,2.1-1.8
+			c-0.1-1.8-0.3-5.4-1.1-6.6s-1.3-1.4-0.9-2.5c0.4-1.1,1-1.4,1-1.4c-0.1-0.2-0.2-1.5-0.3-1.6c0.6,0.4,1.1,0,2.3-0.2s0.5-1.1,0.7-1.5
+			s-0.1-1.3-0.4-2c-0.3-0.7,0-0.7,0.3-1.2s1.8-1.5,2-2.1s0.2-3.8,0.2-3.8s3.2-0.4,3.8-0.8c0.7-0.3,0-4.6,0-4.6l2.5-0.2
+			c-0.2,0.7,0.2,0.8,0.8,0.9s0.8,0.5,1.4,1.6s1.2,0.4,2.8,0.7c1.6,0.3,2.8-1.5,3.5-1.8c0.7-0.2,0.8,0.8,1.7,1.7s0.9,1.3,1.7,1.5
+			s1.1,1.2,1.5,2.1c0.5,0.9,0.1,1.7,0,2.5s-0.9,1.1-1.6,2.4c-0.7,1.3,0.7,0.8,1.4,1s0.6,0.9,1.4,1.4s0.9-0.5,1.8-1.2
+			c0.9-0.7,0.5,1,1.1,1.3s1.4,0.8,1.9,0.6c0,0,1.1,1.9,1.8,2.1c0.6,0.2,1.1,6.5,1.1,6.5s1-0.6,1.2,0.2c0.3,0.8,0.6,2.1,0.6,2.1
+			s1.3,0.8,1.3,1.2c0,0.4-0.1,1.5,0.3,1.7c0.4,0.2,1.8,0.8,1.8,0.8l0.4,1.3c0,0,0.2,1.1,0.7,1.2s0.8-0.1,1.5,0.3s0.9,0.4,1.5,0.4
+			s0.9-0.1,0.9,0.4s-0.1,1.4,0.3,1.5c0.4,0.1,1.2,0.2,1.2,0.2s0.3,0.5,0.6,0.9c0.4,0.4,1.4,0.4,1.6,0.8c0.2,0.4,0.3,1,0.4,1.3
+			s-0.3,1.1,1.1,1.2c1.3,0.1,9-1.1,9-1.1l0.5,0.9c0,0,0.5,0.5,1.1,0.7s1.8-0.3,2.7,0.2c1,0.4,1.8,0.7,2.2,0.7s1.3,0,1.3,0
+			s0.3,1.2,0.7,1.3s2.2-0.6,2.2-0.6s0.4-0.5,0.9-0.4s0.6-1.1,1.6-1.2s1.5-0.1,1.9-0.1s2.5-1.1,2.6-0.2s0.2,1.4,0.6,1.9
+			s1.7,0.9,2.1,0.9c0.4,0,1.4-0.6,2-1s0.9-0.7,1.7-0.5s1.6,0.7,1.9,0.9c0.4,0.2,0.5,0.2,1.6,0.5s2.5,0.3,2.5,0.3s2.6,0.3,3.5,0.5
+			C800.9,324.3,801.6,324.2,802.1,324z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAh5JREFUeNqslktLw0AUhZOYWB9V
+QUUraNWFUhduRHHlzv8tiAii6EZQpCIUn63PVqu2JvFcOQPDdPpIcOBjaGdyz9w7kzNxnd6aa/Sx
+0ff0cKdxD/ggw17aD2iAJoXiToJul+ABGAbjIAdGOV4FZfAKvogIRzYxm4gKngUTIA+WQAFMcY4I
+FMEtqIA78AzemV3USaQPDDLYIlgGqxSZMzJ5AI/gGpyDC3DFBXyC0CYiGQyBWbAGNsEKmGdGw8ae
+fLNMUrISOAMH4JjCdZWRr4kFzEAEtsE6mGHZAi7C1TLu59gYFyF7NsJxORQ37GNfyyLLEm1SYIGZ
+eZayutp/ag8z/F1jKd+YZdinZSEr2QBb3INRrjjJMfdZSnUYRDDyODFDkQJPU5YPJmmqGnnGyans
+PC0TWfk0+6CHDGwZWeN4xoT+lAJOpzheQptxEnqd46Soe6pmisT/FDe2icT0HN1Z0wZvieNpA8qP
+qimF2sZRmYgP3dPoSnTTKKFIxOdKjHPPuH9vtL6SgD40qRmi28Opi2iIYoyHYJ+O/GeSukhIJOAA
+fcvXrMUUU7dhaAjsglPwRItpyUQ27IP3QZOTlDfpRhlxbp21F8c9Ajvs71iq2CYSUuCFl0+Fog2O
+q3ukxvFL1v8E7FHgmjGitNfvNC2jwRNUZBZl9hXzVkz7IaHs3PYx0bSdyqSfRMr0bC9d288iN6Hh
+uRbr6PrS/gowAJ11tWyCVsjyAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 747.9965 331.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M760.6,353.8L760.6,353.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C769.7,349.7,765.6,353.8,760.6,353.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 754.0981 348.4296)" class="st4 st5">00</text>
+	</g>
+	<g id="mongolia">
+		<path id="territory" class="st2" d="M737.1,273.6c0,0,0.7,0,1,0.9s1.2,2.4,0.3,3.5c-0.8,1.2-1.5,3.3-0.6,5.4s2.5,2.3,2.4,3.5
+			c-0.2,1.2-0.4,0.9-0.5,2.6c-0.2,1.7,0.2,2.8-0.2,3.5c-0.2,1-1.1,2.1-1.1,2.1s1.1,1.9,1.8,2.1c0.6,0.2,1.1,6.5,1.1,6.5
+			s1-0.6,1.2,0.2c0.3,0.8,0.6,2.1,0.6,2.1s1.3,0.8,1.3,1.2c0,0.4-0.1,1.5,0.3,1.7c0.4,0.2,1.8,0.8,1.8,0.8l0.4,1.3
+			c0,0,0.2,1.1,0.7,1.2s0.8-0.1,1.5,0.3s0.9,0.4,1.5,0.4s0.9-0.1,0.9,0.4s-0.1,1.4,0.3,1.5c0.4,0.1,1.2,0.2,1.2,0.2s0.3,0.5,0.6,0.9
+			c0.4,0.4,1.4,0.4,1.6,0.8c0.2,0.4,0.3,1,0.4,1.3s-0.3,1.1,1.1,1.2c1.3,0.1,9-1.1,9-1.1l0.5,0.9c0,0,0.5,0.5,1.1,0.7
+			s1.8-0.3,2.7,0.2c1,0.4,1.8,0.7,2.2,0.7s1.3,0,1.3,0s0.3,1.2,0.7,1.3s2.2-0.6,2.2-0.6s0.4-0.5,0.9-0.4s0.6-1.1,1.6-1.2
+			s1.5-0.1,1.9-0.1s2.5-1.1,2.6-0.2s0.2,1.4,0.6,1.9s1.7,0.9,2.1,0.9c0.4,0,1.4-0.6,2-1s0.9-0.7,1.7-0.5s1.6,0.7,1.9,0.9
+			c0.4,0.2,0.5,0.2,1.6,0.5s2.5,0.3,2.5,0.3s2.6,0.3,3.5,0.6c0.4,0.3,2.3,0.9,3,0.9c1-0.5,0.9,0.5,2.3-1s0.5-0.3,1.9-2.3
+			s3.6-2.3,1.1-2.5s-2.1,0.5-3-0.4s-0.1-1.1-1.6-1s-1.5,0.4-1.9-0.1s0.8-0.9-1.1-0.9s-1.3,0.8-2.8-0.1s-1.6-0.5-1.5-1.5
+			s0.1-1.9,1.1-2.1s0.8,0,1.4-0.5s1-0.6,1-1.4s1.4-1.1,1.8-2.1s0.4-2.5,1.1-2.5s0.8-0.1,1.4,1.6s-0.9,2.5,0.9,2.6s2.8,0.3,3.5,0.1
+			s0.3,0.1,1.1,1.1s0.8,1.5,1.6,2.1s1,1.8,1,1.8s0,0.6,1.1,0.4s2.9-0.3,2.9-0.3s-0.5-0.6,0.1,1.5s1,1.6,1,3.5s-0.9,2.9,0,3.5
+			s1.9,0.9,1.9,0.9s2.6-2.5,2.9-3.6s1-1.5,0.9-2.4s-0.4-0.3,0.1-1.4s0.5-3.1,0.5-3.1s-0.5-0.1-1-0.4s-0.8-0.1-1-1.5s0.3-1.4-0.6-1.8
+			s-1.3-1-1.5-1.8s-0.1-1.3-0.8-1.4s-0.5-0.3-1.9-1.3s-1.1-0.5-2.1-1.1s-1.3-1-1.3-1.9s-0.3-1.1,0.4-1.8s1,0.8,1.1-1.5
+			s-0.6-2.4,0.5-4.6s0.9-3.1,1.8-3.9c0.6-0.4,0.4,0,2.1-1.8c0.1,0.1,0.1,0.1-0.9,0s-1.1-2-2.4-2.1c-1.2-0.1-2-0.8-2.3-1.8
+			s-1.1-3.8-3.1-3.7c-1.9,0.1-2.3-2.5-4.1-4.6s2.1-1.9,2.1-2.7c0-0.7-0.3-0.1-0.5-2c0,0-0.9,0.9-2,0.6s-1.9-0.7-2-1.6
+			s-1.3-1.3-1.3-1.3s-1.6-0.1-1.6-0.6s-0.3-0.9-0.5-2.4s-0.1-1.9-0.7-1.9s-1.4,0.1-1.6-0.1s-0.6-0.4-0.6-1.3s-0.1-1.6-0.5-1.8
+			s-1-0.4-1.4-0.4s-1.6,0.3-1.8-0.3s-0.3-1.2-0.1-1.7s0.3-0.8,0.3-1.3s-0.3-1.4-0.3-1.4s-0.4,0-0.9-0.4s-0.4-0.9-1.1-1.1
+			s-1-0.3-1.6,0.3c-0.6,0.6-0.9,1.2-1.3,1.3s-2.2,0.3-2.8,0.3s-1.6-0.4-1.6-0.4l-0.4-0.5c0,0-0.9-0.3-0.9,0.1c0,0.4,0.3,0.8,0,1.3
+			s-0.1,0.5-0.8,1.1s-1.1,0.7-1.2,1.1s-0.1,0.6,0.3,1.1s0.6,0.3,0.8,0.9s0.3,0.7,0.3,1.3s0.1,1.5-0.4,1.9s-0.6,0.3-0.9,1.1
+			s-0.6,0.9-0.8,1.3s-0.4,0.6-0.1,1.3s0.8,1.3,1,1.6s0.6,0.8,0.3,1.6s-0.3,1.3-0.8,1.8s-0.9,1.6-1.3,2s-0.3,0.9-0.9,0.6
+			s-1.1-0.9-1.1-1.1s-0.1-0.5-0.3-1.3s-0.4-1.7-0.6-1.9s-1.7-1.1-2.1-0.3s-0.3,1.5-0.9,1.8c-0.6,0.3-0.8,0.3-1,0.7
+			c-0.3,0.4-1,1.5-1.6,1.4s-0.7-0.3-1.6-0.4c-0.9-0.1-1.7-0.4-2.1,0.1c-0.4,0.6-1.4,1.4-2.1,1.1s-1.6-0.8-1.9-1
+			c-0.2-0.2-1.6-0.8-2.3-0.8c-0.7,0.1-0.7,0.3-2.1,0.2c-1.4-0.1-2.7-0.6-3.6-0.6c-0.9,0-3.2-1.1-3.9-1s-0.6,0.1-1.3,0.4
+			c-0.8,0.3-1.3-0.2-1.6,0.4c-0.3,0.5-0.3,1.3-1.2,1.1c-0.9-0.1-1.4-0.1-1.8-0.5c-0.4-0.4-0.6-0.9-0.6-0.9s-0.6-0.2-0.9-0.1
+			c-0.4,0.1-1.3,0-1.3,0s-0.8-0.8-1-0.8s-0.9-0.5-1.2-0.4c-0.3,0-1.6,0.3-1.6,0.3S736.8,273.2,737.1,273.6z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfNJREFUeNrElk1PwkAQhulSWj6M
+QROq0Rov+Ackcjf+b07e/Dh64mIAo5BUQhT5bJ1N3kkmEyClGGzyZNvu7rw7s7PTOrn0l6PaRLWp
+Jm/qZwqER7joWxAzYg6xZJPoJiED40VQJQLiEP0jok8MiQmwovE2QnmiRNSIcwjYto77HETaRA/3
+th0QP8QyjRCLhMQ10SAuIXqiPPqA8VfiiXgmuqvE3DUiF8QNcQuxAO99MeeIOIXRK+IYfXbxHS3m
+qj1hT6zIHdoQ741IDF6UTY4KKGAMZ6L1bMx7lhch9LDCJkSa8KyCcY4KNT9z0pSJA9xbbyIp5IpJ
+Ray+gXCFmGxSHBODsSEyL0L4Ik5/o4QCbHwgwpX24tBLG0WOghGH0Z6TM2TXtiJarAZbVdh22JiH
+FdSRwn6KqrHuXPqwwWfOkx65OB988t0dhFbayhKeTJdBzi9E7RrhOclgb60t9mgmapctK9MdhKaw
+0YbNmfRojir8JgpjnEEoxtwBbA31OUpQ5vsokP0MYiwibUw4MnnldoJ3ZWRMOWUGxig3tr49EvfE
+C/HJhVULWTe/0fqoXSU1zlELWwqRB6IFsXe511poCfe/MKgAIUeFMcZixsisHoy3INbVodffIxbq
+iFSN/uLD96+f8r3+nOz1d+tPfyB/BRgA7iG4YBgQqbsAAAAASUVORK5CYII=" transform="matrix(1 0 0 1 766.9965 282.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M780,304.8L780,304.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C789.2,300.7,785.1,304.8,780,304.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 773.5327 299.4193)" class="st4 st5">00</text>
+	</g>
+	<g id="irkutsk">
+		<path id="territory" class="st2" d="M807.4,271.6c0.3,1.9-0.1,1-0.1,1s-0.9,0.9-2,0.6s-1.9-0.7-2-1.6s-1.3-1.3-1.3-1.3
+			s-1.6-0.1-1.6-0.6s-0.3-0.9-0.5-2.4s-0.1-1.9-0.7-1.9s-1.4,0.1-1.6-0.1s-0.6-0.4-0.6-1.3s-0.1-1.6-0.5-1.8s-1-0.4-1.4-0.4
+			s-1.6,0.3-1.8-0.3s-0.3-1.2-0.1-1.7s0.3-0.8,0.3-1.3s-0.3-1.4-0.3-1.4s-0.4,0-0.9-0.4s-0.4-0.9-1.1-1.1s-1-0.3-1.6,0.3
+			c-0.6,0.6-0.9,1.2-1.3,1.3s-2.2,0.3-2.8,0.3s-1.6-0.4-1.6-0.4l-0.4-0.5c0,0-0.9-0.3-0.9,0.1s0.3,0.8,0,1.3s-0.1,0.5-0.8,1.1
+			s-1.1,0.7-1.2,1.1s-0.1,0.6,0.3,1.1s0.6,0.3,0.8,0.9s0.3,0.7,0.3,1.3s0.1,1.5-0.4,1.9s-0.6,0.3-0.9,1.1s-0.6,0.9-0.8,1.3
+			s-0.4,0.6-0.1,1.3s0.8,1.3,1,1.6s0.6,0.8,0.3,1.6s-0.3,1.3-0.8,1.8s-0.9,1.6-1.3,2s-0.3,0.9-0.9,0.6s-1.1-0.9-1.1-1.1
+			s-0.1-0.5-0.3-1.3s-0.4-1.7-0.6-1.9s-1.7-1.1-2.1-0.3s-0.3,1.5-0.9,1.8c-0.6,0.3-0.8,0.3-1,0.7c-0.3,0.4-1,1.5-1.6,1.4
+			s-0.7-0.3-1.6-0.4c-0.9-0.1-1.7-0.4-2.1,0.1c-0.4,0.6-1.4,1.4-2.1,1.1s-1.6-0.8-1.9-1c-0.2-0.2-1.6-0.8-2.3-0.8
+			c-0.7,0.1-0.7,0.3-2.1,0.2c-1.4-0.1-2.7-0.6-3.6-0.6c-0.9,0-3.2-1.1-3.9-1s-0.6,0.1-1.3,0.4c-0.8,0.3-1.3-0.2-1.6,0.4
+			c-0.3,0.5-0.3,1.3-1.2,1.1c-0.9-0.1-1.4-0.1-1.8-0.5c-0.4-0.4-0.6-0.9-0.6-0.9s-0.6-0.2-0.9-0.1c-0.4,0.1-1.3,0-1.3,0
+			s-0.8-0.8-1-0.8s-0.9-0.5-1.2-0.4c-0.3,0-1.6,0.3-1.6,0.3s-1.9,0.1-1.6,0.6c-1.7-0.6-0.6-0.5-1.7-0.9s-0.3-1.4-0.9-2.9
+			c-0.6-1.5-0.9,0.3-0.9,0.3s-1.2,0-1.7-1.8s0.3-0.9,0.6-2.5c0.3-1.5-0.5-1.4-0.5-3.2c0-1.8,1.1-1.1,1.1-1.1s0.3-1.7,0.5-4.5
+			c0.2-2.8-1.4-0.8-2-2.2s0-1.2,0.3-2s0.8-1.2,1.7-2.8c0.9-1.5,0.6-0.8,2.9-1.2c2.3-0.5,1.4-2.6,3.2-3.2c1.8-0.6,0.6-0.3,1.8,0.9
+			s1.8-0.3,3.4-0.6c1.5-0.3,1.2-1.2,3.4-0.9s1.2,0.6,1.8,1.8s1.5,1.2,3.4-0.9c1.8-2.2,0.3-8.3-0.9-11.7s2.9-11,2.9-11
+			s4.9-1.5,6.1-2.3s1.1-0.9,1.5-2.6s0.5-4.6,1.9-4.9s1.1,1.8,1.1,1.8c0.1,0.8,1.5,0.5,3,0.8c1.1,0.2,0.6-0.8,0.4-1.7
+			c-0.1-0.4-0.1-0.8,0-1.1c0.4-1,12.3,0.1,12.3,0.1c-0.4,1.1-0.4,2.5-0.1,2.9c0.3,0.4,1.4,2.9,1.1,4.9s-0.9,8.1-0.6,9.3
+			c0.3,1.1,0.4,4,1.1,4.8c0.8,0.8,1.1,1.4,1.5,2.1c0.4,0.7,4,1.9,4.6,3.4s0.3,1.9,1.3,2.5c1.1,0.6,2,1.9,2.1,3.2
+			c0.1,1.2,0.1,3.1,1,2.8s1.9-1.5,2.2-1.9c0.4-0.4,1.7-0.8,2.8-0.4s1.4,0.4,2.6,0.3s2.2,0.2,2.2,0.2s0.9,1.3,1,2s-0.4,1.2,1.1,1.1
+			c1.6-0.1,1.9-0.2,2.1,1.6c0.2,1.8,1.1,2.7,1.1,2.7s0.3,1.9,0.2,2.3s-0.7,1.5-0.4,2.7c0.3,1.1,0.9,2.3,0.4,3.1
+			c-0.5,0.8-1.4,2.6-1.4,3.3s-0.2,2.6,0,3.2C807.9,270.1,807.2,269.7,807.4,271.6z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkBJREFUeNqslt9PE0EQx+9Xi4Kg
+KbYWRUwMGH0w8UEffNP4f+OLbxp9MDFGiAlSFWhQMCi0R3t+N/ksmWzu6BXd5JNNr3vz3ZnZmds4
+qjfiYPajCOaJBs77PxGZmBEN844znouBOBXj8wTjCQLO8Jxoia5YQDTC+C+xI36I3wiXCpYJWYHr
+YkWsifviBp5FeLIrPooN8UXsiyMjWCnkfjfFIsYfiIfinriNRw3W5ni0jdB78Ul8Fnvi2IqlgVCK
+MSfwQjwXj8Vd0ea/WXEZj+fZlAvrEiF2xg/FHyuUBSFzBm7ixRPmFl4mJREI87jI8328PRAj65EP
+WRcPnolH5ORShYg9NCm5m8Fwn0NyFAol7GqNcD0Vy0akTpnE2Is5gd/xzB2aIjELndGOuMNcV8SK
+NQjfKrRIT5yYBdfIT5tcTSMSBZFZoRy6vhy8sSZerJpaiS8g5De9gB1fDmceZTzsmOq/iFBk7DWt
+nST6/6OgPQ2ZCy9UmL61x3xapyNXiPiOscuc21M3RGSTBYN/EPI9cBObQ+tRThV/o9iOw6ZYc4x5
+t4+tg9AjJ3bCDrbKmuIUItbGiY9MGrhd8GzWNNA6J3BME+2JN+KV+CB+hi3IJtJ/wFwtXaF402Az
+lpEReS3WEduxuc5KXO8ZD8Yks2O+Q+HICdM78RKxXhj6LHhpxIJtc+xdY7xF7ysbLg9fxVvwIqM6
+d4aUkLURuVqRK7+ZQ8T6ZSKTbkH+oxbefqqKdFB2V5jmulVn3cT73V8BBgAs07RqUI6xDQAAAABJ
+RU5ErkJggg==" transform="matrix(1 0 0 1 755.9965 239.655)">
+			</image>
+			<g>
+				<path class="st3" d="M769,261.6L769,261.6c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C778.2,257.5,774.1,261.6,769,261.6z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 762.5434 256.2377)" class="st4 st5">00</text>
+	</g>
+	<g id="ukraine">
+		<path id="territory" class="st2" d="M580.4,188.3c-1.2-0.1-2.1-0.4-2.1-0.4s0.9,4,0.3,4.5s0.8,3.6,0,4.1s-1.1,6.3-1.1,8.9
+			s1.4,6.8,1,8.9s0.6,5.1,0.6,5.1s0.6,0.6,0.6,2.3s0.9,2.5,0.9,2.5s0.4,0.1,0.5,0.7s0.1,1.4-0.2,1.7s-0.8,0.7-0.8,1.6
+			s0.3,1.3-0.1,1.8s-0.6,0.6-0.7,1.6s-0.3,2.5-0.1,3.1s0.7,2.7-0.2,2.4s1,0.4,1.5,0.8s-1.1,1.1-2,1.4s-1.6,0.3-2.9,0.1
+			s-0.9-0.4-1.9-0.3s-3.1,0.8-4.3,0.5s-1.8-0.1-2.5,0.4s-0.3,1.5-0.3,2.6s0.8,0.4,0.9,1.6s0.4,1,0.8,1.8s1,0.1,1,0.1
+			s2.1,1.8,1.9,2.9s0.5,1.9,0.5,2.9s-1.1,0.3-2.8,0.1s-0.6-0.9-1.3-2.6s-0.5-0.6-1.5-1s-1,0.3-1.3,1.4s-0.4,1.3-1.3,2
+			s-0.1,1.4-0.4,2.5s-0.6,1-1.4,1.9s0.3,1.4,0.6,2.6s0.9,1.8,0.9,1.8c0.5,0.5,0.4,1,0.4,1.8s-0.5,1.1-1,1.5l1.3,0.1
+			c0,0,1.1,0.9,1.1,1.3s1.2,1.3,1.2,1.3s2.5,1.4,3.4,1.4s1.9-0.6,2.4-0.6s-0.1,0.9-0.1,1.2s0.7,3.3,1,3.9s0.4,8.1,0.4,9.4
+			s1.4,2.8,1.8,3.1s0.6,1.1,0.6,1.4s-0.8,1.4-0.9,1.8s0.1,1.2,0.1,1.8s-0.5,0.8-1,1.3s-0.4,1.4-0.7,2.1s-0.8,0.6-1.4,0.9
+			s-2.3,3.6-2.5,4s-1.9,1-2.5,1s-2.1,0.4-2.3,0.9s-0.2,1.5-0.2,1.5l2.3,2.2c0.3-0.1,0.5-0.8,0.8-1.2s1.2-0.4,1.2-0.4
+			s1.6-0.1,2.3,0.4s0.3,0.8,0.3,2.1s0.1,1.1,0.3,1.7s0.5,0.4,1.6,0.7s0.8,0.2,1.6,0.3s0.7,0.8,1.1,1.7s0.5,1.6,0.9,2.4
+			s0.4,1.3,0.4,1.6s-0.3,1.5-0.4,2.2s-0.4,0.8-0.5,1.1s-0.1,1.2-0.1,1.5s0.4,0.8,0.8,1.2s0.4,0.8,0.4,1.5s-0.6,1.8-0.6,2.4
+			s0.9,1.1,0.8,1.6s2.2,2.3,2.2,2.3l1-0.8c0,0,1-0.1,1.8-0.9s0.5-1.1,0.5-1.1s0.3-2.4,0.6-2.9s0.9-0.3,2.5-0.6s1,0,1.8,0
+			s1.3,0.5,2,0.8s0.6,0.8,0.9,1.8s0.5,1.6,0.6,2.5s0.1,1,0.5,1.9s0.8,0.8,1.8,1.4s0.4,0.5,1.9,1.3s0.8-1.1,1.3-2s0.8-0.9,1.3-1.1
+			s0.9-0.5,1.5-1s0.4-0.5,0.8-1.4s-0.1-1.3-0.4-1.8s-0.8,0.1-1.4,0.1s-1.4-0.8-2-1.5s-0.1-1-0.1-1s0.9-1,1.8-1.6s0.8-0.5,1.5-0.8
+			s1.3-0.3,1.9-0.5s1.1-0.4,2.4-0.6s0.8,0,2.1,0s1.6-0.3,1.6-0.3s0.4-0.5,1-0.9s0.9-0.1,1.3,0.4s-0.3,1.3-0.3,1.3s-0.6,0.6-1.5,1.5
+			s-1,0.4-2.6,0.6s-0.5,0.3-0.6,1.1s-0.8,1.6-0.8,1.6l-0.5,1.3l0.9,0.5c0,0,0.4,0.8,0.6,1.8s0.8,0.4,1.4,0.6s-0.1,1-0.1,1.8
+			s1.1,1.4,1.8,2s0.4,0.9,1,2s0.5-0.4,1-0.6s0.8-0.3,1.9-0.4s1.3,0.1,1.3,0.1l-0.6,1.5c0,0,0.8,0.5,1.6,1.4s0.3,1.6,1.4,1.6
+			s0.8,0.5,1.3,0.9s1,1,1.9,1.8s0.8,0.5,1.5,0.6s0.4,0.1,0.8,3s0.8,0.3,0.8,0.3s-0.3,0.8-0.6,1.3s-0.9,0.8-1.4,1.3s-1.1,1-1.1,1.5
+			s0.6,0.5,2,1.5s1.4-0.5,1.4-0.5s0.6-0.4,2.3-0.3s1.4-0.4,1.4-0.4s0.8-0.9,1.8-1s0.9,0,1.8-0.1s0.9-0.5,1.5-1s1.3-0.1,1.9-0.3
+			s1.9-0.3,1.9-0.3c2.1-0.4,0.3-0.4,0.4-1.3s1-0.9,1-0.9s0.8,0.1,1.3-0.4s0.8-0.8,0.8-1.4s-0.6-1.6-0.6-1.6s-0.9-0.6-0.9-1.4
+			s0.1-1,0.4-1.5s0-1.4,0-2.9s0-1.6,0.1-2.6s0.8-0.5,1.5-1s-0.3-1.8-0.3-1.8s-0.5,0-1.6-0.4s-1.6-0.4-2.4-1.9s-0.4-1.1-0.5-1.8
+			s-0.8-0.9-0.5-2.4s-1-2.9-1-2.9l-1.1-0.4c0,0-0.7-0.4-0.9-1.1s0.2-0.9,0.4-1.9c0.2-1.1-0.5-2.1-0.5-2.1l-1.2,1.1
+			c0,0,1.8-2.8,1.9-3.7c0.2-0.9,0-1.1,0.4-1.8c0.4-0.7,0.7-0.5,1.8-0.9s1.4-1.1,1.4-1.1s0.5-1.4,0.4-2.8c-0.2-1.4-0.4-1.9-0.4-3.2
+			s-1.4-0.9-1.4-0.9l-1.1-1.4c0,0-1.1-0.4-1.6-1.2c-0.5-0.9,0-1.4,0.2-2.5s-0.5-1.4-0.5-1.4s-0.9-2.1-1.2-3.2
+			c-0.4-1.1-0.2-1.6-0.4-2.5s0.2-1.4,0.7-2.1s1.2-1.8,2.3-2.1c1.1-0.4-0.4-1.6-0.4-1.6s1.2-3.7,1.9-3.7s0.7,0,3.4-0.2
+			s1.4-0.9,1.9-1.6s1.8-0.5,2.5-0.7s0.7,0,1.4,0s3.2-0.7,3.2-0.7s1.6-1.4,2.3-1.8s1.4-0.9,1.4-0.9l1.2,1.2l1.4,0.2
+			c0,0,1.6,0.7,2.5,0.9c0.9,0.2,1.2,0.4,2.1,0.2s1.1-0.5,1.8-1.9s0.9-1.8,1.1-3c0.2-1.2,3.4-1.2,4.2-1.6c0.9-0.4,1.1-0.7,2.1-1.2
+			c1.1-0.5,0-1.6,0-3.4s-0.5-1.9-0.7-3.2c-0.2-1.2-0.5-1.6-0.7-2.5s1.6-1.8,2.3-3.2s0-1.9-0.2-3.2c-0.2-1.2-1.8-1.2-1.8-1.2
+			l-3.2-2.1l-1.4-0.7c0,0-0.2-1.4,0-3s1.1-2.1,1.8-3.4c0.7-1.2,0.7-2.7,0.7-3.5s-1.8-1.2-1.8-1.2s0-3.2,0-4.1s0-3.5,0-4.8
+			c0-1.2-0.7-3.5-1.2-4.4s0.5-2.5,0.5-2.5s-0.9-1.9-1.1-2.8c-0.2-0.9,1.1-4.8,1.1-4.8l1.9-4.8l1.2-2.1c0,0,0-3.2,0.5-3.9
+			s0.4-4.1,0.4-4.1s-0.7-6.7-1.4-7.2s-1-1-1.7-1.9s-2-0.1-3-0.1s-1.9-0.1-3-0.3s-1.3-0.4-2.7-0.7c-1.3-0.3-2.2,0.9-2.6,1.6
+			c-0.4,0.7-0.7,1-1.8,2.6s-1.1,0.4-2.5,1c-1.3,0.6-1.2-0.9-2.2-1.2c-1-0.4-2.2,0.4-3.3,0.4s-1-0.3-2.3-1.1
+			c-1.3-0.9-1.3-0.5-3.2,1.2c-1.9,1.8-1.7,1.1-3,0.9c-1.3-0.3-1.9,1.2-1.9,1.2s-2.4,2.3-3,2.7s-3.1,1.1-4,2.3s-0.2,0.8-1.9,1.7
+			s-1.3,0.1-1.3-1s0-0.4,0.6-1.9s0-0.6-0.6-0.9s-1.1-0.8-1.7-1.7c-0.6-0.9-0.6-1.2-1.3-1.9s-2.1,0.8-3.4,0.6c-1.2-0.2-1.1,0-2,0.1
+			s-0.1,0.8,0.2,1.6s0.4,0.7,1.1,1.4c0.6,0.7-0.1,1.9-0.1,2.7c0,0.7-0.2,0.8,0.1,1.6s0.7,0.5,1.6,1.1c0.9,0.6,0.5,1,0.4,1.8
+			c-0.2,0.8-1-0.1-1.9-0.2c-1-0.1-1.6,1.3-2.6,1.9c-1,0.5-1.4,0.4-2.4,0.4s-0.8,0.6-2.4,2.1c-1.6,1.5-1.7,0.6-2.8,0.6
+			s-0.7-0.6-2-1.5s-0.6,0.1-1.6,0.4c-1,0.4,0.1,1.1,0.7,2c0.6,1,0.8,1.7,1,2c0.2,0.4,0,0.4-1.4,1.9s-1.1,0.1-2.1,0.1
+			c-1.1,0-0.8,0.1-1.9,0.2c-1.1,0.1-0.7-0.4-0.7-1.1s0-0.6,0-2.1s-0.5-1.1-0.8-1.5s0-0.8-0.2-1.2s-0.9-1.1-1.3-1.1s-1.7,0.1-1.9-0.3
+			c-0.3-0.4-0.8-0.9-1.6-1.2c-0.8-0.4-1.7-1.2-2-1.6c-0.4-0.4,0-0.8,0.1-1.2s1.7-1.1,3-0.9c1.3,0.2,4.2,0.5,6.4,0.5s3.3,0,4.2,0
+			s3-0.4,4.2-0.7s2.7-1.1,3.2-1.7c0.5-0.6,0.2-0.8,0.1-1.9s-0.4-1.6-1.2-2.3s-0.7-1.1-4.1-3.4c-3.4-2.2-3.2-0.7-4.5-0.6
+			c-1.3,0.1-1.1-0.5-2.1-0.8s-3-0.2-4.7-0.2s-1.8,0.3-3.1-0.1c-1.3-0.4-0.7-0.8-1.9-0.9c-1.1-0.1-1.4,0.2-2.4-0.2s-1.2-0.9-1.9-1.1
+			C580.7,187.9,581.7,188.3,580.4,188.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAf9JREFUeNq0lstLAzEQxjfbXR9V
+Kr6LqCCi6EHwoAdvov+3B2+ieBIUL0JRrC0Ktlqta3f9Il9kCJt9iAZ+pDRhvswkM7PKyx/KmuVI
+rDnTgGvNBwEYBqG1XxuOQB98gtglpjKMa6NjYArUQY2Cisa04Q5ogifwQtE4T0QanwHLYA1sgHl6
+ZIb24AFcgWtwA1rgDQxcIvr3EJim4U2wBdbBEj0Jxf6InjTAJTgB5+DWFgosL8YpcAh2wCpFxxx3
+Msl1GU6PQj0TukAIjIIFnn6X8xS98x33Z8I7LGzpu/oAd5yTighTnaffB9u8g5EMAfuR6ENWGcYW
+H0NfilQZpgOwBxaFgFcwlwKiPWmDe9DVITOn1CeZYLhmSwrYd7rM11g3r9EXJwlF0pUVkDZqDLV5
+jcovUQHKCA3J1+h7/zOUHcf/GEmWSPIHxiPmR2Ts+VmLvxTosKZ1jC0/a7GkSMxK3GDRbDIZfzzp
+888rbnpJK9k5Aj0m4CWr8hMT8zvjpbshC94Mi6LpH6qAgC6Kp+AYXIBHinhSZEAUM75KkYoQSSwG
+lsAROKNHfRNy2xN98a/sB5E5iaisbxZdCpxR4FT0k9iV4RVW0zmwwoaV1hXNeGdJP3c1LC+nR4w7
++rv0XHv4TKF2moBXoE+4vlTSvlgi14tUBWuQKlBCnHn1JcAAOZ+ioiQkPF8AAAAASUVORK5CYII=" transform="matrix(1 0 0 1 599.9965 251.655)">
+			</image>
+			<g>
+				<path class="st3" d="M612.3,273.4L612.3,273.4c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C621.4,269.3,617.3,273.4,612.3,273.4z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 605.7621 268.0375)" class="st4 st5">00</text>
+	</g>
+	<g id="southern_europe">
+		<path id="territory" class="st2" d="M567,303.3c0.3-0.1,0.5-0.8,0.8-1.2s1.2-0.4,1.2-0.4s1.6-0.1,2.3,0.4s0.3,0.8,0.3,2.1
+			s0.1,1.1,0.3,1.7s0.5,0.4,1.6,0.7s0.8,0.2,1.6,0.3s0.7,0.8,1.1,1.7s0.5,1.6,0.9,2.4s0.4,1.3,0.4,1.6s-0.3,1.5-0.4,2.2
+			s-0.4,0.8-0.5,1.1s-0.1,1.2-0.1,1.5s0.4,0.8,0.8,1.2s0.4,0.8,0.4,1.5s-0.6,1.8-0.6,2.4s0.9,1.1,0.8,1.6s2.2,2.3,2.2,2.3
+			s-1.1,0.8-0.6,1.5s1.1,1.4,0.9,1.9s-0.1,0.5-0.8,1s-1,0.4-1,1.5s0.9,1.4,0.3,2.4s-0.4,0.9-0.9,1.6s-0.8,1.4-1,2.1s0.5,0.9-0.4,1.6
+			s-1.1,0.4-1.4,1.3s0.1,0.9-0.4,1.5s-0.5,1-1,1.4s-0.5,0.3-1.1,1s-0.1,1.1-0.6,1.8s-0.9,0.1-1.1,1s0,0.5,0.1,1.4s0.8,0.9,0,1.9
+			s-1.1,1.6-1.6,2s-0.5-0.1-0.9,1s0.3,1.5-0.5,1.8s-1.1,0.3-1.9,0.4s-1.1-0.1-1.6,0s-0.8,0-1.1,0.6s-0.8,0.5-0.3,1.3
+			s0.4,0.8,0.9,1.3s0.9,0.9,1.4,1.4s0.9,0.8,1,1.4s0.1,1.1,0.1,1.1s0.6,1.9,0.1,2.1s-1,0.3-1.1,1s-0.3,0.5,0,1.4s0,0.9,0.5,1.4
+			s0.6,0.5,1.4,1.3s1.6,0.9,1.1,1.5s-1.1,0.8-1.9,0.5s-1.1,0.4-1.6-0.8s-0.8-1.4-0.8-1.4s-0.8,0.1-0.8,0.8s1.9,0.8-0.5,0.8
+			s-2.1,0.8-2.8,0s-0.1-1-1-1.3s-1,0.5-1.4-0.3s-0.5-0.8-0.5-1.9s0.6-1.1,0.3-2.6s-0.6-1.1-0.9-2s0-0.9,0-2s-0.4-1.6-0.4-1.6
+			s-0.4-0.3-0.6-1.5s-0.1-1.4-0.4-2.5s-0.1-1.5-0.8-1.5s-0.3,0.5-1.3-0.3s-0.5-1-1.4-1.4s-1,0.4-1.3-0.9s-0.3-0.6-0.3-2.1s0-2,0-2.6
+			s0.5-0.6-0.3-1.6s-0.6-1.3-1.5-1.4s-0.6,0.9-1.4-0.4s-0.9-2-1.9-2.3s-0.9,0.4-1.4-0.3s-0.3-0.8-0.9-1.4s0.1-0.9-1.5-0.9
+			s-1.6-0.9-2.5-0.5s-1.1,1-1.1,1.6s0,0.6,0.1,1.5s-0.1,1.4,0.5,1.5s0.6-0.5,0.8,0.6s-0.1,2.3,1.4,1.6s2.4-1.5,2.5-0.8
+			s-0.1,0.9,0.1,1.9s0,1.9,0.9,2.5s1.3,0.6,1.6,1.1s0.3,0.4,0.8,0.6s0.5,1.4,1.1,2.3s1.4,0.1,1,1.3s-0.4,1.6-0.9,2s-1.6,0.8-2.4,0.1
+			s-1.4-1.1-1.4-1.1s0.6-1.3-0.9-0.9s-1.5,0.5-2.1,0.5s-1-1-0.8,0.4s1.3,1.9,1.3,1.9s1.1,0,1,1.3s0.4,0.9-0.3,2.1s-0.5,1-1,2.1
+			s0,1.1-0.6,2s-0.9,1.4-1.8,1.8s-0.9-0.4-1.3,1s-0.3,1.4-0.9,1.6s-2,0.3-2.5,0.6s0.4,0.9-1,0.5s-1-0.4-1.6-0.5s-0.9-0.1-1.4-0.8
+			s-0.1-1.8-0.6-1.4s-0.9,1.8-1.4,0.4s-0.4-1.5-0.9-1.8s-0.8,1.3-0.9-0.4s-0.4-1.6,0.4-2.4s1-1,1.6-1s0.8,0.1,1.5,0.3
+			s0.6,0.8,1.3,0.9s2.5-1,2.8-0.3s-0.3,3,0.4,1s0.3-2.4,1.1-3.1s1.8-1.5,2.1-2s0.8-1.3-0.1-2.1s-1.1,0-1.1-1.6s0.3-2-0.3-2.9
+			s0-0.6-1-1.1s-1-0.8-1.5-1.4s-1.4-1.1-2.3-1.4s-0.3,0.4-1.1-1s-1.1-1.8-1.9-1.6s-0.4,1.1-1.1,0.3s-0.5-1-1-1.4s-0.8,0-1.4-0.5
+			s-0.6-0.5-0.8-1.5s0.1-1.4-0.5-1.9s-1.9-0.9-1.9-0.9s0.3-0.3-1.4,0s-1.8,0.3-2.3,0.6c0,0,2.4-0.9,0.8-2.3s-2.3-3.2-1.6-3.4
+			c0.7-0.2,1.6-0.9,1.8-1.6s0.4-2.1,0.1-2.6c-0.4-0.4-2.2-1.7-2.2-1.7s-1.1-0.9-0.9-1.2c0.2-0.4,1.1-1.3,1.1-1.3s1.1,0.2,1.1-1.3
+			s0-2.3-0.4-3.2c-0.4-0.9-0.4-1.6,0.2-2.2c0.6-0.6,1.3-1.6,1.5-1.9c0.2-0.4,0.2-1,1.3-0.8s1.4-0.1,2.2-0.4c0.8-0.4,1.6-1.3,1.6-1.3
+			s1.3-0.2,1.3,0.3c0,0.4,0.9,3,1.8,2.7c0.9-0.4,2.6-0.8,3.4-1.2c0.8-0.4,0.7-0.9,1.8-0.8s1.2,0.3,2.4-0.1s1.8-0.4,2.3-1.1
+			s2.4-2.3,2.4-3.2s0-2,0-2s3.8-0.5,4.7-0.6s1.8-0.1,2.3-0.4c0.5-0.4,0.5-1.1,1-1.1c0.4-0.1,1.9,0.2,1.9,0.2s0,0.3,0.4,0.4
+			s1.3,1.1,1.1,1.9s-0.7,1.7-0.9,2c-0.2,0.4-0.6,1.5-0.5,1.9s1.1,1.8,1.1,1.8v3.9h9.2c0,0,0.7-1.5,0.6-2.2c-0.1-0.7-0.9-1.8-0.9-2.1
+			s0.2-3.2,0.2-3.2s0.5-2.9,1.9-3.8c1.3-0.9,2.1-1.2,2.2-1.7c0.1-0.4,0.3-1.3,0.7-1.5s1.1-0.9,1.1-0.9S566.3,304.4,567,303.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAgdJREFUeNq0lttLAkEYxXfWW6Vs
+dLMLEfRQ2GtRQdCD9If70EtU9FBQkfRSGJoVmZa5XrYzcEaGaVd3tQZ+jOjsnD3zzZxRWMObMHq9
+eUY/cIKg32wQBymQMMbLidugBTqgFyQWJGJz0gyYBUvAoaDgZHLiD1AGb+CTor/E/ERiYBJkwTrY
+BDmwSEeqSQcVcAuK4AG8GGK+IkpgFWyDfbAF1ugkoY1t08kjuANX4IaCr8BVjuLGEimBPZAHO2CZ
+y+ZXkxkwz5eQrlc0l++gq4sITpKlgzxdSMEpvoAYUDs5Js0xz6yRFPqSyxbTlsnh0hyBA75dmr+J
+EDswSaTDOoX6IsqF3EG74BBsUDRmhWtKTAk1QUnVxuagFEVydJDhQ1GaHD8BFlibaVVHW3PicJs6
+PkWOIpQwD69tFD45hkDg+bMjxMzIzQ4IvH8RUWHnsh9XzDNFPC0iKuxHFeppydyfw9ZioMywk0HX
+0AMugsA3qIInUFNCMcOi3FlzzKN0hJ3mcanli56DY3Ct8ksX6RLBoHTYqztEDHDg8nTLFC6AU574
+lp8TV7sPVPDFjfzyNLqMkDIFzsAJuNeX3BRRD9XZt3kDWuxdft/UxpW4RAUKFFmPzl/cjBYLLYt8
+AS75uTHsZgx7x1vaPV+jmyrdhbrjw/5bMf+xtIO2vYgQdmLI6Q48vD8CDAAew6UtP6gkMwAAAABJ
+RU5ErkJggg==" transform="matrix(1 0 0 1 535.9965 318.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M548.6,340.3L548.6,340.3c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C557.8,336.2,553.7,340.3,548.6,340.3z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 542.1303 334.9311)" class="st4 st5">00</text>
+	</g>
+	<g id="western_europe">
+		<path id="territory" class="st2" d="M521.4,317.4c-1.1-0.2-1.1,0.4-1.3,0.8s-0.9,1.3-1.5,1.9s-0.5,1.3-0.2,2.2
+			c0.4,0.9,0.4,1.7,0.4,3.2s-1.1,1.3-1.1,1.3s-0.9,1-1.1,1.3c-0.2,0.4,0.9,1.2,0.9,1.2s1.9,1.2,2.2,1.7c0.4,0.4,0.1,1.9-0.1,2.6
+			c-0.2,0.7-1.1,1.4-1.8,1.6s0,1.9,1.6,3.4s0.6,1.7,0.6,1.7s-0.9,0.2-1.4,0.5s-0.1,0.4-0.6,1s-0.4,0.8-1.3,1s-0.1,0.8-1,0.6
+			s-0.8,0.3-1.3-0.3s-0.1-1.1-1-1.1s-1.3,0.1-0.9-0.6s0.9-0.8-0.1-0.8s-0.9,0.3-2.1,0s-1.8-0.1-2.3-0.1l-1.4,2.5c0,0,0.1,0.5,0,1.1
+			s-0.6,1.1-0.6,1.1s-0.4,0.4-0.4,1.1s0.3,0.9-0.5,1.6s-0.8,1-1.3,1.3s-0.5,0.1-0.9,0.6s-0.6,0.5-0.9,1.1s-0.3,0.6,0.1,1.3
+			s0.6,1.4,0.6,1.4s0.4,0.1,0.1,1.3s-0.4,1.9-0.4,1.9s0,0.5,0.1,1.5s1,2.1,1,2.1l0.6,0.9c0,0,0.4,1.5,0.5,2.3s1.3,0.5,0.1,1.5
+			s-2.8,1.6-3.9,3.5s-0.8,3.4-1.6,4.4s-0.1,1.1-1.3,1.1s-2.1-1.3-2.8,0s-1,2.4-1.9,2.5s-1-1.4-1,0.4s-0.4,2.9-0.4,2.9
+			s-0.3,0.9-1.1,0.8s-1-0.3-1.8-0.4s-0.8,0.4-1.4-0.4s-0.8-1.1-1-1.8s-0.3-0.9-1.3-1s-1,0.3-1.5-0.6s-0.8-1.1-1.5-1
+			s-0.8,0.6-1.8-0.4s-1-1.8-1.5-1.6s-1.1,1-1.1,1s0.1,0.5-1.4,0.4s-1.8-0.4-2.9-0.4s-1.3,0.8-2.3,0.3s-1.1-0.6-1.1-1.3
+			s0.1-1.5-0.4-2s0.1-1.1-0.6-1.5s-0.4-0.3-1.3-0.3s-0.9,0.1-1.8-0.4s-1.3,0.3-0.9-1.1s0.1-1.3,0.8-2.3s0.6-1,1-2.1s0.5-1.4,1.1-3
+			s0.9-1.1,0.9-2.4s-0.5-1.3,0.3-2.1s0.9-0.9,0.8-1.9s0.3-0.8-0.3-1.5s-1.8-1.9-2.3-2.4s-0.4,0.1-0.6-1.4s-0.8-1.3-1-2.1
+			s-0.3-0.9-0.3-2s-0.9-0.8-0.9-1.4s-0.4-1.1,0.5-1.6s1-0.1,2.1-1.1s1.1-0.8,1.4-1.6s1.1-1.4,1.1-1.4s-0.1,0.1,0.6,0.9
+			s0.9,0.8,1,1.3s-0.4,0.6,1.1,1s1.1,0.5,2.6,0.5s1.9,0.1,2.5-0.1s1.3-0.6,1.3-0.6s0.5-0.4,1.4-0.4s1-0.1,1.8,0.1s0.1,0.4,0.9,0.3
+			s0.9,0.1,1.5-0.3s1,0.3,1.4-0.9s0-1.5,1-2.3s1.4-1,2.4-1s-0.6-1.6-1.3-1.8s-1,0.5-1-0.1s-0.1-0.8,0.3-1.8s1.1-1.6,1.1-1.6
+			s-0.1-0.5-0.3-1.4s1.6-1.4,0.5-2.1s-1.6-1.1-2.4-1.1s-0.6,1.3-1.3-0.3s-0.1-1.8-0.8-2.5s-0.9-0.5-1.5-1.4s0.3-0.8-1.1-1.8
+			s-2.3-1.3-2.9-1.3s-0.9,0.9-0.8-0.4s0.1-1.6,1-2.4s3.1-1.4,4-1.5s-0.5-0.5,1.4-0.1s1.3,0.4,2.1,0.5s2.5,0.6,2.5,0.6
+			s0.3-1.9,0.8-2.5s0.6-0.6,1-1.6s0.5-1.1,1.8-1.5s2.1,0.6,2.1,0.6s-1.6,1.6-0.4,1s-0.4-2.6,2.4-2.3s3.8,2,4.1,0.1s0-1.9,0.6-2.9
+			s0.6-1,1.8-1.6s0.9-2.5,2.3-2.8s0.9,0,2.1-0.3s1.1,0,1.9-0.9c0,0,1.2,0.3,1.1,0.8s1,3.2,1,3.2s1.3,0.8,2.2,2.1s1.3,2.4,1.8,2.5
+			s0.7,0.1,0.8,0.9s0.2,0.9,0.6,1.4s0.9,0.4,1.1,1.2s0.3,1.6,0.6,1.9s1.3,1.1,1.3,1.1S521.3,317.6,521.4,317.4z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAg9JREFUeNqklktLw0AUhZtp+lKJ
+aK2PCoKIUhe68LlwIeIPF1y4sUsRdWGh+KjiA1of2DaJZ+SMDNNMmrYDH1OS9J65c3PPxEnFD8eY
+o0ZozNYgUUOADMhxdiwCHfADuiCIEnMswlKgAEpgEUwC13g+ZOAmaIA38EHRIE5ErX4ClMEm2OLv
+fMSCZAZP4ArcgFvwDL51IccQzIIiWAUbYJ9CJYqbo8NM6uASnIFz8ADaautcI4txChyDXbAGZpmF
+sNRkigsr8prcthZ4B768kDayWAB74IgZzFEgzWdMBO/lSMDgL6yPrFmoROTsgXVwCLbBfEwGZl0d
+7orL7FrM6EsKqxVmGHQHHIAVbl0/AfONzBJZ+HvwKmujguQoUgFLAwroNc3zJSnztf/rL6Fl4rEG
+XkzzJRHqaWChpZthqsMKWPtPDGAzQw9hMbtRRxglooyuzTkcIXhPHKHdaNKHmkMKWeMIzegaNLo6
+uzUYUCTg/+qM02Dcf1tRK8nQg2bYK0nftIDdfUeDlEZZ0zteDZ84PEs8zq5mHVFbZAqcggt2ezcq
+E1mwT+6lzGKMImlNJNSCt7n3SuAEVMEjtyqMEvHpOy3OHbUazm1eV8/IA+pay6BKQeuhldIcucBz
+ZJlnSoWWk4s5FWvaqegn6XD9GJ6meXpafRKf7/1sRNm3a/liSfSlktSr4r69wiR29CvAAMCSqiDx
+E8oyAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 483.9965 328.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M496.5,350.1L496.5,350.1c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C505.7,346,501.6,350.1,496.5,350.1z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 490.0453 344.6918)" class="st4 st5">00</text>
+	</g>
+	<g id="northern_europe">
+		<path id="territory" class="st2" d="M563,263.6l1.3,0.1c0.8,0.8,1.5,1.7,2.3,2.5c0,0,2.5,1.4,3.4,1.4s1.9-0.6,2.4-0.6
+			s-0.1,0.9-0.1,1.2s0.7,3.3,1,3.9s0.4,8.1,0.4,9.4s1.4,2.8,1.8,3.1s0.6,1.1,0.6,1.4s-0.8,1.4-0.9,1.8s0.1,1.2,0.1,1.8
+			s-0.5,0.8-1,1.3s-0.4,1.4-0.7,2.1s-0.8,0.6-1.4,0.9c-1.7,2.3-2.1,4.3-5,5c-0.6,0-2.1,0.4-2.3,0.9s-0.2,1.5-0.2,1.5l2.3,2.2
+			c-0.7,1.1-0.4,1.1-0.4,1.1s-0.7,0.7-1.1,0.9c-0.4,0.2-0.6,1.1-0.7,1.5c-0.1,0.4-0.9,0.8-2.2,1.7c-1.3,0.9-1.9,3.8-1.9,3.8
+			s-0.2,2.8-0.2,3.2s0.8,1.4,0.9,2.1c0.1,0.7-0.6,2.2-0.6,2.2h-9.2v-3.9c0,0-1-1.4-1.1-1.8s0.4-1.5,0.5-1.9c0.2-0.4,0.7-1.2,0.9-2
+			s-0.7-1.8-1.1-1.9c-0.4-0.1-0.4-0.4-0.4-0.4s-1.4-0.3-1.9-0.2c-0.4,0.1-0.4,0.8-1,1.1c-0.5,0.4-1.4,0.4-2.3,0.4
+			c-0.9,0.1-4.7,0.6-4.7,0.6s0,1.1,0,2s-1.9,2.5-2.4,3.2s-1.1,0.8-2.3,1.1s-1.3,0.2-2.4,0.1c-1.1-0.1-1,0.4-1.8,0.8
+			s-2.5,0.9-3.4,1.2c-0.9,0.4-1.8-2.2-1.8-2.7c0-0.4-1.3-0.3-1.3-0.3s-0.8,1-1.6,1.3c-0.8,0.4-1.1,0.6-2.2,0.4
+			c-1.1-0.2-0.9-0.6-0.9-0.6s-0.9-0.7-1.3-1.1s-0.5-1.2-0.6-1.9s-0.7-0.7-1.1-1.2s-0.4-0.6-0.6-1.4s-0.4-0.8-0.8-0.9
+			s-0.9-1.3-1.8-2.5s-2.2-2.1-2.2-2.1s-1.1-2.8-1-3.2s-1.1-0.8-1.1-0.8c0.8-0.9,1.4-3.1,2-3.4s1,0.4,1.4-1.6s-0.3-1.6,0.4-2.1
+			s1.4,0.1,1.8-1.3s0.3-1.6,0.3-2.3s-1.8-0.6,0.6-1.1s2.5,0.3,3-0.8s0.5-0.8,0.8-1.8s0.8-0.8,1.4-1.8s0.3-1,0.6-1.9s0.4-4.1,1-4.4
+			s0.6,0.5,1-0.5s0-1.3,0.8-2.3s0.9-0.9,1.6-1.4s0.9-0.4,1.1-1s-0.9-0.5,0.9-1.8s1.6-0.8,1.9-1.4s0.5-1,0.6-1.6s0-0.6,0.1-1.5
+			s0-0.3,0.1-1.8s0.4-2.5,0.5-3.1s0.3-1-0.4-0.9s-0.8,1.1-0.9,0s-0.4-1.5-0.6-2.1s-0.6-1.8-0.6-1.8s-0.5-0.5,0-1.3s1.1-1.9,1.1-1.9
+			s0.4-0.4,1-0.5s0.8,0.1,1.3-0.5s-0.5-0.8,0.8-0.9s1.5-0.1,1.5-0.1l-0.8,1.1l-0.1,1c0,0,1.4,0.8,1.6,2.3c0.2,1.5,0.5,1.6,0.4,2.4
+			s-0.3,3.8-0.3,3.8s0,1,0.8,1.6s1.3,0.9,2,1s2.1,0.3,2.8,0s1.3-0.4,1.9,0s1.4,0,1.9-0.3s1.1-0.5,1.8-0.6s1.1-0.1,2.4-0.1
+			s1.6,0.3,2.1-0.3s0.4-0.1,1-0.6s1.9-1.1,2.5-1.1s0.6-0.1,1.4-0.3s1.8-0.6,2.8-0.3s1.4,0.5,2.3,0.6S562.5,264,563,263.6z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkBJREFUeNqkll1PE0EUhrvb3ZYW
+I4ihiILGSIzeSsBrw//mihujeKnGkBiBGqCxoEEolG59J3kOmUy222Wd5Mmk3dnzzvmYMxvVyo0o
+mG2Mg3mqgaLnsUhEU6TeO874UFyJG5EVCRYJxRi+JxbEI3Ef0RrG/4gj0RfnCGd3EaqLluiI5+Kl
+eCWW8KyGJ8fiq/gmvosTcSlGZYRMZEW8EW/Fa/EUj1LWDfFoX3wR78UncZgnlkwQWRUb4p1YF8uE
+MMzRA/EwCKt7fhCKJUFOzBMnssXsfrd5Hk3IYxNbsbcJ59mF5azuhbDBzjYR2cSzWdZFBVWZshnz
++pICuRVKvBdm2P06ufE9mTZi1q6Quz7h6/N7HAdCrsqeMbdKioSh923MWCQs7s7defFYLFYQCcUW
+sTVvBWTGGuxgzTsrUQWhiHeXsNXB9q1HCeXZCcq0ilCurSrhqTRiat761gnzTZmOnDMm2jKPrnmw
+R/+6+g8h64F72Lz2PXK1fiZ+ih4HLqsglPFuD1tn4TlyYgN28MPrwlkFEd/GwCJTD9we81+bimmX
+rMCMduP620exIz6LU2usoZBz8y9zk97VCtZZGdvGRp7IB7GN2JGf61BohPvnLEq9NjKkgvxNXVBZ
+XYxvI3YYhj68j0zowCvVXzRL18XnOIhtRI5JvMvJbtHFN+0qdz3rCT1rltbyAsHflHCXxHe9ii11
+leddainMIW4e9SjhAdz54yTve866fAOPRxzGoVcYlT63pgmX/nh0458AAwAlu7k5r6s+KQAAAABJ
+RU5ErkJggg==" transform="matrix(1 0 0 1 529.9965 277.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M543,299.7L543,299.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C552.1,295.6,548,299.7,543,299.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 536.4999 294.2929)" class="st4 st5">00</text>
+	</g>
+	<g id="egypt">
+		<path id="territory" class="st2" d="M575.6,429.3c-0.2-0.9-3.9,0.2-4.8-0.2c-0.9-0.4-1.4-1.1-1.4-1.1s-0.7-2.1-0.9-3.2
+			s-2.7,0.2-3.5,0c-0.9-0.2-0.2-1.4-0.5-2.7c-0.4-1.2-1.8-0.7-2.7-0.7s-2.3-0.7-3.5-1.6s-1.6,0.4-3,0.5c-1.4,0.2-1.4-0.2-1.9-1.1
+			s-2.3,0.5-3.9,0.4c-1.6-0.2-1.2-0.9-2.1-2.3c-0.9-1.4-1.8-0.4-3.7-0.9s-1.2-0.7-1.4-2.1s-1.4-1.2-1.4-1.2s-0.2-1.6-0.4-2.8
+			c-0.2-1.2,0.2-3.2,0.2-3.9c0-0.7-0.4-3.4-1.6-3.9s-0.4-1.8-0.4-1.8s-0.5-1.8-0.4-2.7c0.2-0.9,1.4-1.9,2.3-1.9
+			c0.9,0,1.4-1.1,1.4-1.1s-1.4-2.1-2.1-3.4c-0.7-1.2,1.2-1.1,1.2-1.1l0.9-1.1c0,0,0.4-0.5,1.9-1.4s0.7-2.9,0.7-2.9s1.6,0.1,3.3,0.4
+			s1.4,1,2.4,2s1.4,1.3,3.5,2s2.3,1.1,3.6,1.1s3.6-1.3,4.5-1.6s2.4-0.5,8.4-0.9s6,3.5,7.4,3s2.9,0,3.6,0.3s2.9,1,4.1,1
+			s2.6,0.8,3.1,1s6.3,1.5,6.9,1.5l1.6-1.5l1.3,0.4c0,0,1,0.5,1.5,0.5s0.8-0.9,0.8-0.9l2-1.3l2.3,4.4c0,0-1,2.6-1,3.4
+			s-0.1,2.6-0.6,2.8s-1.1-0.1-1.9-0.6s-1.5-1.9-2.6-2.6s0,2.5,0,2.5c-0.1,0.5,2.4,3.9,6.8,9.9s0.5,3,1.4,4.5s1.8,2,2,4.3
+			s0.1,1.1,0.5,2.3l-0.3-0.3c0.1,1.6-27.3,0-28.9,0.5s-1.3,5.3-1.9,5S575.6,429.3,575.6,429.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfdJREFUeNq0lltLw0AQhZOmaatW
+rZd6R7GIFEUfBH0Q/O2C+CKKj1pFEC9Iq6Ci1dq0TTwLZ2Bdk96MgY+hbTpnZnZzNrbV/rKNaF6B
+EdsmCbsSwAVpRjtEoAHqoAn8KDE74jslMADyYB6MgqR2f8DEb6AMnkGVon4nEal+GMyCTbAF5kDG
+uFd1UAElcAmuwSOogVaUiFQ/BQpgHeyADXbkGiINdnILzsEROAX3plBSE3MpsA12KVLgdxkWYa7J
+GJgAM2BEy6eEPmV0Sa2LLJMqgT2wyLG5IQJhm0NyNTnKB+CpYmQxVRwHq2CNAjngdNiBNu8ZAgsc
+odoEd4zqcyAVptlykQLZLgSsiPVc0kZsy4+yHmqm04xuDwKmUJ67MSd5EsbCp/oUkBxpFrrCblJW
+yIL2k9wyCv01kYQV7yWbKKU7RNwiYjceY2BFPGB/ERAXqDD+2MJygyc/9CkifnZFH/Okk8gKehTx
+6VlPfNpfzU7qtOwSDa8aZtldCKjqbxi/pFDHaNel4U3SKmSHtDsZfZqhMsUTcAjOwIs4sS7SIjYt
+YZAijnFYBVpyj+NVAsdgn0JlTie0E/WnD7be4Da0tG1Z03jnWC4ocEABOU/8qCfc0Yxuma5c5BOc
+juNkNM+ILO1fP5BiOePNl4nkf72txP7e9S3AAMC9p6PluYrhAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 560.9965 394.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M573.2,416.3L573.2,416.3c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C582.3,412.2,578.2,416.3,573.2,416.3z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 566.6616 410.9379)" class="st4 st5">00</text>
+	</g>
+	<g id="east_africa">
+		<path id="territory" class="st2" d="M575.1,454.8c0,0-0.5-2.1-1.4-3.4c-0.9-1.2-0.4-2.7-0.4-3.5c0-0.9,0.4-1.4,0.9-2.1
+			s0.2-1.1,0.2-1.1l0.9-1.8c0,0,0.5-1.4,0.5-2.7s-0.7-0.7-1.4-0.9c-0.7-0.2-0.2-0.4,0.9-0.9s0.7-1.8,0.9-2.8
+			c0.2-1.1-0.4-5.5-0.5-6.4c0,0,2-1.3,2.7-1s0.3-4.5,1.9-5s29,1.1,28.9-0.5l0.3,0.3c0.4,1.1,1.3,1,1.3,1s2,1.5,2.3,2.3
+			s0.5,0.3,0.5,0.9s0.4,2.9,0.9,4.4s0.6,0.8,1.6,1.6s0.3,0.8,0.3,2.8s1,1.5,2,3.1s0.1,0.9,0.6,2.3s0.6,2,1.1,3s0.8,0.8,1.4,0.8
+			s0.8,0.4,0.8,1.9s2.4,2,3.4,3.5s1.1,1,1.8,2s0,0.8-0.6,2.9s0.1,2.3,0.8,3.3s4,0.9,4,0.9s3-0.3,4.1-0.9s1-0.9,1.5-1.3s4,0,6.5-0.6
+			s5.8-3,7.3-0.4s-3.8,13-6,18s-8.5,10-12.4,13.8s-6.3,8.4-6.5,8.9s-1.3,1.5-1.8,1.8s-1,0.6-2,1.9s-1.6,0.8-3,1.8s-1.1,2-1.1,2.8
+			s-0.4,2.4-0.8,2.9s0.5,3,0.5,3.9c0,0.9-0.3,2.9-0.3,2.9s0,0.4,1.4,1.1s0.5,5.3,0.5,5.3l0.3,0.5c0,0-1.6,1.6-2.8,1.6
+			s-2.6,1.4-2.6,1.4s-0.6,0.1-1.9,0.5s-2.3,0.3-3.4,1.8s-0.5,1.4,0.4,4.3s-0.4,1.1-0.8,2.1s0,3.1,0,4.4s-0.9,1.8-1.5,2.3
+			s-2.6-1.5-3.4-2.8s0-3.3,0.5-4.8s-1.1-3.6-1.5-4.9s-0.3-1.4,0.4-2.5s0.1-0.9-0.3-2.6s-1.4-1.6-1.8-2.4s-1.5-2.3-2.5-2.3
+			s-0.5-1.6-0.8-2.5s-2-0.5-2.6-0.3s-0.8-0.6-1.1-3.4s-1.1-9.8-1-10.9s2.9,1,3.4,0.3s0.6-6.4,0.4-7.9s2.1-0.9,3.6-1s1.8-2,2.4-3.3
+			s1.3-1.1,1.9-1.4s0.5-1.5,1.3-2.5s1.8-2.8,1.8-4.1s-1.9-2.8-4.1-2.9s-1.8,1-4.9,0.3s-3.8-0.6-4.8-0.9s-0.9-1.9-2-2.3
+			s-2.5,2.1-2.5,2.1s-1.3-0.4-2.5-3.4s-3-3.9-3.5-4s-0.6-3.6-0.6-4.3s-2.3-1.4-2.8-2.1s-0.9-1.9-1.8-2.1s-1.5-0.3-1.9-2.4
+			S575.1,454.8,575.1,454.8z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjBJREFUeNq0lt1LAkEUxffLLBQp
+JbMog6iooIceegmivz2CXqyefCgKoigqpSitTFO3c+MMDLdtXZMGfgy6s3PuPTNzZ10nWXNVLy1U
+/cCX4557IABpkOJ/MvEn6LAPLRKLmMll0gzIgxLIUbALGqAGnsEHEcF+EhEzeRYUQBmsgDUwA8aY
+wQO4ALcUk74OWqAXJyICE6AIlsAq2KTIQkQmD5z4ChyDE3CjhQIlmKLANtgBG2CRGWXUmkzRwhaD
+yFvzidC7sS5QWWSZgQjs0qosJ/dU5h6ty1gBOMyyQ/ukDwOVRYEWbVBgEvi/rJ1rbRARmVc2vnBT
+9Hy+4NPvdbAHtsC0ZU+SoxBY6yXrdAeaYplnDRBPl0lhCAFtd5k7scSz9f3A4Y8SH5aZvucM14zl
+OW71nAnUi3voDN/MXGP2HF7cwxGaq3389+ZZlVQXvFFaqEWMgNnfjRGEIoM1mbTBPTgF1+Atqpom
+FPgRrMlEDtATq6rw+IdsJKhXBnnKoNvmpNuDHJ6RWR7ItFU+4jLosyBKYayAQ3BpiqSvBofcwnnW
+rXRE7XLV5B1aIwJH4ABU6UZXZ+LwDujy5dC6E/pqjfq0s2mtZYUCJ6xbbWO3H5F6hxW0Tl5IkwH0
+aIPchmeMfp8WVSnQsoMadP3muT5SkedYPIscV2MG51zsRy78j3t+0IeEVOdxMkmBHMc0aNUTt/yn
+ZfPQn0Suqm2BdQO21Rr+6bsr7gMv8cfdlwADALiztxxagSTDAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 594.9965 448.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M607.7,470.7L607.7,470.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C616.8,466.6,612.7,470.7,607.7,470.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 601.2001 465.3129)" class="st4 st5">00</text>
+	</g>
+	<g id="congo">
+		<path id="territory" class="st2" d="M595,514.9c-0.6,0.3-0.8-0.6-1.1-3.4s-1.1-9.8-1-10.9s2.9,1,3.4,0.3s0.6-6.4,0.4-7.9
+			s2.1-0.9,3.6-1s1.8-2,2.4-3.3s1.3-1.1,1.9-1.4s0.5-1.5,1.3-2.5s1.8-2.8,1.8-4.1s-1.9-2.8-4.1-2.9s-1.8,1-4.9,0.3s-3.8-0.6-4.8-0.9
+			s-0.9-1.9-2-2.3s-2.5,2.1-2.5,2.1s-1.3-0.4-2.5-3.4s-3-3.9-3.5-4s-0.6-3.6-0.6-4.3s-2.3-1.4-2.8-2.1s-0.9-1.9-1.8-2.1
+			s-1.5-0.3-1.9-2.4c0,0-0.5-3.6-1.2-4c0-0.1-2.3,2.4-2.3,3.2c0,0.9,0.5,1.9-1.8,3s-3.7,1.8-5.1,2.3c-1.4,0.5-1.9,1.6-2.8,2.1
+			c-0.9,0.5-2.1,0.5-3,1.2s-1.6,0.7-2.1,1.8s-1.2-0.7-1.4,1.8s0.4,3.7,0.4,3.7s1.6-1.9,1.2,1.9c-0.4,3.9-1.2,4.2-0.7,5.7
+			c0.5,1.4,0.9,1.8-0.5,2.7c-1.4,0.9-2.7,0-2.7,0s-0.4-1.6-1.9-1.2c-1.6,0.4-1.8,1.1-3.4,0.7c-1.6-0.4-3.2-0.4-3.2-0.4
+			s-1.9,1.6-2.7,1.2c-0.7-0.4-0.7-0.9-1.2-1.9l-0.6-0.2c-1.1-0.4-1.2,2.1-1.2,2.1c0.4,1.1,1.4,1.6,0.9,2.1s-1.1,2-1.8,2.9
+			s-3.3,2.1-2.3,3.3s7.6,6.4,9,9.5c0,0,0.6,0.9,1.3,1.8s2.9-1,3.6-0.4s2.8,2,3.5,2.4s4.9-0.3,5.9,0.5s1.8,0.4,1.8,0.4
+			s-0.6,4.3,0,4.9s2.1,1.4,3,0.1s7.4-2,7.8-1s-0.6,3,0.6,4s2.1,1.8,2,2.8s-1.4,2-0.9,3.4s1.9,1.9,3.4,1.8s1.4,1,2.6,1.3
+			s6.1,0.3,6.6,0.6s1.8,1.3,2.1,1.9s1.8,2.9,2.6,2s1.9-5.5,0.5-6s-2.3-0.5-2.3-2s0.8-4.1,1.3-4.1s1.1-0.6,1.1-0.6
+			S596.3,515.9,595,514.9z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAitJREFUeNq0lstv00AQh72u2wTC
+S6S0FUhwoagcyoGHOHLg/+bADRXBkYeQENDwqgRtgJjEacxvq2+r0crdOgUsffJj1/ubGc/O2GXt
+Dxfd1yd9sWk8UIglnk/EFKH6ONGUSC4WRRfOi4uMfRNDUcEY0VmTmDtC2AucEpfEFbEiLourzPkg
+vopfYk98RvgnorOUSLD+DIveErfFNQT7xpM9RL6Il+K1eIt4KfabRBwx9wuti01xH6EVPAvfpDJ4
+sffihXginoltMQoeFZEXPQQeinviBgJdxoNRXfPRL2DYmjhrEmPAuS6MFz5My+KmuIsnfazPE0kT
+Qtzh/gch9B7u+rAtMODP5xB4IO5gWfcIgaZEKcBn2Y74hOAsN3vAp+d1wrWMB26OzZqTMD4DNzCy
+kxkrOzzcYFKvhQdNHi0SkVXO/t7lqcFs/iOstWTXyFODf3G4OI7//chNcavI62qeCttWJAgMye/h
+PxCqmzyZUHPeIDQ+ocjMVOVDQ60nfnd+ZCOVcSVtKVBi7IAdfyBkv8lvJrzDmxGVtG4pMKIwPqdI
+DvAoW4jiWOPdaTZkwRzbIePYW4Et8Ug8pccchD0WqXih5HpqapOtwmHxCYliBba4Pwx5LLLP4HdC
+t0NjmjA+5bqk+Pk5r1j4MR5sp5pWU3fsU8vWqWurpqSP23TF1I+EM2I9KvQadS30oCmhSvb3tr9E
+oVd0orpWt/lTyeYohO6YH7xkmv8RYAA5t7h5q6v1twAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 562.9965 478.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M575.7,501L575.7,501c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C584.9,496.8,580.8,501,575.7,501z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 569.2407 495.5395)" class="st4 st5">00</text>
+	</g>
+	<g id="south_africa">
+		<path id="territory" class="st2" d="M547.1,504.1c0.6,0.9,2.9-1,3.6-0.4s2.8,2,3.5,2.4s4.9-0.3,5.9,0.5s1.8,0.4,1.8,0.4
+			s-0.6,4.3,0,4.9s2.1,1.4,3,0.1s7.4-2,7.8-1s-0.6,3,0.6,4s2.1,1.8,2,2.8s-1.4,2-0.9,3.4s1.9,1.9,3.4,1.8s1.4,1,2.6,1.3
+			s6.1,0.3,6.6,0.6s1.8,1.3,2.1,1.9s1.8,2.9,2.6,2s1.9-5.5,0.5-6s-2.3-0.5-2.3-2s0.8-4.1,1.3-4.1s1.1-0.6,1.1-0.6s3.9,0,2.6-1
+			c0.6-0.3,2.4-0.6,2.6,0.3s-0.3,2.5,0.8,2.5s2.1,1.5,2.5,2.3s1.4,0.6,1.8,2.4s0.9,1.5,0.3,2.6s-0.8,1.3-0.4,2.5s2,3.4,1.5,4.9
+			s-1.3,3.5-0.5,4.8s2.8,3.3,3.4,2.8s1.5-1,1.5-2.3s-0.4-3.4,0-4.4s1.6,0.8,0.8-2.1s-1.5-2.8-0.4-4.3s2.1-1.4,3.4-1.8
+			s1.9-0.5,1.9-0.5s1.5-1.4,2.6-1.4s2.8-1.6,2.8-1.6l-0.3-0.5c0,0,2.9-0.9,2.4,0.1s0.9,4.6,0.9,4.6s0.1,0.8,0.4,1.8s0.1,1.1,0.3,2.1
+			s-0.4,1.5-0.5,2.3s0.1,1.4,0.3,2.4s-0.6,3.3-0.9,3.9s-1,0.6-1.5,1.1s-0.6,1.3-1.8,2.4s-0.9,1.1-1.6,2.3s-0.1,0.5-1.3,2.3
+			s-0.6,0.5-1.8,0.9s-1.8,1.6-2.3,1.8s-1.9,1.4-2.6,6s0.8,5.5,0.4,6.4s-2.8,4.3-3.1,5.3s-0.8,0.9-1.9,1.4s-0.8,2.5-0.8,3.3
+			s-0.8,3.3-2.1,4.5s-0.1,1.1,0.3,1.6s0.4,1.1,0.1,2.8s-1.6,0.8-2.4,1.3s-3.1,3.3-2.9,4.3s1.3,0.9,1.3,0.9s-1.6,1.8-3.1,3.6
+			s0.1,1.1,0.5,2.4s-0.9,0.3-1.6,0.3s-0.9,0.4-1.6,1s-1.3,0.5-4.8,1.3s-1.4,1.3-3.1,2.5s-1.6,1.6-6.5,1.6s-3.3,0.5-4.1,0.9
+			s-1.5,0.4-2.5,0.4s-1.8,0.5-2.4,0.9s-1.1,1.4-1.1,1.4s-0.5-0.3-1-1.1s-1.6-0.5-2.5-0.6s-1-0.3-1.9-1.4s0.3-1.5,0.3-2.1
+			s-0.8-2.6-0.8-3.6s0-1.5,0-2.8s-0.1-1.3-0.1-2.6s0-1.5-0.4-2.3s-1.4-1.6-1.6-3s0-1.9,0-3s-1.3-0.5-1.5-1s-0.9-1-1.4-2.5
+			s0.1-1.4,0.1-2.6s0-1.4,0-2.4s-0.8-1.4-1-2s-1.8-3.3-1.9-4.1s-0.3-1.4-0.3-2.5s0.1-1,0.3-1.9s-0.6-1.4-0.6-2s-3.3-3.8-3.3-3.8
+			s-0.4-0.3-0.5-1s-0.8-1.3-1.9-2.6s-0.6-1.4-0.5-2.4s-0.1-2-0.3-2.6s-1.4-3.4-1.4-3.4s-0.1-1.3,0.1-2.3s0.6-1.3,0.8-2.8
+			s0-1.1,0.1-2s0.3-0.9,0.6-1.6s1-1.4,1-2.5s0.8-2.1,1-2.6s0.8-1,1.5-2.1s-0.4-0.8-0.3-1.8s-0.1-1.8-0.3-2.5s-2-3.1-2.5-4.5
+			s1.8-2.8,3.5-5.5h0.1C553.3,510.1,547.1,505.3,547.1,504.1z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAeNJREFUeNrEls9LAkEcxXfG3SST
+hX5QBiF0KOxqlBB0iP7woEMQSaegH5dAisyog1ai5m5v4g2M4+66m2EDH+aw43v7/c7sG4UzeQhr
+NkdozYkCcc8kcEEeeNZ6JTwAPfAFgjizOBNJ0SJYAiXg01BQTAm3QRO8gXeaBmlMcmAerIJNsA0q
+YI0V6aEqeAY34A7cgxbogmGSiTbYAFVQAzugzEo8Y+2AlTTANTgHl+DBNnKtFmmDfXAEdsE62xa1
+J4tg2WqnQ6NP3TrXqMhji6o0qNGwwBcQCXuXN7TUXvXBI+cwZ7TJZ2uOwQFbtMBnYsIJ9NiFAtvY
+4mHoaRNdhSp5DxyCLZrmnHRDsBKXlbyAJ9BRLZNclKdJhRUU+YZZhuTvytQp6dMojUp8HlM/YpPT
+VhOpI60Fc780cJJ0ZIaYyWo20seowJt2hFEmOuz6nMMpxMd0pPGgzSxq/9IoVkcaYddk2DWYqEFG
+k4C/a1CnSd2Rjy3kiVBZtMKvPe1JC5hVKrMuwBlT+Se/TJMhEYwIn7O+Q+JuRtvgFFyBV379Y5Wo
+DftgLz1mkWvlV2iI99l7bXAC6oyUnt5X22TIu6DDeaDfxkjXrrFGBeGtUUHduE+Cf70ZZ3bHz+zf
+yp/+7/oWYAClEandSvMdpwAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 567.9965 544.655)">
+			</image>
+			<g>
+				<path class="st3" d="M580.5,566.3L580.5,566.3c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C589.6,562.2,585.5,566.3,580.5,566.3z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 573.9594 560.8915)" class="st4 st5">00</text>
+	</g>
+	<g id="brazil">
+		<path id="territory" class="st2" d="M404.4,403.6c0,0-4.3,3.6-4.9,4.6c-0.5,1.1-0.9,3.4-2.1,3.5c-1.2,0.2-8.7,0.5-8.7,0.5
+			s0.4,2.1-0.7,2.1s-11.5-0.4-11.5-0.4l-1.4-4.2c0,0-1.2,0.9-1.4-0.9c-0.2-1.8-0.2-4.6-0.2-4.6s-2.7,1.4-4.2,1.9
+			c-1.6,0.5-3,3.2-4.4,2.7s-2.1-2.3-2.5-0.9s0.2,5.7-0.9,6c-1.1,0.4-1.4-0.3-2.3,0.8s-3.3,1.3-4,0.7c-0.7-0.6-1.2-1.3-2-1.6
+			s-1.2-0.7-2.1-0.8s-1.1-0.5-1.8,0.3c-0.7,0.8-2.2,2.1-2.5,2.8s-1.7,3.3-1.3,4.2c0.4,1,1.8,0.7,1.8,2.5s-0.5,2.7-1.5,2.9
+			c-1,0.3-5.8,1.9-5.8,1.9s-4.1,0-4.2,0.6s0.1,4.5-0.9,5.3s-3.8,0.4-3.9,1.4s-2.1,1.6-1.4,3s2.1,2.6,3.1,2.6s2.3,0.1,2.4,1.1
+			s3.6,1.1,5,1.9s4.9-1.1,4.6,1s-3.9,2.5-4.1,3.9s-0.4,4.4,2.4,4.3s5.3-2,7.1-2.4s3.8-0.4,4.3-0.9s0.9-1.8,1.9-1.9s3.4,1,4.1,2.3
+			s0.9,2.4,2.4,2.5s1,1,2.1,1.5s2.1,0,3.1,0.6s1,2.8,2.6,2.8s3.9-1.1,4.5,0.1s1.3,3,2,3.8s0.3,1.8,0.5,2.5s1.8,0.9,2.9,1.8
+			s1.3,1.4,1.6,3.1s1.3,1.8,2,3.3s2,4.8,1.8,5.9s-1,2.5,0.5,3.4s2.1,1.4,3,2.8s1.5,0.9,2.1,1.4s1,2.4,1.4,5s3.3,3.6,3.4,5.4
+			s0.3,3-0.4,3.1s-1.9,1.3-2,3s-3.4,2.6-3.4,2.6s-2.1,1.5-1.9,2.5s5,0.3,5,0.9s-0.8,5.1-0.3,5.3s3.8-1,4.3-0.4s-0.6,4.5-0.4,4.9
+			s3.1,2.5,3.8,1.9c1.3-0.4,0.6-0.6,0.8-1.3s0.3-0.6,0.9-1.5s0.3-0.9,0.5-1.6s0.6-1.4,1.1-1.9s0.8-0.6,1-1.4s0.1-1.1,0.3-2.4
+			s1.6-1.4,3-1.9s1.3-2,1.4-3.3s-0.4-0.4-0.4-1.8s-0.1-1.9-0.3-3.3s0.1-0.5,0.8-1.1s0.6-3.4,2.1-6.5s12.5-4,13-4.1s3.4-1.1,3.8-1.6
+			s1.6-1.6,2.6-2.1s0.4-1.4,0.6-2.5s0.5-0.8,1.1-1s0.5-1,1.1-1.9s0-1.8,0.4-2.5s1.5-1,2.4-1.4s0.4-1.6,1.1-2.4s0-3.4,0-5
+			s0-1.8,0.8-2.8s-0.3-3-0.3-3l0.3-1.8c0,0-0.4-2-0.1-3s1.3-1.5,2.8-2.5s0.5-3.3,0.5-3.3V449c0,0,2.3-1,4-1s1.8-2.5,3.3-4
+			s0.8-3,1-4.3c0.3,0.5-0.3-0.8-0.6-1.9s-0.1-1.6-0.4-3.4s-1.3-2.5-2.3-3.5s-2.4-0.8-3.3-1s-1.4-1.9-2.3-2.1s-4.3-2.6-6.1-2.9
+			s-2-0.1-2.9-1.1s-1.4-0.4-2-0.4s-1.6,0.5-2.4,0s-1.1-0.3-2.3-0.3s-2.1-0.4-2.6-1.3s-0.5-1-1.3-1.4s-1.6-0.1-2.4-0.5
+			s-1.6-0.8-2.4-0.9s-1.6,0.1-2.4,0s-2.5-0.5-3.1-0.5s-2.5,0.4-3.4,0.4s-2.4-1.5-3.6-2s1.1-0.1,3-2.4s-0.8-3.6-1.3-4.5
+			s-0.6-1.6-1.4-4.3S404.4,403.6,404.4,403.6z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAelJREFUeNq8ll1LwzAUhru0tahl
+qAN1IKIXjnkrwv6A/1sQb0TxUqcIoqhMB37MubnOtb6RN5CFprabGHgIjC7v+co5KTnZq2Ts5kqM
+PfOQtN8F8EAA/JRv5cFDMABfILaJpYkIHhqCJbAKyhQsaQLy4A5ogWfQpWj8m4gLZsEy2AQ1UAcr
+9Ehf0oNH0ASX4Bo8gT4Y2USkB3NgDeyABtgG6/TEN0SG9OQWnIMjcAruTCFPE/PpgRTYA7ugyrDZ
+crIIKkZIHQr1VOg8zYuQIWpQYIOeiYwCUfkLtLNkriJwzz1RyfSY5BpDVKWAm6PE5TfzDLMqBpmr
+N/Aqwyb4cUCX68xBSCvzLpXPKo2s0egfJ4SWjzKrqGzJQR6hkEbWaXTgaNYqoZkJBZwsY0XODlBU
+aMxY4fzD+msR1c8i7kmaSPIHAqqEO0pIZFkwgYjqZ1fsY5HyxGpBQZGYPasNHngRxzwZsGU32fC6
+bHBJQQFp/Q33T/V/13DX501d4EVyWYYlS3knFOixKZ6AQ3AGXlQn1kVGxoQbaRNSGANLHR4xvFLg
+GOxTqMXopHoSsbG1yYfqpFp37ZN3huWCAgcUUPMktt1wffRW2Ie2LNNxosloPiJ8tvC0OT/VjC/y
+YpnqtVLk7ZXr3fUtwAB8bashw4vFdwAAAABJRU5ErkJggg==" transform="matrix(1 0 0 1 397.9965 436.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M410.1,458.2L410.1,458.2c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C419.3,454,415.2,458.2,410.1,458.2z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 403.6489 452.7397)" class="st4 st5">00</text>
+	</g>
+	<g id="argentina">
+		<path id="territory" class="st2" d="M396.3,495.5c0.1,1.8,0.3,3-0.4,3.1s-1.9,1.3-2,3s-3.4,2.6-3.4,2.6s-2.1,1.5-1.9,2.5
+			s5,0.3,5,0.9s-0.8,5.1-0.3,5.3s3.8-1,4.3-0.4s-0.6,4.5-0.4,4.9s3.1,2.5,3.8,1.9c-1.4,0.3-4.7,1.8-4,2.7s1.5,1.1,0,1.5
+			s-1.3,0.3-2.8,0.5s-1.3,0.1-2.9,0.5s-1.9,0.9-2.9,1s-1.5-0.1-2.1-0.1s-1.1,0-1.1,0.6s-0.1,0.8,0.5,1.3s2.4,1,2.5,1.5
+			s0.1,0.9,0.1,1.8s0.1,1,0.6,1.1s0.6,0.3,0.8,0.8s-1.3,2.3-2,2.8s-1.4,1.1-3.1,1.3s-1.4-0.1-2.5,0.5s-1.1,0.8-2.4,0.8
+			s-1.6,0-2.9,0.3s-2.1,0.5-2.1,0.5s0.5,0.8,0.6,1.5s0.8,0.9,0.3,2s-1.4,1.6-1.8,2.1s-0.4,0.3-0.4,1.3l-2.6,0.4c0,0-0.9-0.8-1.1,0.4
+			s1,2.1,1,2.1s-1.8,2.6-1.5,3.3s0.9,1.6,0.6,2.1s-0.1,0.8-0.8,1.3s-0.1,1-0.5,1.5s-0.8,1.3-1.6,1.6s-1.1,1-1.1,1l-0.6,1.1
+			c0,0-0.5,0.6,0.1,1.4s1.3,0.3,0.9,1.6s-0.3,1.8-0.3,1.8s1.3-1.4,1.1,2.4s-0.8,4.6-0.8,4.6s-0.6-0.1-0.4,1s0.8,2.1,0.1,2.8
+			s-0.5-0.4-1.5,1.6s0,4.8,0.6,5.4s1.1,0.8,1,2s-0.8,1.4-0.3,2.3s2.1,1.5,2.4,2.4s-0.3,1.5,0.3,2.1s1.1,1.1,1.1,1.1s-0.3,1-0.3,2.1
+			s-0.5,1-0.5,2s0,2.3,0.5,1s0.4-1.3,0.9-1.8s2.1-0.5,2.6-0.5s1-0.8,1.9-0.4s1,0,1.5,1.3s0.3,1.5,1.3,1.8s1.9,0.1,2.9,0.1
+			s1.3-0.8,1.5,0.4s1.8,1.5,0.3,2s-1.8,0-3.3,0.5s-1.5,0.5-2,0.6s-0.5,0.5-1.4,0.9s-0.4,0.8-2,0.4s-1,0.1-2.1-0.6s-1.6-1.1-1.6-1.6
+			s-0.8-1-0.8-1l-2.9-2.5c0,0-0.3,0-1.4,0s-1.3,0-2,0s-1.3-0.6-1.3-0.6l-1.8,0.1c0,0-0.4-0.4-0.2-1s0.3-0.6-0.1-0.6
+			s-1.2-0.1-1.8-0.3s0-1-0.1-1.3s-1.3-0.3-1.9-0.3s-1.5-0.4-2-1s-0.4-0.8-1.4-1.7s-0.8-1-1.7-1.3s-1.3-0.3-1.4-1s-0.9-0.9-1.3-1.6
+			s0-1.3-0.9-1.8s-1.1-0.1-1.2-1.3s0.2-1.8-0.1-2.4s-0.1-0.1-0.6-0.9s-0.8-0.9-0.9-1.8s-0.2-1.3-0.5-1.9s-0.9-0.8-0.9-1.4
+			s-0.1-0.9-0.1-1.4s0.2-1-0.1-2.3s-0.1-1.6-0.8-2.3s-0.7-0.3-1.2-1.9s-1.1-1.9-0.8-2.7s0.5-0.9,0.6-1.6s0.4-0.5,0.5-1.4
+			s0.1-0.6,0.1-1.8s-0.8,0.3,0.1-2.9s0.9-3.1,0.9-3.9s1.3-0.9,0.8-2.2s-0.7-1.3-0.6-2.2s0.6-1.3,0.5-1.7s0.1-0.3-0.1-0.8
+			s0.5-0.3-0.3-0.9s-1.1-0.5-1.2-1.4s-0.1-1.7-0.1-5.4s-0.2-3.9,0.4-5s0.9-1.2,0.9-2.1s0.5-2,0.1-3.1s-0.7-1.2-0.3-1.8
+			s0.7-0.6,0.7-1.4s0,0.3,0.1-1.3s-0.4-0.4,0.2-2.6s0.9-4.3,0.9-5.3s0.1-1.4-0.2-2s-0.8-3.6-0.8-4.6s0.2-0.8,0.4-1.8
+			s0.3-1.2,0.3-1.5s0-0.6,0.2-1.4s-0.2-2.5,0.5-4.3s0.9-1.1,0.7-2.3s-1.6-3.3-1.2-4.6s0.9-1.1,0.8-2.9s-0.3-4.3,0.2-5.3
+			s0.7-4.4,0.5-5.3l0.2-0.1c0.4-2.9-1.1-5.4-1.1-5.4s1.5-1.6,2.4-1.9s1,1.6,0.8,2.6s0.1,2,1.3,3.1s2.4,2.4,2.9,3.3s1.8,1.6,2,2.6
+			s0.6,2,1.9,3s2-0.1,2.3-0.9s-0.1-2.5,0.1-4.3s2.5,0.3,2.5,0.3s0.9,1.9,1.3,2.5s2,0.4,2.8-0.4s1.3-0.6,1.8-0.6s1.5,1,3.3,0.8
+			s1.9-0.4,3.4,1s0.3,2.1,1.6,3s1.4,0,2.3,0.4s0.4,1.5,1.8,2.4s5,0.1,6.3,0.6s0,1.6,0,2.5s0,3.3-0.6,3.5s-1.5,2-1.4,3.4
+			s3.4,0,4.8-0.6s2-0.5,3.4-1.8S396.3,495.5,396.3,495.5z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkVJREFUeNqslltrE0EYhveQQ5PY
+VGy0itVeWEFvlfbGK/GXe6NXKihI0aJYD7Sxkbok2sR213fgmfIxrOlm7cDD7DKz8853mG8njqq3
+OOiLoK/08bxxT1O0RIOxEzETfxAr5onOE0pYfAkui2uiz3gmhuJIHIMTzRcRSkVHXBU3EXD9Js8R
+IrviK8+u/y5+I1acJ+RF1sUD8VBsILoWWHTA4p/ES/FafBPj0Lr0HyK3xLZ4Ih6J+wivimXRQ3Ag
+brCBZRM/Z9XUCjWCmHhLthDZ4r3DeGy8kJIcTvQSDIxrj0mYU2tRzEfXjSXbWNZjXhy42r8nbLiL
+VW7uD9w6LhNyE++Kx7hrA5Gk4jFJyVI3fyL2xQgXFomZ2CSF1zG/U1EkCrwyYMMuQ69gbZwEk3rQ
+WlDExtl9f1vcIxTtyAS4SRa57FnhPa4hFK7V92v5Xbdw1x36VlS/2XJ1tuHEBLKLNV2TZRfWEkqF
+S8Ff4if9adWqXNIKqoItuGcBn5nadeBT8j9EfHnKvFhiBo+oU7YwLtpyztCe2OEsTa1FBSVjSIEc
+1hDzGx7hmV0qhCtDRRpMLExi9OkbFRLDxznDkqfilThEKEpLdjShb1MoO8G8OPgmJ8YZLnshnouP
+JFYeVu8cd30xi+WI+pLUNmfDbmyEy9+KZ+IDBbX0NxFhvhP7zEIn+Dn88TUYy5j7XrwR7xAZ2tSu
++ytf49TPSOEdhPawbFx2d6h7ObEW7WP1xAgUF3HdCmM0RTSve9067wK50CXyrwADAPtOt60mFOld
+AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 347.9965 510.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M361.1,532.8L361.1,532.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C370.3,528.7,366.2,532.8,361.1,532.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 354.6391 527.4305)" class="st4 st5">00</text>
+	</g>
+	<g id="eastern_united_states">
+		<path id="territory" class="st2" d="M326.2,264.3l6.3,0.1c0.7,0.4,0.4,5.3,0.4,5.3s3.4-1.8,5.8-1.1c2.5,0.7,4.8-3.2,5.3-0.9
+			s1.8,4.2,2.3,4.9c0.5,0.7,0.7,1.8,1.8,4.6c1.1,2.8,1.6,5.7,0.9,6.9c-0.7,1.2-2.7,3-1.1,3.9s3,2.3,3.9,3.2c0.9,0.9,4.9-2.3,4.8-3.5
+			c-0.2-1.2-0.7-2.1,0.2-2.5s2.3,0.2,3-0.7c0.7-0.9,1.9-2.5,3-2.3s3.5-0.7,3.5-0.7s1.8-0.5,1.8-1.4c0,0,10.3-0.3,11.8-1.2
+			c1.6-1,1.8-0.8,1.8-0.8s-0.7-3.9-0.4-4.2c0.4-0.3,1.1-0.5,1.9-1.2c0.7-0.7,1.8-0.8,2.8-0.6c1,0.2,4.5,2.3,4.1,4.2
+			c-0.4,1.9-1.9,5.6-0.4,5.7c1.6,0.1,2.8-0.1,3.1,1c0.3,1.1,0.5,1.9,1.1,2c0.5,0.2,2.4-0.5,2.4-0.8s-0.8,1.1-1.4,2.3
+			s-1.7,2.2-1.7,2.2c-2.1,0.9-2.5,3.6-3.3,2.5s-1.8-1.1-0.9-2.8s1.5-1.4,1.3-2.9s0.8-1.6-0.5-1.8s-0.6-0.1-2.1,0.4s-1.4-1.1-2.6,0.9
+			s-1.6,1.9-2.5,2.4s-0.5,1.1-1.1,1.9s-0.9,1.1-1.4,1.8s-0.6,0.6-0.6,2s1.1,3.6,1.1,3.6s-0.6,1.8-1.4,2.1s-0.9-0.9-4.1,2.9
+			s-2.9,4.1-4.9,5s-1.8,1-1.9,1.5s-1.5,1.1-0.8,2.3s0,1.4,1.1,1.9s2.3-0.5,2.1,1.1s-1.4,3.3-3.4,4.5s-4.6,5.1-7.3,5.8
+			s-3.8,1.5-3.6,2.8s0,2.8-1.4,2.8s-0.5,0.6-0.5,3.6s0.3,3.9,0.9,5s0.9,1.1,0.9,2.9s0,3-0.1,3.5s1,0.4-0.9,1.5s-3.5,1.8-4.3-0.1
+			s-2.3-1.4-2.4-2.9s0.5-5.1,0.5-5.1s-1.9-0.5-2.1-1.5s-1-3.4-1.5-3.8s-1.5-1.3-2.5-0.8s-2.8,1.5-3.4,1.4s0.9,0.1-2.6-0.9
+			s-5.1-1.5-6.6-1.6s-5-0.1-5.6,0s-6.6,1.5-7.4,1.5s-6,1.3-7.4,2.4s-1.3,3-2.8,3.6s-2,0.9-2,0.9s-1.5,1.8-1.6,2.8s-1.4,2.8-2,3.1
+			s-0.8,0.3-0.4,1.4c0,0-2-1.3-2-2.1s1.5-2,1.9-3.6s1.1-3.1,1.1-4s-0.1-3.5-0.1-3.5s-1.3-4.6-0.9-5.4s-1.4-1-1.4-1s-0.6-1.9-0.1-2.5
+			s2.4-0.6,2.9-0.9s2.3-0.8,2.3-0.8s1-5.5,1-6.1s0.8-4,0.8-4.6s3.4-1.9,3.9-2.1s2.3,1.1,2.4-0.3s0-4.5,0.1-5.4s0.5-1.5,1-1.8
+			s11.4-0.1,11.9-0.6S325.4,264.8,326.2,264.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjBJREFUeNqslklLA0EQhWdLos4Q
+l+CCUQOiIoJHL4J/3Zsnl6OK6MF9AzEhGo2ZGV/LKymaSZwkNnwUZEK9rqWr23XyLdeyZqWWzeWg
+13cPBKAECvzNOP8CbdpU0ZeQCBjHIZgCc6BM0Q5ogCfwCj6IEU3yColABCpgCayCdTALiozkEZyD
+Wwoa+wxaIP5LyIiMghmwDNbAJoUWMyJ6pPNLcAiOwE2WWGCJFiiyBbbBBqgxstCq0STT2eJGpujP
+fL+2xQIrmoiRGJEdpi2igGdlwGMaQ7UJT3WiiexdahZY0VSYrg2KTAC/Sy1d1TQhU+vQsUntJ7hj
+PdNA7S5kmjZpox4iWQ00BhbYeS9M34u0v6QjYI5XSEXVI+/SjVSjHREfktMSC7vOlIXqmzOA2DSY
+Z+p/Nuyp+pR5TsoDRKPrVqKfFUZV1BGJWHEIEfHjs17jtL5E9J8r5dkxbV2njaUZnC5DctDV5ki6
+oG1L6kRERkpjCDHxVbd9SUTmcD2AU3AFmt2m8B8rYQRvpC0blog6PFxn4ATc6/HRh0iL6brh9fGb
+GV/9MSYuz0KZXRPk6MKEGzMCB2APHFMstoVSFfYXz0NEUT/jakmtLjMi+2CXYg8sSZolFDP8Jv9U
+oJBrpTHhZt5Z8Fs636WY3ElJ1jXhKKFrq3Y1jhWZHE6/F1+33PtqZlU5SqpqrDgs+sBXedbbYYRM
+UERHNNTjJOty07NQ0t35j+dWnkdkXw/IbwEGAIxFwpD+HE9vAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 332.9965 295.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M345.9,317.8L345.9,317.8c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C355.1,313.6,350.9,317.8,345.9,317.8z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 339.4091 312.3427)" class="st4 st5">00</text>
+	</g>
+	<g id="western_united_states">
+		<path id="territory" class="st2" d="M326.2,264.3c-0.9,0.5,0.1,36.6-0.4,37.1s-11.4,0.4-11.9,0.6s-0.9,0.9-1,1.8s0,4-0.1,5.4
+			s-1.9,0-2.4,0.3s-3.9,1.5-3.9,2.1s-0.8,4-0.8,4.6s-1,6.1-1,6.1s-1.8,0.5-2.3,0.8s-2.4,0.3-2.9,0.9s0.1,2.5,0.1,2.5s1.8,0.3,1.4,1
+			s0.9,5.4,0.8,5.1s-3.4,0-4.4,0.1s-2.3-0.9-2.6-1.4s-0.8-1.1-1.9-1.1s-3.4-2.8-4-3.3s-8.4,0-9.4,0s-2.4-2.4-2.4-2.4l-3.9-2.1
+			c0,0-6.6,0-7.8,0.1s-1.8-3.4-1.8-3.4c-0.5-2.1-0.8-1.6-0.8-3.5s-2.9-5.5-4.3-7.5s-1.4-7.4-1.1-8.8s-0.3-6.4,0.6-8.5s0.9-5.1,1.5-8
+			s-0.1-2.3,1.4-5.9s1.4-1.3,1.6-4.4s1.3-1.3,1.4-3.9s0.6-3.9-0.3-5.1c0,0-0.3,0.8,0.8,1S322.4,265.3,326.2,264.3z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAaCAYAAACpSkzOAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAlpJREFUeNqslttrE0EUh/eSTUyi
+tbS01luLWEVfhVbQN/2/++SblxdBRIugbWrTENtKbNPc1t/AN3IYknUbHfgYspk9vzlzLjtxVG7E
+wexHHsx/NVD0fyIqoiYy844zPhQXYiQmRYJFQgmGr4olsSYWEI0w/lMcih/iF8JTBWcJpaIuVsU9
+8VA8EjfwLMKTtvgoPotvoit6RrBQyIvcEU/EU/FYrONRxrohHu0h9F58El/EkTi3YukMkbtiW7wU
+z8QDvHNCDdY0xTWxzLHe5Iid8VNxZoUqQUy8J1uIbPG7wf/xjDg2EVnmeRdvT8TYeuQMVNmZ92Qb
+z5qsiwuyMiV2NQx3SJJeKJRg0B3RC/FcbPAsKVlnsdmQy8DveOaSJk/MwivEYYO5XlLEimUc3yYs
+EZ44MQsWxS2xModIFJzMOuWw5svBG6vixaaplXgOIb/pBez4cvjjUYWHq6b65xGKjL2qtZNE/3/k
+tKcBc+6FctO3jphHZTryDBHfMdrMQ5t1A0R2WXDxD0K+B+5ic2A9GlLFBxTbedgUS44J73awdRJ6
+5MT67ODrtKZ4CRFro+9PJg3cznnWMA20TAZOaKL74o14JT6I47AF2UD6D1iNj159SpePzcbGRuS1
+2EHs0MY6FBrjfo9FGa0pRnwUbOqMzGphfAex/fDoK8FOvdCeSfsunwrXWq5T1A1E2gTexeSteGdE
+xpf5lLu+d5s+2KSt3EfwlBRuEfiWydjxPJcTf/vJEFgxHnVI4T4MZ2VqmeuW/d5k9LCUXQ98nRjm
+utcVCZe+PLrxW4ABAIbswX/oKmt9AAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 274.9965 281.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M288,303.7L288,303.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C297.2,299.6,293.1,303.7,288,303.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 281.539 298.2929)" class="st4 st5">00</text>
+	</g>
+	<g id="quebec">
+		<path id="territory" class="st2" d="M359.7,259.2c0,0,0.7-3.7,1.9-4.6s1.9-5.7,1.4-6.7c-0.5-1.1-1.4-1.4-0.7-3
+			c0.7-1.6,0.4-4.2,2.1-3.7c1.8,0.5,3.5,0.4,3.9-0.9c0.4-1.2-0.2-1.2,0-2.3s1.1-1.4,1.8-1.6c0.7-0.2,1.2,0.4,0.7-2.1s0-1.4-0.7-3.2
+			s-0.2-0.7-0.9-2.3c-0.7-1.6-1.2-4.1,0.5-4.2c1.8-0.2-0.2-2.3,1.1-2.8s3.5,0.2,3-1.9c-0.5-2.1-3.2-6.4-1.4-6.5
+			c1.8-0.2,4.3,0.7,4.3,0.7l6.3,0.4c0,0-0.6,2.4,1.3,2.6s2.1,1.4,2.8,1.8s1.6,1.3,1.4,1.8s-0.3,1-0.1,1.9s0.8,2.1,0.3,2.4
+			s-1,1-0.9,2s0.5,2.5,0.5,2.5s1,1.4,2.3,0.8s0.9-1.1,2.5-1.9s1.6,0.9,2.6-0.8s0.9-1.9,1.1-2.5s1.5-2.3,2.5-1.8s-0.3,5,0.7,6.6
+			c1.1,1.6,2.5-0.6,2.6,0.2s0.3,1.6,0.4,2.3s-0.8,1.1,0,2.1s0.9,1.3,0.8,2s0.4,1.4,0.4,1.4s1.4-1.3,2,0.3s0.1,2.4,1.3,2.4
+			s2.4,1.8,2.4,1.8l0.5,2.6l2.9-2l2.8,0.9c0,0-3.8,1.8-3.1,3.6s4.6-2.1,4.6,0.3s-0.5,4.9-1.4,5.1s-2.4,0.9-2.6,1.5s-1.9,1.7-3,1.9
+			s0.6,1.3-1.8,1.6s-3.1,0.3-3.6,0.3s-0.5,0.5-1.1,1.6s-0.1,1.5-0.8,2s2.3,0-1.6,0.9s-4.5,1.1-4.5,1.1s-0.3,0.4-1.5,0.4
+			s-1.8-0.6-1.8-0.6s-0.3-0.6-2-0.6s-3.4,1.6-3.4,1.6s-0.5,0.6-1.5,0.8s-2.4,1.4-2.4,1.4s-1.4,0.4-1,1.9s1.8,2.9,2.6,1.9
+			s2.3-5,4.1-4.6s4.4,1.1,3.9,3.9s-0.6,2.3-0.3,3.6s1.3,2.1,1.1,3.4s-1.3,0.9,0.1,2s2.9,2.9,3.4,1.3s1.1-2.8,1.8-2.5s2.4-0.5,1.1,2
+			s-1,2.6-2.1,3.4s-1-1.3-3,1.8c0,0.3-1.8,1-2.4,0.8c-0.5-0.2-0.8-1-1.1-2c-0.3-1.1-1.5-0.9-3.1-1s-0.1-3.7,0.4-5.7
+			c0.4-1.9-3.1-4-4.1-4.2s-2-0.1-2.8,0.6c-0.7,0.7-1.5,1-1.9,1.2c-0.4,0.3,0.4,4.2,0.4,4.2s-0.2-0.2-1.8,0.8
+			c-1.6,1-11.8,1.2-11.8,1.2c0-0.9,0-3.9-1.1-3.7c-1.1,0.2-0.9,0.7-1.6,0.2s-0.9-1.2-1.6-0.5s-0.4,2.3-1.1,2.1
+			c-0.7-0.2-1.8-1.8-2.5-1.6c-0.7,0.2-1.8,1.6-1.8,1.6s0.4-17,1.1-18.9h0.2L359.7,259.2L359.7,259.2z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="26" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAaCAYAAABCfffNAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAjpJREFUeNqslk1PU0EUhjv3ttZS
+BQMi4BcbTHCrgY0r4w934cYQE01cSPyKQYkograW1rbQ6zvJM+ZknFvahkmeTHpn5rxzzpk5U1eZ
+rLmo962I+nMXl40FauISvcPwUPTFqRiNEysTyTB4Ga6JG2JeVDHcFgfiWJwgmhRLieSiIZbFLYz7
+fkOs4NFAfBO74p3YE0eiY8RKRYLAbfFAPBTrCK4kPPmMyGvxVnwU30XPCuUJgTtiWzwRj8R9RJcQ
+mRNNcZVvq2JNLGK4JbpWpGpyEDzYQmCL3w3GXeR5yFsTgSW+H+HlL3EWdu+I86rxYBuPmmaOS+Qz
+Y7wO3ughB6ITi/gQ3BOPCdE6AtmEd8gZW/6kfcUjf8SLzNyDBXOaGhMKWKEaIduARdLhsmhSnX4a
+AZsj7/1dsUn465WEMVeZvYWNzpvjXrOeXFRLlaDKRYuUxrGSqKyztlA4B/SFFUkOzijQpq61g61s
+3OCUIiPuyB6F84B78s+TPh93mdSJK+kEXvgo/KBgvucJ8IW0yKOJ4UJd58xXS0pK7MEAo36Tz8Qr
+BE/jKnwGjodqDpE8EgkvY8H8HlF4I16IHfHJVuI84fIJC4dhJ0weRQnukr8vGH8qnhOulln7n0jY
+2U8en0MWeH6zsE8oPhCel4Roh2+t+OC4Me/7FYrcGi/jTQrfAoZ8cvfZzD4b6qXeeTemPGTkxP6Z
+WCZXXYz6h+kPDMtOpJvwrbA1KSes9uIWs/wlOu8PXjFNGforwADxgreFN5zlOAAAAABJRU5ErkJg
+gg==" transform="matrix(1 0 0 1 371.9965 236.655)">
+			</image>
+			<g>
+				<path class="st3" d="M384.2,258.7L384.2,258.7c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C393.4,254.6,389.3,258.7,384.2,258.7z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 377.7465 253.2909)" class="st4 st5">00</text>
+	</g>
+	<g id="central_america">
+		<path id="territory" class="st2" d="M264,319.1c0,0,0.6,3.5,1.8,3.4s7.8-0.1,7.8-0.1l3.9,2.1c0,0,1.4,2.4,2.4,2.4
+			s8.8-0.5,9.4,0s2.9,3.3,4,3.3s1.5,0.6,1.9,1.1s1.6,1.5,2.6,1.4s4.3-0.4,4.4,0c0.1,0.1,0.2,2.8,0.2,3.6s-0.8,2.4-1.1,4
+			s-1.9,2.8-1.9,3.6s2,2.1,2,2.1c-0.5,2.8-0.9,5.5,0.3,6.6l0.1,2.3l1.5,2.6c0,0,2.3,3.3,5.1,2.4s1.5-0.3,3.9-1.4s1.6,1.3,2.9-1.3
+			s0.4-2.8,1.8-3.3s0.6-1,2.4-0.5s0.1,0.6,2.4,0.8s2.5-2.4,2.3,0.5s-0.5,3-0.8,3.8s0.4-0.1-0.5,1.5s-1.4,1.8-2,2.1s-1,0.6-1,1.8
+			s0.3,2-0.9,2.5s-2.3-0.1-2,1.3s-0.1,1.8,0.9,2.4s1.8,0.8,2.4,1.9s0.9,2.5,0.6,3s-0.1,2.1-0.9,2.5s-1.8,0.1-1.8,1.8s0.8,2.9,0,3.3
+			s-2-0.5-2.3,0.4s-0.4,1.6-0.5,2.4s-0.8,0.9-0.8,1.4s0,0.3,0,1.6s-0.9,2.3,0.4,2.5s1.9,0.6,2.5,0.3s1.4-0.5,1.9-0.9s1.3-1.4,2-1.4
+			s2.3,0.4,2.3,0.4s0.8,1.9,0.6,2.5s0.4,0.5,0.3,2s-0.1,2.6-0.4,3.1s-0.6,1-0.9,1.5s0,0.5-0.3,1.3s0.1,1.9-0.5,1.4s-0.3-0.5-0.6-1
+			s-0.6-1.1-1.4-2.4s-0.6-0.5-2.1-1.3s-1.4-1.6-2.4-1.1s-0.6,1.4-1.8,0.6s-1.5-0.8-2.1-1.8s-0.5-0.9-0.9-1.6s-1.4-0.3-1.4-1.6
+			s0.4-1.6,0-2.4s-0.8-1.1-1-1.8s-0.4-0.1-0.4-1.4s0-2.1,0-2.6s-0.5-2.5-0.5-2.5l-0.6-1.3c0,0-0.1-0.1-0.6-0.9s-0.5-0.4-0.9-1.6
+			s-1.3-2.8-1.5-3.8s-1.6-2.3-5.8-3.8s-3.9-1.9-7.4-2.6s-4.8-1.4-4.8-2.9s0-2-0.9-2.5s-1.8-0.6-1.4-1.5s1-1,1.6-2.1s0.8-1.4,0.8-2.3
+			s0.4-1-1-1.6s-4.1-3-4.1-3s1.6-0.4-1.9,0.1s-3.8,2.5-4.8,1.3s0.8-5.6-0.5-6.3s-1.1,0.3-1.9-1.4s-0.1-3-0.5-4.4s0,0.8-1-3.9
+			s0.9-3.4-1.4-6s-5-2.4-5.3-4.5C264.1,325.3,264.2,319.6,264,319.1z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAehJREFUeNq8lltLw0AQhdNt0ngJ
+9YaXqoi+lPgqQv+A/1sQX0TxUasIomipFm+1WJvaxLNyFrZLkqYluPCx0KZ75sxsZ1Kw0lfB2M0V
+GXvqIXGfC2ADFzgxz8qD+6AHfkCYJBYnInioBxbBGihTsKAJyIPboAleQYei4SiRIpgGK2AHVIEP
+VulIX9LBE6iDa3ALnkEXDJJEpIMZsAn2QA3sgi06cQyRPp3cg0twAs7Bgylka2IOHUiBA7APKkxb
+Uk0WwJKRUotCXyp1tubCY4pqFNimM5FyQVT9XO0sWasAPHKPVDFtFrnKFFUoUMxwxeUzs0yzugyy
+Vh/gXaZN8GGXln3WwGOUWZeqZ4VBVhn0nwmh1aPMW1ROqEEWIY9B+gzatbRolVBpQgErLViRsQOM
+KzQUrLD+YeUtovpZwD2KE4lyEFBXuK2ERFoEE4iofnbDPhYoJ4kRjCkSsme1QIN/xCEnPbbsOhte
+hw0uGlNARn/H/Vv9vmjYdfhPndf6kRgxGUM2Q9kUz8AxuABvqhPrIgNjwoUUKWkXJNIImfM2BU7B
+IYWazE6sk4CNrcVIIopY/K6r8cm0XFHgiAJqnoTmPNHz2tAOeOFlWAdTeUxG8yVCjuFlsAHm8pzx
+SQMp97eV3N+7fgUYADQWsEItaKqaAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 281.9965 343.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M294.2,365.3L294.2,365.3c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C303.4,361.2,299.2,365.3,294.2,365.3z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 287.7055 359.8725)" class="st4 st5">00</text>
+	</g>
+	<g id="peru">
+		<path id="territory" class="st2" d="M347.1,472.5c0.9-0.3,1,1.6,0.8,2.6s0.1,2,1.3,3.1s2.4,2.4,2.9,3.3s1.8,1.6,2,2.6
+			s0.6,2,1.9,3s2-0.1,2.3-0.9s-0.1-2.5,0.1-4.3s2.5,0.3,2.5,0.3s0.9,1.9,1.3,2.5s2,0.4,2.8-0.4s1.3-0.6,1.8-0.6s1.5,1,3.3,0.8
+			s1.9-0.4,3.4,1s0.3,2.1,1.6,3s1.4,0,2.3,0.4s0.4,1.5,1.8,2.4s5,0.1,6.3,0.6s0,1.6,0,2.5s0,3.3-0.6,3.5s-1.5,2-1.4,3.4
+			s3.4,0,4.8-0.6s2-0.5,3.4-1.8s5.1-3.4,5.1-3.4c-0.1-1.8-3-2.8-3.4-5.4s-0.8-4.5-1.4-5s-1.3,0-2.1-1.4s-1.5-1.9-3-2.8
+			s-0.8-2.3-0.5-3.4s-1-4.4-1.8-5.9s-1.6-1.5-2-3.3s-0.5-2.3-1.6-3.1s-2.6-1-2.9-1.8s0.3-1.8-0.5-2.5s-1.4-2.5-2-3.8
+			s-2.9-0.1-4.5-0.1s-1.6-2.1-2.6-2.8s-2-0.1-3.1-0.6s-0.6-1.4-2.1-1.5s-1.6-1.3-2.4-2.5s-3.1-2.4-4.1-2.3s-1.4,1.4-1.9,1.9
+			s-2.4,0.5-4.3,0.9s-4.4,2.3-7.1,2.4s-2.6-2.9-2.4-4.3s3.9-1.8,4.1-3.9s-3.3-0.3-4.6-1s-4.9-0.9-5-1.9s-1.4-1.1-2.4-1.1
+			s-2.4-1.3-3.1-2.6s1.3-2,1.4-3s2.9-0.6,3.9-1.4s0.8-4.6,0.9-5.3s4.2-0.6,4.2-0.6s-0.8-2.1-1.3-2.7s-1.5-0.8-2.2-1
+			s-1.9-1.4-2.7-1.3c-0.9,0.1-3.2,0.1-3.8-0.6c-0.6-0.7-1.7-1.5-3.3-1.6s-2.3,1.1-3.4-0.6s-3-4-3.5-4.1s-3-0.4-2.3-1.1
+			c-1.9,1.3-1.8,3.8-2.5,5.6s-1.4,2.6-2,4.6s0.4,1.5,1.1,3.6s-0.3,1-0.6,2.3s-0.1,5.3-0.1,5.3s0.9,2.6,1.4,3.1s2.5,2.8,2.5,2.8
+			s-0.3,1.6,0.3,3.6s1.4,1.3,1.9,2.3s2.5,3.1,3.1,3.6s2,2.6,3.4,3.1s0.4,2.4,0.3,3.4s1.4,3.3,1.9,4.3s0.8,0.3,1.3,1s1.9,1.8,2.8,2.3
+			s1.8,0.6,1.8,0.6s1.3,1.1,2.1,1.8s2,0.9,2.8,1.1s2,3,2.6,3.6c0,0,2.8,1.1,3.4,1.3S346.3,472.6,347.1,472.5z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="25" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAZCAYAAADE6YVjAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAfpJREFUeNq0lt1LAlEQxfdLTZGN
+Cissgh4KX4yIInqL+sODHoJIegr6eAmkyIyC1BLd3O3cOBeGy+7qYl74cUXXOTNz78ysbaUv29jN
+FRl7qpG45YAcKHC3YwQCMAA/IEwSsxO+UwJFUAFrYB544vmIhjugBT5Aj6LhOBHtfRlUwQ7Y4+c5
+41kVwSu4Aw/gEbRBH4ySRNTnPFgCW6AODilUobhcASNpgltwCa7BkynkGVGUKXAKDsA2WGYUTsyZ
+LNCpVeALe0roW6fOEwJFpqVOgToN5GME4i6HtqXOagieuUeuSJPyZh8cg12wwj87Y26nFlJOlpjG
+Ni/DQIqUmKYTcATWE1KUJuYRFckbeAFdlTKHD+R4Tas85CwC5plugBozU7CEIdsovKwC0obPVPu6
+iJ0MHSCLUF52CceazbLNPM5iRWki0T8YD1gfgbbnxHTU2CaXQaDDntbRQo748ZNVqptcVqGQnbjJ
+ptmi05ZrHJLHwvS5exPeuJC9SvWsK3DBrvzXv1wj1C/uBRZWUQjZCSkyBc7BDXhn9VtSZMQ09Rhm
+TkTjGgNLGx8y91rgDDTYUgb64F3DqxG96lIw0N6I7tonXZ7fvYigIeZJmFbhLtOk5sgmZ0pNdOWp
+JmPSGF40hpI97YyPmxVewhvLVG8rWd69Jnrv+hVgAPPzpYoUe0sSAAAAAElFTkSuQmCC" transform="matrix(1 0 0 1 345.9965 453.6551)">
+			</image>
+			<g>
+				<path class="st3" d="M358.4,475.3L358.4,475.3c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C367.5,471.1,363.4,475.3,358.4,475.3z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 351.8998 469.8407)" class="st4 st5">00</text>
+	</g>
+	<g id="western_australia">
+		<path id="territory" class="st2" d="M862.5,599.9l0.2-0.3c0,0,0-5.7,0.2-7.1c0.2-1.4-0.4-1.2-1.1-2.3
+			c-0.7-1.1,0.9-42.2,0.7-43.1c-0.2-0.9-29.9,0.4-29.9,0.4l-0.6-37.7l-2.1-1.2c0,0-1.6-1.1-2.5-1.6s-1.6,1.9-2.3,2.3
+			s-2.8,1.6-2.8,1.6s-0.5,1.8-0.9,3s-1.9,0.2-3.9,0.9c-1.9,0.7-0.2,0.7-0.7,2.5s-0.5,0.2-2.1,0.2s-0.7,0.7-1.8,2.1
+			c-1.1,1.4-1.2,0.4-2.7,1.6c-1.4,1.2-0.4,1.2-1.2,3s-1.1,0.9-2.1,1.6s-2.8,2.5-3.9,3.5c-1.1,1.1-1.6,0.5-3.7,0.4
+			c-2.1-0.2-0.9,0-2.5,0.2s-1.2,1.2-2.3,2.1c-1.1,0.9-1.6,1.2-2.8,2.5s-0.5,0.5-2.5,0.7c-1.9,0.2-1.1,0.2-3,1.4s-0.2,1.6-0.4,3
+			s-0.5,1.4-1.1,2.7s0,1.6,0.5,3s1.6,0.5,1.6,0.5s-0.4,2.1,0,2.8s-0.2,0-1.8,0s-0.7,0.5-0.7,1.8s0,1.2,0,1.2s-0.5,0.2-1.1,1.2
+			s0,0.9,0.2,2.1c0.2,1.2,0.4,1.8,0.9,3s1.1,0.9,1.9,2.8c0.9,1.9,0.4,2.1,0.4,3.9s0,1.2,0.2,3.5s1.2,1.6,1.2,1.6s1.2,0.9,1.9,1.4
+			s0.7,1.1,1.1,2.8c0.4,1.8-0.5,1.4-0.9,2.5s0,0.7-0.2,2.8s-0.9,1.2-1.6,2.1c-0.7,0.9-0.5,0.9-1.1,2.3c-0.5,1.4,0,1.1,0.9,1.8
+			s1.9,1.2,3,2.1c2.4,2.7,5.1,2,8.1,0.4c1.6-0.9,0.9-1.1,2.1-1.6s0.9-0.4,1.6-0.7c0.7-0.4,1.2-0.9,2.3-1.9c1.1-1.1,0.4-0.2,1.6-0.9
+			c1.2-0.7,1.4-1.2,3.4-1.9c1.9-0.7,2.5-0.2,2.5-0.2s0,0,1.6,0s0.7,0.2,1.1,0.9c0.4,0.7,1.4,0.7,2.1,0.7s1.8-0.2,2.7-0.5
+			c0.9-0.4-0.2-1.6-0.2-2.3s0-0.9,0.5-2.1c0.5-1.2,2.1-1.6,2.8-1.6s2.5-0.4,3.2-1.1c0.7-0.7,1.1-0.4,2.5-0.5
+			c1.4-0.2,1.2-0.5,2.3-1.6s1.1-0.5,3-0.5s1.1,0,3,0s1.8,0.2,3,0.4s1.9,1.4,2.8,1.9s0.4,0.7,0.4,2.1c0,1.4,0.2,1.6,1.6,4.1
+			c1.4,2.5,2.1,2.5,2.1,2.5s1.2-1.8,2.3-3.4s0.9-0.5,2.5-1.1c1.6-0.5,0.5-1.1,0.9-3.4c0.4-2.3,1.1-0.7,2.3-0.5s0,2.3-0.4,3.5
+			s-1.1,1.6-1.9,2.5c-0.9,0.9-0.9,1.1-1.9,2.3s-0.5,1.1-0.4,2.5c0.2,1.4,1.9-1.2,2.7-2.3c0.7-1.1,0.7-0.4,1.6-0.2
+			c0.9,0.2,0.2,2.3,0.2,3.4s0.2,0.9,1.1,1.4c0.9,0.5,0.9,1.6,0.4,3s0,1.4,0.2,2.5s2.1,3.7,2.8,4.4s0.5,0.4,1.2,0.7
+			C861.6,598.6,861.3,599,862.5,599.9z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAkFJREFUeNqslttLW0EQxs8lyTEm
+xGtjVaooUaLggw++CLZ/vCIUxYe20FYLBW/EK96jiTmn38I3MKybnKN24cc+7Dnz7czOzK7vZRu+
+NctIrDnVQK/1AORABPLqH2O8DZ7AM4h7CfopAsZwCQyDj6BCUY/Gb0ADXIJ7CjsFXUIiUAYjYArM
+gToYo2cePTkBv8Ae2AfnlmBXISNSBFUwC+bBEoU+0aM8v23TowOwC76DnxS9AC3tWc4SzVNkBayC
+RTBNz0qOMxoCo/R6Bkwob69AxyUUMFyzFFmjgTIFgi4RMGv93IhZP+WZGbEHCWGovCmAcXrzmWcy
+2EPEzsoCMZ7eUuyFUMj4L4AvYBl8sEKVpQxErAmO9VnJTnNM4RoZeYWIDmMfz3iac5/YCPhRxDqp
+81xKas17pViR0ZhQofcDlW0V1knlDd7oEEa0U6NXBe2RiBXeISJ2QmbhAOdQPPqfI2HtmGy75tyR
+ZNANssU5eYeQtKY/rKmWhC5R7eSE81vFzD+P4IzpfSW2AtUyGmyQpjne2U0xo0ibxo8o9igbDq0P
+86yhUUdvSxsxo/EbbIBvLNiOLdQhPmuhwqzJpYglFDEHfwi2wCb462pB8kNL3ScRG2pRfZdYxPzn
+hiLbYB38oDfPru4ds0cdKg/EUFXdQ3pIEu3zLvoKdpht7W73kYSvycss4Y7MzibZt+yhb9ldhuuU
+NuIsb4ZQ9axJVrl9Vonj3XDnusbTXkFyqUU9si/zSyjLc8vLkHWpb7t/AgwAXruzaGx40hUAAAAA
+SUVORK5CYII=" transform="matrix(1 0 0 1 797.9965 540.655)">
+			</image>
+			<g>
+				<path class="st3" d="M810.9,562.6L810.9,562.6c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C820,558.4,815.9,562.6,810.9,562.6z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 804.3608 557.1537)" class="st4 st5">00</text>
+	</g>
+	<g id="alberta">
+		<path id="territory" class="st2" d="M253.4,214.7c0,0,0.1,0.1,0.6,1.6s0.9,2.5,2,4.5s0.1,8,0.1,8l2,2.8c0,0,1.6,0.8,2.3,0.9
+			s0.4,3.3,0.3,4.5s-1.6,0.6-2.5,0.9s-1.1,2.4-1.3,3.6s-2.4,0.8-2.4,0.8c0.6,1.3,1.9,1.4,2.4,3.6s0.3,1.5,0.9,2.4s1.8,1,2,3
+			s0.3,0.9,1.6,3.5c1.3,2.6,0.1,3.8,0.4,6.1s1.5,1.5,2.4,2.8l0.4,1.4l48-0.1l4-48.4C316.5,216.5,253.6,214.7,253.4,214.7z"/>
+		<g id="armies_background">
+			
+				<image style="overflow:visible;opacity:0.25;enable-background:new    ;" width="26" height="25" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAZCAYAAAAv3j5gAAAACXBIWXMAAAsSAAALEgHS3X78AAAA
+GXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAghJREFUeNrElmdLA0EQhr0Wowa7
+xoYFROJXEfIH/OeCIIpfFCwIYm8otiTmqu/CuzIs3uVyiC48DLnbzLszOzt7Vk/nYRnWHIlhM52k
+vbOBC3qB98N85TwAbRCCOE0wTcim4woYBVNgkKKWEFHO38AdeAYfFI7zCDmgD0yCJbACaqDKyORQ
+kdyDI3ACzsADaIEoS0hF0g/mwBqog1Uwz4g8Y37AiC7AIdgGe+DKFHMNUY+RKJENsA6mmcK0PRoB
+Y0Z6eyjW1Gl0jWgqTFedIouM0M6xn73CX8i03gBfLcgV0bjc+BWma5oiTo7yV3MGmPKAhXFJq34n
+tphcpvMa96TC1eYdtiiiBdqyzoQpNAFmwXDKnuQVU35mpB9bFMEwX07IlXQ5LO6VOgrLjKokIyrx
+4bI4L0WFPFZfVRyJ74gcbvyQKIAiQrKwSrKT2DwLEWv+lTbq1CQzhm5NPm0iU+ezdZyypbQLCiWi
+W9zTfpe3fvnCA/YIPgsKqS7QYEs6YrNty4gSOlci1xQNuhTTC35iZk55YEN5YLXQLVdywZYfdxmN
++s852KdtaB/OD6vy2CTH2VZ05WTdsDGLSDXSHbDFK6OZJhQR3Sn6KeQYF14iBHxuuhLZBZvggCkM
+5SVnrs5nyC3mPBQd2edzzTur9ZiRbPI+ujUr999u2D/9ZvjTr6Bf/677EmAA3Rm2Sr0LLNcAAAAA
+SUVORK5CYII=" transform="matrix(1 0 0 1 274.9965 229.655)">
+			</image>
+			<g>
+				<path class="st3" d="M288,251.2L288,251.2c-5,0-9.1-4.1-9.1-9.1l0,0c0-5,4.1-9.1,9.1-9.1l0,0c5,0,9.1,4.1,9.1,9.1l0,0
+					C297.2,247.1,293.1,251.2,288,251.2z"/>
+			</g>
+		</g>
+		<text id="armies" transform="matrix(1.0595 0 0 1 281.539 245.8036)" class="st4 st5">00</text>
+	</g>
+</g>
+</svg>

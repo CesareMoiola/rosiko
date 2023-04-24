@@ -1,0 +1,19 @@
+.winner_card_content{
+    padding: 8px !important;
+    text-align: center;
+    height: 100%;
+}
+
+.winner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px !important;
+    padding: 32px !important;
+}
+
+.margin_right{
+    margin-right: 16px !important;
+}
+
+.win_emoji{margin: 16px;}

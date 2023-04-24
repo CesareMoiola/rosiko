@@ -1,0 +1,25 @@
+.matchLabel{
+    display: flex;
+    align-items: center;
+}
+
+.matchName{
+    text-align: left;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.publicMatch{
+    visibility:visible;
+}
+
+.icon{
+    opacity: 0.87;
+    margin-right: 0.5rem;
+}
+
+.join-match-button{
+    margin-top: 16px !important;
+}

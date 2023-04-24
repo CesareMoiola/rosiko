@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  #backend:
+   # image: backend-prod-i
+    #build:
+     # dockerfile: Dockerfile.prod
+    #container_name: backend-prod-c
+  frontend:
+    image: frontend-prod-i
+    build:
+      dockerfile: Dockerfile.prod
+    container_name: frontent-prod-c
+    ports:
+      - "3000:80"
+    environment:
+      - NODE_ENV=production

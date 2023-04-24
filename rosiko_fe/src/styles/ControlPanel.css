@@ -1,0 +1,68 @@
+.controlPanel{
+    max-width: 350px;
+    padding: 0 !important;
+    width: 300px;
+    min-width: 200px;
+    overflow-y: auto !important;
+}
+
+.player_list{
+    padding: 0 !important;
+}
+
+.avatar{ 
+    width: 16px !important;
+    height: 16px !important;
+}
+
+.list_item2{
+    padding: 0 4px !important;
+    border-radius: 16px !important;    
+}
+
+.control_panel_divider{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.control_panel_divider_bottom{
+    margin-top: 16px !important;
+    margin-bottom: 8px !important;
+}
+
+.player_lable{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 16px;
+}
+
+.paragraph_margin{
+    margin-top: 8px !important;
+}
+
+.action_panel_title{
+    margin-bottom: 16px !important;
+}
+
+.controlPanelHeading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.cardsIcon{
+    height: 1.2rem;
+    width: auto;
+}
+
+.playerInfo{
+    display: inline-flex;
+    align-items: center;
+}
+
+.surrender_button{
+    margin-right: 16px !important;
+}
+
+::-webkit-scrollbar {display:none;}

@@ -1,0 +1,55 @@
+.gameCard{
+    display: block;
+    width: 170px;
+    height: 230px;
+    border-radius: 16px !important;
+    border: 4px #e0e0e0 solid;
+    cursor: pointer;
+}
+
+.card_divider{
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+}
+
+.image{
+    align-items: center;
+    width: 100% !important;
+    height: 70px !important;
+}
+
+.symbol_image{
+    align-items: center;
+    width: auto !important;
+    max-height: 70px !important;
+}
+
+.jolly_image{
+    align-items: center;
+    width: auto !important;
+    height: 65px !important;
+}
+
+.jolly_game_card_content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: calc(100% -4px);
+}
+
+.card_divider{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.game_card_content{
+    text-align: center;
+}
+
+.card_territory_name{
+    opacity: 0.6;
+}

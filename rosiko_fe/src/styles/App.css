@@ -1,0 +1,45 @@
+.App{
+  position: relative !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+  width: 100vw;
+  user-select: none;
+  -webkit-touch-callout: none; 
+  -webkit-user-select:none;
+  -khtml-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  -o-user-select:none;
+  user-select:none;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.menu{
+  padding: 64px;
+  border-radius: 32px !important;
+  background-color: rgba(255, 255, 255, 1) !important;
+  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+
+   /* Add the blur effect */
+   -webkit-backdrop-filter: blur(10px);
+   backdrop-filter: blur(10px);
+}
+
+.tractor_hompage{
+  position: absolute !important;
+  left: -4rem;
+  bottom: -8px;
+  height: 4rem;
+  opacity: 0.6;
+  animation-name: tractor_animation;
+  animation-delay: 1s;
+  animation-duration: 4s;
+}
+
+@keyframes tractor_animation {
+  to {left: calc(100vw + 4rem)}
+}

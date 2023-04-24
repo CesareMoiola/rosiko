@@ -1,0 +1,45 @@
+.logo{
+    height: 3rem;
+    width: auto;
+    display: inline-block;
+}
+
+.avaiableArmiesCard{
+    border-radius: 16px !important;
+    margin-top: 16px !important;
+}
+
+.avaiableArmiesDescription{
+    font-size: 12px !important;
+    margin: 8px !important;
+}
+
+.playCards{
+    margin-top: 16px !important;
+    width: 125px !important;
+}
+.mini_symbol_image{
+    height: 2rem;
+    width: auto;
+    display: inline;
+}
+
+.trisFormula{
+    display: inline-flex;
+    align-items: center;
+    width: 155px;
+    margin-top: 16px;
+}
+
+.playCardsDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.armies_cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
