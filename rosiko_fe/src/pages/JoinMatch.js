@@ -1,13 +1,12 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { UserContext } from './App';
 import '../styles/JoinMatch.css';
 import { Button, RadioGroup, Radio, FormControlLabel, TextField } from "@mui/material";
 import PersonIcon from '@mui/icons-material/Person';
 import LockIcon from '@mui/icons-material/Lock';
-import {useNavigate, Link as RouterLink} from 'react-router-dom';
+import { useNavigate, Link as RouterLink } from 'react-router-dom';
+import { joinMatch, getAvailableMatches } from '../js/matchActions';
 
-const ApiGateway = require("../js/apiGateway").default;
-const WebSocket = require("../js/webSocket").default;
-const client = WebSocket.getClient();
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
@@ -15,41 +14,61 @@ function capitalizeFirstLetter(string) {
 
 const JoinMatch = () => {
   const navigate = useNavigate();
+  const { client, playerId } = useContext(UserContext);
   const [matches, setMatches] = useState([]);
   const [matchId, setMatchId] = useState(undefined);
   const [playerName, setPlayerName] = useState("");
-  
+
+  console.log("Player ID: " + playerId);
+
+
   useEffect(
     () => {
-      try{
-        client.subscribe(
-          "/queue/joinableMatches", 
-          function (payload) {
-            setMatches(JSON.parse(payload.body));
-          },
-          {id: "joinableMatches"}
-        );
-  
-        setMatches(ApiGateway.getJoinableMatches());
+      const fetchData = async ()=>{
+        webSocketSubscription();
+        let matches = await getAvailableMatches();
+        setMatches(matches);
       }
-      catch(e){
-        console.error(e);
-        navigate("/"); 
-      } 
-    }, [navigate]
+
+      if(playerId !== null){
+        fetchData()
+          .catch( (error)=>{
+            console.error(error);
+          })
+      }      
+    }, [playerId]
   )
 
-  const joinMatchSubmit = event => {
-    try{
-      event.preventDefault(); //Evita che viene ricaricata la pagina
-      client.send("/app/join_match", {}, JSON.stringify({matchId : matchId, playerName : playerName}));
-      navigate("/waiting_room/" + matchId);
-      client.unsubscribe("joinableMatches");
+  const webSocketSubscription = () => {
+    
+    const subscribe = ()=>{
+      client.subscribe( "/queue/joinableMatches", 
+        function (payload) {
+            setMatches(JSON.parse(payload.body));
+        },
+        {id: "joinableMatches"}
+      )
     }
-    catch(e){
-      console.error(e);
-      navigate("/"); 
-    } 
+
+    
+    try{ subscribe() }
+    catch(error){
+      client.onConnect( () => subscribe() )
+    }
+  }
+
+  const joinMatchSubmit = async ( event ) => {
+    event.preventDefault();
+
+    let success = joinMatch(playerId, playerName, matchId);
+    if(success){
+
+      client.unsubscribe("joinableMatches");
+      navigate("/waiting_room/" + matchId);  
+    }
+    else{
+      navigate("/");
+    }       
   }
 
   const handlePlayerName = event => {
@@ -121,7 +140,7 @@ const JoinMatch = () => {
         </form> 
       </div>       
     </div>
-  );   
+  )
 }
 
 export default JoinMatch;

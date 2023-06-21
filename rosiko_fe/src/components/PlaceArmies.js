@@ -7,7 +7,7 @@ import tractorImage from "../images/tractor.png";
 import farmerImage from "../images/farmer.png";
 import cowImage from "../images/cow.png";
 import { ArmiesTheme } from "../js/armiesPalette";
-import MatchController from "../js/MatchController";
+import MatchController from "../js/matchActions";
 import StarIcon from '@mui/icons-material/Star';
 
 const ApiGateway = require("../js/apiGateway").default;
@@ -20,7 +20,7 @@ function PlaceArmies(props) {
     let cards = props.cards;
 
     //Nel caso in cui il giocatore non è di turno non viene mostrato niente
-    if( props.match.playerOnDuty.id !== props.player.id ) return null;
+    if( props.match.playerOnDutyId !== props.player.id ) return null;
 
     const playCards = () => {        
         let cardSet = [];

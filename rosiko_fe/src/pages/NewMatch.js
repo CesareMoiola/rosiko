@@ -1,49 +1,23 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useContext } from "react";
+import { UserContext } from './App';
 import { Button, TextField } from '@mui/material';
 import '../styles/NewMatch.css';
 import {useNavigate, Link as RouterLink} from 'react-router-dom';
-
-const WebSocket = require("../js/webSocket").default;
-const client = WebSocket.getClient();
+import {newMatch, joinMatch} from '../js/matchActions';
 
 function capitalizeFirstLetter(string) {
   return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
 function NewMatch(){
+
+  const { client, playerId } = useContext(UserContext);
   const [matchName, setMatchName] = useState('');
   const [password, setPassword] = useState('');
   const [playerName, setPlayerName] = useState('');
-  const [matchId, setMatchId] = useState(undefined);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
-  //Reindirizza alla waiting room appena si ottienne l'id del match
-  useEffect(()=>{ if(matchId !== undefined){ 
-    try{
-      client.unsubscribe("new_match");
-      navigate("/waiting_room/" + matchId); 
-    }
-    catch(e){
-      console.error(e);
-      navigate("/"); 
-    }    
-  }},[matchId, navigate]);
-
-  //Iscrizione al websocket
-  useEffect(()=>{
-    try{
-      client.subscribe(
-        "/user/queue/new_match", 
-        function (payload) { setMatchId(JSON.parse(payload.body).id); },
-        {id: "new_match"}
-      );
-    }
-    catch(e){
-      console.error(e);
-      navigate("/"); 
-    }    
-  },[navigate]);
-
+  
   const handleMatchName = event => {
     if(event.target.value.length <= 12) setMatchName(event.target.value);
   }
@@ -52,17 +26,19 @@ function NewMatch(){
   }
   const handlePlayerName = event => {
     if(event.target.value.length <= 12) setPlayerName(event.target.value);
-  }  
-  const newMatchSubmit = event =>{     
-    event.preventDefault(); //Evita che viene ricaricata la pagina
-    try{
-      client.send("/app/new_match", {}, JSON.stringify({matchName: matchName, password: password, playerName: playerName}));
-    }
-    catch(e){
-      console.error(e);
-      navigate("/"); 
-    } 
-  }  
+  }
+
+
+  //Save new account and refresh all accounts
+  async function newMatchSubmit(event){
+    event.preventDefault();
+    console.log("New match submit");
+    
+    let matchId = await newMatch(matchName, password);
+    await joinMatch(playerId, playerName, matchId);
+    
+    if(matchId !== null) navigate("/waiting_room/" + matchId);
+  }
 
   return (
     <div className="new-match">
@@ -80,6 +56,7 @@ function NewMatch(){
             onChange={handleMatchName}/><br/>
           <TextField 
             className="new-match-input"
+            disabled={true}
             label="Password" 
             variant="outlined" 
             autoComplete="off"

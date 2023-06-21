@@ -4,7 +4,7 @@ import Territory from "./Territory";
 import '../styles/Attack.css';
 import Arrow from "./Arrow";
 import {ArmiesTheme} from "../js/armiesPalette";
-import MatchController from '../js/MatchController';
+import MatchController from '../js/matchActions';
 import apiGateway from "../js/apiGateway";
 
 function Attack(props) {

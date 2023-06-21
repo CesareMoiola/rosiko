@@ -1,6 +1,6 @@
 package com.cm.rosiko_be.enums;
 
-public enum CardType {
+public enum CardType{
     FARMER,
     TRACTOR,
     COW,

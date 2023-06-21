@@ -4,7 +4,7 @@ import { Button, Typography, Divider } from "@mui/material";
 import Territory from "./Territory";
 import Arrow from "./Arrow";
 import {ArmiesTheme} from "../js/armiesPalette";
-import MatchController from "../js/MatchController";
+import MatchController from "../js/matchActions";
 
 function Displacement(props) {
     const [territoryFrom, setTerritoryFrom] = useState(props.match.territoryFrom);

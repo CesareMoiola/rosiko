@@ -3,6 +3,7 @@ import '../styles/PlaceArmies.css';
 import { Typography, Card, Divider } from "@mui/material";
 import Logo from "./Logo";
 import { useTheme } from '@mui/styles';
+import { getPlayerOnDuty } from '../js/matchActions';
 
 function Place3Armies(props) {
 
@@ -12,7 +13,9 @@ function Place3Armies(props) {
 
     const getColor = () => {
         let opacity = "99";
-        if(props.match.playerOnDuty.id === props.player.id){ opacity = "ff"; }
+        let playerOnDuty = getPlayerOnDuty(props.match)
+
+        if(playerOnDuty.id === props.player.id){ opacity = "ff"; }
         return primaryColor + opacity;
     }
     

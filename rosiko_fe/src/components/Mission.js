@@ -3,6 +3,18 @@ import '../styles/Mission.css';
 import { Card, CardContent, Divider, Typography} from "@mui/material";
 
 function Mission(props) {
+
+  const getDescription = () => {
+    let mission = props.mission;
+    let description = '';
+
+    if( mission !== null && mission !== undefined){
+      description = mission.description;
+    }
+
+    return description;
+  }
+
   return (
     <Card className="mission" elevation={4}>
       <CardContent>
@@ -11,7 +23,7 @@ function Mission(props) {
         </Typography>
         <Divider className="mission_divider"/>
         <Typography variant="body2">
-          {props.description}
+          {getDescription()}
         </Typography>
       </CardContent>
     </Card>

@@ -5,7 +5,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import { Dice } from "./Dice";
 import countDice from "../js/diceUtils";
 import { ArmiesTheme } from "../js/armiesPalette";
-import MatchController from "../js/MatchController";
+import MatchController from "../js/matchActions";
 
 //Restituisce il numero massimo di dadi che si possono utilizzare per il territorio
 const getNumberOfDice = (props) => {

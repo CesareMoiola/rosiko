@@ -2,38 +2,26 @@ import SockJS from 'sockjs-client';
 import {Stomp} from '@stomp/stompjs';
 import endPoint from "./endPoint";
 
-let userId;
+export class WebSocket {
 
-class PrivateWebSocket {
-    constructor() {
+    constructor(){
         this.client = Stomp.over(new SockJS(endPoint + "/stomp"));
+    }
+
+    connect(){
         this.client.connect(
             {},
-            function (header) {
-                userId = header.headers["user-name"];
-                console.log("User id: " + userId);
+            (header) => {
+                this.socketID = header.headers["user-name"];
+                console.log("Socket ID: " + this.socketID);
             }
-        );        
-    }
-}
-
-class WebSocket {
-    constructor() {
-        throw new Error('Use WebSocket.getClient()');
+        );  
+        return this.socketID;
     }
 
-    static getClient() {
-        if (WebSocket.instance === undefined) {
-            console.log("WEBSOCKET NEW CONNECTION");
-            WebSocket.instance = new PrivateWebSocket();          
-        }
-        else{
-            console.log("WEBSOCKET OLD CONNECTION");
-        }
-        return WebSocket.instance.client;
-    }
-
-    static getUserId(){return userId;}
+    getSocketId(){
+        return this.socketID;
+    }    
 }
 
 export default WebSocket;

@@ -9,16 +9,21 @@ import Displacement from "./Displacement";
 import { ArmiesTheme } from "../js/armiesPalette";
 import FlagIcon from '@mui/icons-material/Flag';
 import CardsIcon from "../images/CardsIcon";
+import { getPlayerOnDuty } from '../js/matchActions';
 
 function ControlPanel(props) {
 
     const [surrenderPanel, setSurrenderPanel] = useState(false);
+    let isPlayerOnDuty = props.match.playerOnDutyId === props.player.id;
+
+    console.log("Id player on duty? " + isPlayerOnDuty)
 
     const getColor = (player) => {
         let color = null;
+        let playerOnDuty = getPlayerOnDuty(props.match);
 
-        if(props.match.playerOnDuty.id === player.id ){
-            color = ArmiesTheme[props.match.playerOnDuty.color].main;
+        if(playerOnDuty.id === player.id ){
+            color = ArmiesTheme[playerOnDuty.color].main;
         }
 
         return color;
@@ -36,9 +41,10 @@ function ControlPanel(props) {
 
     const getTextColor = (player) => {
         let color = null;
+        let playerOnDuty = getPlayerOnDuty(props.match)
 
-        if(props.match.playerOnDuty.id === player.id ){
-            color = ArmiesTheme[props.match.playerOnDuty.color].contrastText;
+        if( playerOnDuty.id === player.id ){
+            color = ArmiesTheme[playerOnDuty.color].contrastText;
         }        
         
         if(player.active === false){
@@ -51,9 +57,10 @@ function ControlPanel(props) {
     const getPlayerInfo = (player) => {
         let message = null;
         let stage = null;
+        let playerOnDuty = getPlayerOnDuty(props.match)
 
-        if(props.match.playerOnDuty.id === player.id ){
-            if(props.match.playerOnDuty.id === props.player.id){
+        if(playerOnDuty.id === player.id ){
+            if(playerOnDuty.id === props.player.id){
                 stage = "my turn";
             }
             else{
@@ -78,6 +85,7 @@ function ControlPanel(props) {
 
     const getPlayers = (match) => {
         var playersItem = null;
+        
         if(match.players.length > 0){
             playersItem = match.players.map((player) => 
             <ListItem  className= "list_item2" key={player.id} sx={{backgroundColor: getColor(player)}}>

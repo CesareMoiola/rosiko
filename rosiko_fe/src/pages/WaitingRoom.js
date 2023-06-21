@@ -1,49 +1,63 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useContext } from "react";
+import { UserContext } from './App';
 import { useParams, useNavigate } from "react-router-dom";
 import { Avatar, Button, Typography } from "@mui/material";
 import { List } from "@mui/material";
 import { ArmiesTheme } from "../js/armiesPalette";
 import '../styles/WaitingRoom.css';
-
-const WebSocket = require("../js/webSocket").default;
-const client = WebSocket.getClient();
-const ApiGateway = require("../js/apiGateway").default;
-const Data = require("../js/data").default;
+import {getMatch, leavesMatch, startMatch} from "../js/matchActions";
 
 function WaitingRoom() {   
+    const {client, playerId} = useContext(UserContext);
+    const [match, setMatch] = useState();
     const navigate = useNavigate();
-    let { id } = useParams();
-    const [match, setMatch] = useState(ApiGateway.getMatch(id));    
+    let { id } = useParams();  
 
     //Iscrizione all'endpoint per ricevere aggiornamenti sul match
     useEffect(
         () => {
             try{
-                client.subscribe("/user/queue/match", payload => {
-                    let updatedMatch = JSON.parse(payload.body);
-    
-                    if(updatedMatch.state === 'STARTED'){      
-                        Data.setMatch(ApiGateway.getMatch(id));              
-                        navigate("/match/" + updatedMatch.id);
-                        client.unsubscribe("waiting_room");
-                    }
-                    else{
-                        setMatch(updatedMatch);
-                    }
-                },
-                {id: "waiting_room"}); 
+                socketSubscribe();
             }
             catch(e){
-              console.error(e);
-              navigate("/"); 
+                console.log("No socket connection");
+                console.dir(client);
             } 
-        }, [navigate, id]
-    );              
+    }, [])
+    
+    useEffect(()=>{
+        const fetchData = async ()=>{
+            let match = await getMatch( id );
+            setMatch(match);   
+        }
+
+        fetchData()
+            .catch(console.error)
+    },[id])
+
+    useEffect(() => {
+        if( match !== undefined && match.state === 'STARTED' ){              
+            client.unsubscribe("waiting_room");
+            navigate("/match/" + match.id);
+        }
+    }, [match])
+
+
+    const socketSubscribe = () => {
+        client.subscribe("/user/queue/match", payload => {
+            let updatedMatch = JSON.parse(payload.body);
+            console.log("/user/queue/match updatedMatch:");
+            console.dir(updatedMatch);
+            setMatch(updatedMatch);
+        },
+        {id: "waiting_room"});
+    }
 
     const getPlayers = () => {
+
         var players = match.players;
         var playersItem = null;
-        if(players.length > 0){
+        if(players !== undefined && players.length > 0){
             playersItem = players.map((player) => 
                 <div className="player_item" key={player.id}>
                     <Avatar sx={{ width: 24, height: 24, bgcolor: ArmiesTheme[player.color].main}}/>
@@ -52,52 +66,54 @@ function WaitingRoom() {
             );
         }        
         return playersItem;
-    };  
+    }
 
-    const submitPlay = () => {
-        try{
-            client.send("/app/start_match", {}, JSON.stringify({matchId : match.id}));
-        }
-        catch(e){
-          console.error(e);
-          navigate("/"); 
-        }
-    };
+    const submitPlay = async () => {
+        await startMatch( match.id );
+    }
 
-    const leavesMatch = () => {
+    const leavesMatchSubmit = () => {
         try{
-            ApiGateway.leavesMatch(match, WebSocket.getUserId());
+            leavesMatch(playerId, match.id);
+            setMatch(null);
         }
         catch(e){
             console.error(e);
         }
-        navigate("/"); 
+        navigate("/home"); 
+    }
+
+    const getWaitingRoomComponent = () => {
+
+        if(match === null || match === undefined) return null;
+        
+        return (
+            <div className="waiting-room">
+                <div className="menu">
+                    <h1 className="title">{match.name}</h1>
+                    <List className="player-list">
+                        {getPlayers(match.id)}
+                    </List>
+                    <br/>
+                    <div className="buttons">
+                        <Button 
+                            className="home-button" 
+                            variant="outlined"
+                            onClick={() => {leavesMatchSubmit(match)}}
+                        >Leaves</Button>
+                        <Button  
+                            className="home-button"
+                            onClick={ () => {submitPlay()}}
+                            variant="contained" 
+                            disabled = {!(match.state === 'READY')}
+                        >Play</Button>
+                    </div>
+                </div>
+            </div>        
+        ); 
     }
   
-    return (
-        <div className="waiting-room">
-            <div className="menu">
-                <h1 className="title">{match.name}</h1>
-                <List className="player-list">
-                    {getPlayers(match.id)}
-                </List>
-                <br/>
-                <div className="buttons">
-                    <Button 
-                        className="home-button" 
-                        variant="outlined"
-                        onClick={() => {leavesMatch(match)}}
-                    >Leaves</Button>
-                    <Button  
-                        className="home-button"
-                        onClick={ () => {submitPlay()}}
-                        variant="contained" 
-                        disabled = {!(match.state === 'READY')}
-                    >Play</Button>
-                </div>
-            </div>
-        </div>        
-    );    
+    return getWaitingRoomComponent();
 }
 
 export default WaitingRoom;

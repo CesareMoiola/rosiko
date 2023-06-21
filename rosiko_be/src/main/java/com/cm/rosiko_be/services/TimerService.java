@@ -1,8 +1,10 @@
 package com.cm.rosiko_be.services;
 
-import com.cm.rosiko_be.data.Match;
-import com.cm.rosiko_be.data.Player;
 import com.cm.rosiko_be.enums.Stage;
+import com.cm.rosiko_be.match.Match;
+import com.cm.rosiko_be.match.MatchService;
+import com.cm.rosiko_be.player.Player;
+import com.cm.rosiko_be.socket.WSServices;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -34,7 +36,7 @@ public class TimerService {
 
                 player.setActive(false);
                 matchController.endTurn();
-                if(match.getWinner() == null) wsServices.notifyMatch(match.getId());
+                if(match.getWinner() == null) wsServices.sendsUpdatedMatchToPlayers(match.getId());
                 stopTimer();
             }
         };

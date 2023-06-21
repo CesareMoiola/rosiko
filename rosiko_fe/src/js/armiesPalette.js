@@ -43,7 +43,11 @@ const ArmiesTheme = {
       }
 }
 
-function getTheme(color){
+function getTheme(player){
+
+  if( player === null || player.color === null) return {}
+
+  let color = player.color;
   let theme = {
     palette: {
       primary: {

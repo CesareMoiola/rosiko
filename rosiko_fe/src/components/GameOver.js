@@ -13,13 +13,14 @@ const GameOver = (props) => {
   const getMessage = () => {
 
     let message = null;
+    let winner = props.match.winner;
 
-    if(props.variant === "winner"){
-      if(props.player.id === props.match.winner.id){
+    if(props.variant === "winner" && winner !== null ){
+      if(props.player.id === winner.id){
         message = <Typography  variant="h4" color = {theme.palette.primary.contrastText} fontWeight="bold" textAlign="center">You Won !!!<br/><span className="win_emoji" role="img" aria-label="cups">🏆🏆🏆</span></Typography>;
       }
       else{
-        message = <Typography  variant="h4" color = {theme.palette.primary.contrastText} fontWeight="bold" textAlign="center">{props.match.winner.name} won<br/><span className="lose_emoji" role="img" aria-label="sad">😭😭😭</span></Typography>;
+        message = <Typography  variant="h4" color = {theme.palette.primary.contrastText} fontWeight="bold" textAlign="center">{winner.name} won<br/><span className="lose_emoji" role="img" aria-label="sad">😭😭😭</span></Typography>;
       }
       
     }
@@ -71,8 +72,11 @@ const GameOver = (props) => {
 
   const getBackgroundColor = () => {
     let color = "rgba(255,255,255,0.33)";
+    let winner = props.match.winner;
 
-    if(props.variant === "winner"){color = ArmiesTheme[props.match.winner.color].main;}
+    if(props.variant === "winner" && winner !== null){
+      color = ArmiesTheme[winner.color].main
+    }
     else{
       if(props.variant !== "surrender") color = ArmiesTheme[props.player.color].main;
     }

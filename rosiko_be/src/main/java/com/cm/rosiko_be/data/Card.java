@@ -1,10 +1,12 @@
 package com.cm.rosiko_be.data;
 
 import com.cm.rosiko_be.enums.CardType;
+import com.cm.rosiko_be.map.territory.Territory;
 import lombok.Data;
+import java.io.Serializable;
 
 @Data
-public class Card {
+public class Card implements Serializable {
     private int id;
     private String territoryId;
     private String territoryName;

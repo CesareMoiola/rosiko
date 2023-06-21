@@ -1,18 +1,25 @@
 import * as React from "react"
 import { ArmiesTheme } from "../js/armiesPalette";
-import MatchController from "../js/MatchController";
+import MatchController from "../js/matchActions";
 
 const Map = (props) => {
 
   const getTerritory = (id) => {
     let territory = null;
-    let territories = props.match.map.territories;
+    let match = props.match;
+    let territories = [];
+
+    if(match !== null && match !== undefined && match.map !== undefined){
+      territories = match.map.territories;
+    }
+
     for(let i=0; i<territories.length; i++){          
       if( id === territories[i].id ){ 
         territory = territories[i]; 
         break;
       }
-    }    
+    }
+
     return territory;
   }
 
@@ -25,7 +32,11 @@ const Map = (props) => {
       color = ArmiesTheme[getTerritory(id).color].light;
     }
     else{
-      color = ArmiesTheme[getTerritory(id).color].main;
+      let territory = getTerritory(id);
+      
+      if(territory !== null){
+        color = ArmiesTheme[territory.color].main;
+      }
     }     
     return color;
   }
@@ -53,7 +64,7 @@ const Map = (props) => {
   }
 
   const getArmy = (id) => {
-    return MatchController.getArmies(props.match, getTerritory(id), props.placedArmies, props.movedArmies);
+    return MatchController.getArmies(props.match, getTerritory(id), props.placedarmies, props.movedarmies);
   }
 
   return(
