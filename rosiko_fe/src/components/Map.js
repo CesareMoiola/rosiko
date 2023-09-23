@@ -2,7 +2,7 @@ import * as React from "react"
 import { ArmiesTheme } from "../js/armiesPalette";
 import MatchController from "../js/matchActions";
 
-const Map = (props) => {
+const GameMap = (props) => {
 
   const getTerritory = (id) => {
     let territory = null;
@@ -26,9 +26,10 @@ const Map = (props) => {
   const getColor = (id) => {
     let color = null;
     if((props.match.attacker && props.match.attacker.id === id) 
-    || (props.match.defender && props.match.defender.id === id)
-    || (props.match.territoryFrom && props.match.territoryFrom.id === id)
-    || (props.match.territoryTo && props.match.territoryTo.id === id)){
+      || (props.match.defender && props.match.defender.id === id)
+      || (props.match.territoryFrom && props.match.territoryFrom.id === id)
+      || (props.match.territoryTo && props.match.territoryTo.id === id)){
+        
       color = ArmiesTheme[getTerritory(id).color].light;
     }
     else{
@@ -64,7 +65,7 @@ const Map = (props) => {
   }
 
   const getArmy = (id) => {
-    return MatchController.getArmies(props.match, getTerritory(id), props.placedarmies, props.movedarmies);
+    return MatchController.getNumberOfArmies(props.match, getTerritory(id), props.placedarmies, props.movedarmies);
   }
 
   return(
@@ -1274,4 +1275,4 @@ const Map = (props) => {
   )
 }
 
-export default Map
+export default GameMap

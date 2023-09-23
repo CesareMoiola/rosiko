@@ -7,7 +7,7 @@ import Match from './Match.js';
 import React, { useState, createContext } from 'react';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import JoinMatch from './JoinMatch.js';
-import { resumePlayer } from '../js/playerServices';
+import { resumeUser } from '../js/playerServices';
 import SockJS from 'sockjs-client';
 import {Stomp} from '@stomp/stompjs';
 import {wsEndPoint} from "../js/endPoint";
@@ -45,21 +45,21 @@ export const UserContext = createContext()
 function App() {
   
   const [ client, setClient] = useState( Stomp.over(new SockJS(wsEndPoint)) )
-  const [ playerId, setPlayerId] = useState( null )
-  const [ socketId, setSockedId] = useState( null )
+  const [ isConnect, setIsConnect] = useState(false)
+  const [ userId, setUserId] = useState( null )
+  const [ socketId, setSocketId] = useState( null )
   const [ matchId, setMatchId ] = useState( null )
   const navigate = useNavigate();
   
   useEffect(()=>{
 
     const fetchData = async () => {
-      console.log("Resume player")
-      let player = await resumePlayer()
-      console.log("Player:")
-      console.dir(player)
+      console.log("Resume user")
+      let user = await resumeUser()
+      console.dir(user)
       
-      setPlayerId(player.id);
-      setMatchId(player.currentMatchID);
+      setUserId(user.id);
+      setMatchId(user.currentMatchId);
     }
 
     fetchData()
@@ -67,24 +67,31 @@ function App() {
 
   }, [])
   
-  useEffect(()=>updateSocketId(playerId, socketId), [playerId, socketId])
+  useEffect(()=>updateSocketId(userId, socketId, setSocketId), [userId, socketId])
 
-  useEffect(()=>redirect(), [matchId, playerId, socketId])
+  useEffect(()=>redirect(), [matchId, userId, socketId])
 
-  useEffect(()=>socketConnection(), [playerId])
+  useEffect(()=>socketConnection(), [userId])
 
 
-  function socketConnection(){
+  async function socketConnection(){
+    console.dir(client)
     client
       .connect({},(header) => {
         let socketId = header.headers["user-name"]
-        updateSocketId(playerId, socketId)
+        updateSocketId(userId, socketId, setSocketId)
         console.log("New socket Id: " + socketId);
+        setIsConnect(true)
+      })
+    client
+      .onDisconnect(()=>{
+        console.log("DISCONNECTED")
+        setIsConnect(false)
       })
   }
 
   async function redirect(){
-    if( matchId != null && playerId !== null && socketId != null){
+    if( matchId != null && userId !== null && socketId != null){
 
       let matchState = await getMatchState(matchId);
       console.log("Match state: " + matchState);
@@ -98,11 +105,11 @@ function App() {
     }
   }
 
-  
+  if(socketId == null ) return null
 
   /*style={{ backgroundImage: `url(${home_background})`}}*/
   return (
-    <UserContext.Provider value={{ client, playerId }}>
+    <UserContext.Provider value={{ client, userId: userId, isConnect: isConnect }}>
       <div className="App" style={{ backgroundColor:"#e0e0e0"}}>
         <ThemeProvider theme = {theme}>
           <Routes>

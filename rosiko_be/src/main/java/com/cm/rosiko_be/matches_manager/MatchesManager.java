@@ -1,11 +1,11 @@
 package com.cm.rosiko_be.matches_manager;
 
+import com.cm.rosiko_be.User.User;
+import com.cm.rosiko_be.User.UserService;
 import com.cm.rosiko_be.match.MatchState;
 import com.cm.rosiko_be.enums.Stage;
 import com.cm.rosiko_be.match.*;
 import com.cm.rosiko_be.player.Player;
-import com.cm.rosiko_be.player.PlayerDTO;
-import com.cm.rosiko_be.player.PlayerService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
@@ -25,14 +25,14 @@ public class MatchesManager {
     private List<Match> openMatches = new ArrayList<>();
 
     @Autowired
-    private PlayerService playerService;
+    private UserService userService;
 
-    public List<Match> getAvailableMatches(){
-        List<Match> availableMatches = new ArrayList<>();
+    public List<MatchDTO> getAvailableMatches(){
+        List<MatchDTO> availableMatches = new ArrayList<>();
         for(Match match : openMatches){
             if( (match.getState().equals(WAITING) || match.getState().equals(MatchState.READY))
                     && match.getPlayers().size() < MAX_PLAYERS
-            ) availableMatches.add(match);
+            ) availableMatches.add(MatchMapper.toMatchDTO(match));
         }
         return availableMatches;
     }
@@ -82,11 +82,11 @@ public class MatchesManager {
         if(joinMatchDTO == null) return;
 
         Match match = getMatch(joinMatchDTO.getMatchId());
-        PlayerDTO playerDTO = joinMatchDTO.getPlayer();
-        Player player = playerService.getPlayer(playerDTO.getId());
 
-        player.setCurrentMatchID(match.getId());
-        player.setName(playerDTO.getName());
+        User user = userService.getUser(joinMatchDTO.getUserId());
+        user.setCurrentMatchId(match.getId());
+        Player player = new Player(user.getId());
+        player.setName(joinMatchDTO.getPlayerName());
         player.setActive(true);
 
         try {
@@ -96,16 +96,15 @@ public class MatchesManager {
         }
     }
 
-    public void leavesMatch(LeaveMatchDTO leaveMatchDTO){
+    public void leavesMatch(String userId){
 
-        Match match = getMatch(leaveMatchDTO.getMatchId());
-        Player player = playerService.getPlayer(leaveMatchDTO.getPlayerId());
+        User user = userService.getUser(userId);
+        Match match = getMatch(user.getCurrentMatchId());
 
-        player.setCurrentMatchID(null);
-        player.setName(null);
+        user.setCurrentMatchId(null);
 
         try{
-            match.removePlayer(leaveMatchDTO.getPlayerId());
+            match.removePlayer(userId);
         }
         catch (Exception e){}
 
@@ -151,6 +150,26 @@ public class MatchesManager {
             System.out.println("Matches removed: " + counter + ", matches active: " + openMatches.size());
         }
     }
+
+    public void updatePlayer(Player player){
+        for(Match match : openMatches){
+            List<Player> players = match.getPlayers();
+            boolean isUpdated = false;
+
+            for(Player matchPlayer : players){
+                if(matchPlayer.getId().equals(player.getId())){
+                    int index = players.indexOf(matchPlayer);
+                    players.set(index,player);
+                    isUpdated = true;
+                    break;
+                }
+            }
+
+            if(isUpdated) break;
+        }
+    }
+
+
 
     /**
      * @// TODO: 21/05/2023 It's not the correct spot

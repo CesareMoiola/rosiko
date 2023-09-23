@@ -15,7 +15,9 @@ function Place3Armies(props) {
         let opacity = "99";
         let playerOnDuty = getPlayerOnDuty(props.match)
 
-        if(playerOnDuty.id === props.player.id){ opacity = "ff"; }
+        if(playerOnDuty.id === props.player.id){ 
+            opacity = "ff"
+        }
         return primaryColor + opacity;
     }
     

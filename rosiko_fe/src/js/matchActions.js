@@ -1,20 +1,16 @@
-import apiGateway from './apiGateway';
 import countDice from "./diceUtils";
 import axios from 'axios';
 import endPoint from "./endPoint";
 
-export const getPlayer = (match, playerId) => {
+export const getPlayer = (match, userId) => {
 
     if(match === null) return null
 
     let players = match.players
     let targetPlayer = null
 
-    console.log("Get player: ")
-    console.dir(match);
-
     for(let player of players){
-        if(player.id === playerId){
+        if(player.id === userId){
             targetPlayer = player
             break
         }
@@ -39,23 +35,20 @@ export async function newMatch( matchName, password ){
     return matchId;
 }
 
-export async function joinMatch( playerId, playerName, matchId ){
-    
-    let player = {"id": playerId, "name": playerName}
-
+export async function joinMatch( userId, playerName, matchId ){
     try{
-        await axios.put(endPoint + '/api/v1/match/join', { "matchId" : matchId, "player" : player } )
+        await axios.put(endPoint + '/api/v1/match/join', { "matchId": matchId, "userId": userId, "playerName":  playerName} )
     }
     catch(error){
         console.error(error);
     }
 }
 
-export async function leavesMatch( playerId, matchId ){
+export async function leavesMatch( userId, matchId ){
 
     try{
-        await axios.put(endPoint + '/api/v1/match/leaves', { "matchId" : matchId, "playerId" : playerId } );
-        console.log("Player " + playerId + " left match " + matchId);
+        await axios.put(endPoint + '/api/v1/match/leaves', { "matchId" : matchId, "userId" : userId } );
+        console.log("User " + userId + " left match " + matchId);
     }
     catch(error){
         console.error(error);
@@ -66,10 +59,8 @@ export async function getMatch( matchId ){
     let match = null;
 
     try{
-        console.log("Get match " + matchId );
         let response = await axios.get(endPoint + '/api/v1/match/' + matchId )
         match = response.data;
-        console.dir(match);
     }
     catch(error){
         console.error(error);
@@ -121,11 +112,11 @@ export async function getMatchState(matchId) {
 export const getPlayerOnDuty = (match) => {
     let players = match.players
     let playerOnDuty = null
-    let id = match.getPlayerOnDutyId
+    let playerOnDutyId = match.playerOnDutyId
 
-    for(let player in players){
-        if(player.id === id){
-            playerOnDuty = player
+    for(let i=0; i<players.length   ; i++){
+        if(players[i].id === playerOnDutyId){
+            playerOnDuty = players[i]
             break
         }
     }
@@ -133,34 +124,15 @@ export const getPlayerOnDuty = (match) => {
     return playerOnDuty
 }
 
-const placeArmy = (player, match, territoryId, placedArmies, setPlacedArmies) => {
-    let newPlacedArmies = JSON.parse(JSON.stringify(placedArmies))
-    
-    if(placedArmies !== undefined) newPlacedArmies = JSON.parse(JSON.stringify(placedArmies));
-
-    if( 
-        player.availableArmies > 0
-        && ((match.stage === "INITIAL_PLACEMENT" && player.armiesPlacedThisTurn < 3) || match.stage === "PLACEMENT")
-    ){
-        player.availableArmies--;
-        player.armiesPlacedThisTurn++;
-        if(newPlacedArmies.hasOwnProperty(territoryId)){
-            newPlacedArmies[territoryId] = newPlacedArmies[territoryId] + 1;
-        }
-        else{
-            newPlacedArmies[territoryId] = 1;
-        }
-        
-        setPlacedArmies(newPlacedArmies);
-
-        //Chiamata a backend solo quando sono state piazzate tutte le armate
-        if(
-            player.availableArmies === 0
-            || (match.stage === "INITIAL_PLACEMENT" && player.armiesPlacedThisTurn === 3)
-        ){
-            console.dir(newPlacedArmies);
-            apiGateway.placeArmies(match.id, newPlacedArmies);
-        }        
+export function placeArmies( matchId, armiesToPlaceThisTurn, setArmiesToPlaceThisTurn ){    
+    try{
+        console.log("Player on duty are placing the armies")
+        let armiesToPlace = {"matchId": Number(matchId), "armies": armiesToPlaceThisTurn}
+        axios.post(endPoint + '/api/v1/match/place_armies', armiesToPlace)
+        .then(()=>{setArmiesToPlaceThisTurn({})})
+    }
+    catch(error){
+        console.error(error)
     }
 }
 
@@ -168,7 +140,7 @@ const moveArmies = (match, armies, setMovedArmies) => {
     let territoryFrom = match.territoryFrom;
     let territoryTo = match.territoryTo;
 
-    if(territoryFrom.armies - armies >= 1 && territoryTo.armies + armies >= 1){
+    if(territoryFrom.placedArmies - armies >= 1 && territoryTo.placedArmies + armies >= 1){
         setMovedArmies(armies);
     }    
 }
@@ -178,58 +150,88 @@ const attack = (match, attackerDice, setRolling) => {
 
     setRolling(true);
 
-    //Chiamata a backend
-    apiGateway.attack(match.id, diceNumber);
+    try{
+        let payload = {"matchId": Number(match.id), "numberOfAttackerDice": diceNumber}
+        axios.post(endPoint + '/api/v1/match/attack', payload)
+    }
+    catch(error){
+        console.error(error)
+    }
 }
 
-const selectAttacker = (match, territory, setMatch) => {
-    //Chiamata al backend
-    apiGateway.selectAttacker(match.id, territory.id);  
+const deselectTerritory = (match, territory) => {
+    try{
+        let payload = {"matchId": Number(match.id), "territoryId": territory.id}
+        axios.put(endPoint + '/api/v1/match/deselect_territory', payload)
+    }
+    catch(error){
+        console.error(error)
+    }
 }
 
-const selectDefender = (match, territory, setMatch) => {
-    //Chiamata al backend
-    apiGateway.selectDefender(match.id, territory.id);  
+const selectTerritoryFrom = (match, territory) => {
+    try{
+        let payload = {"matchId": Number(match.id), "territoryId": territory.id}
+        axios.put(endPoint + '/api/v1/match/select_territory_from', payload)
+    }
+    catch(error) { console.error(error) }
 }
 
-const deselectTerritory = (match, territory, setMatch, setMovedArmies) => {
-    //Chiamata al backend
-    apiGateway.deselectTerritory(match.id, territory.id); 
-}
-
-const selectTerritoryFrom = (match, territory, setMatch) => {
-    //Chiamata al backend
-    apiGateway.selectTerritoryFrom(match.id, territory.id); 
-}
-
-const selectTerritoryTo = (match, territory, setMatch) => {
-    //Chiamata al backend
-    apiGateway.selectTerritoryTo(match.id, territory.id); 
+const selectTerritoryTo = (match, territory) => {
+    try{
+        let payload = {"matchId": Number(match.id), "territoryId": territory.id}
+        axios.put(endPoint + '/api/v1/match/select_territory_to', payload)
+    }
+    catch(error) { console.error(error) }
 }
 
 //Ritorna il numero corretto di armate
-const getArmies = (match, territory, placedArmies, movedArmies) => {
-    
+const getNumberOfArmies = (match, territory, placedArmies, movedArmies) => {
+
     if( territory === null || territory === undefined ) return 0;
 
     let armies = territory.placedArmies;
-    let id = territory.id;
+    let territoryId = territory.id;
     let territoryFrom = match.territoryFrom;
     let territoryTo = match.territoryTo;
     
-    if(placedArmies != null && placedArmies.hasOwnProperty(id)) armies += placedArmies[id];
-    if(territoryFrom !== null && territoryTo !== null && territoryFrom.id === id) armies -= movedArmies;
-    if(territoryFrom !== null && territoryTo !== null && territoryTo.id === id) armies += movedArmies; 
+    if(placedArmies !== undefined && placedArmies[territoryId]) armies += placedArmies[territoryId];
+    if(territoryFrom !== null && territoryTo !== null && territoryFrom.id === territoryId) armies -= movedArmies;
+    if(territoryFrom !== null && territoryTo !== null && territoryTo.id === territoryId) armies += movedArmies; 
     
     return armies;
 }
 
-const endsTurn = (match) => {
-    apiGateway.endsTurn(match);
+const endsAttacks = (match) => {
+    try{
+        let payload = {"matchId": Number(match.id)}
+        axios.put(endPoint + '/api/v1/match/displacement_stage', payload)
+    }
+    catch(error) { console.error(error) }
 }
 
-const confirmMove = (match, movedArmies, map) => {
-    apiGateway.confirmMove(match, movedArmies);
+const endsTurn = (match) => {
+    try{
+        let payload = {"matchId": Number(match.id)}
+        axios.post(endPoint + '/api/v1/match/ends_turn', payload)
+    }
+    catch(error) { console.error(error) }
+}
+
+const playCards = ( match, player, cardSet) => {
+    try{
+        let payload = {"matchId": Number(match.id), "card_1": cardSet[0].id, "card_2": cardSet[1].id, "card_3": cardSet[2].id, "playerId": player.id}
+        axios.post(endPoint + '/api/v1/match/play_cards', payload)
+    }
+    catch(error) { console.error(error) }
+}
+
+const confirmMove = (match, movedArmies, setMovedArmies) => {
+    try{
+        let json = {"matchId": match.id, "territoryFrom": match.territoryFrom.id, "territoryTo": match.territoryTo.id, "movedArmies": movedArmies}
+        axios.put(endPoint + '/api/v1/match/confirm_move', json).then(()=>{setMovedArmies(0)})
+    }
+    catch(error) { console.error(error) }
 }
 
 const trisBonusCalculator = (player, cards, map) =>{
@@ -257,7 +259,7 @@ const trisBonusCalculator = (player, cards, map) =>{
         
         for(let j=0; j<cards.length; j++){
             for(let i=0; i<territories.length; i++){                
-                if(territories[i].id === cards[j].territoryId && territories[i].owner.id === player.id){
+                if(territories[i].id === cards[j].territoryId && territories[i].ownerId === player.id){
                     bonus += 2;
                     i=territories.length;
                 }
@@ -268,18 +270,26 @@ const trisBonusCalculator = (player, cards, map) =>{
     return bonus;
 }
 
+const surrender = (match, player) => {
+    try{
+        let payload = {"matchId": Number(match.id), "playerId": player.id}
+        axios.post(endPoint + '/api/v1/match/surrender', payload)
+    }
+    catch(error) { console.error(error) }
+}
+
 export default {
     getAvailableMatches,
-    placeArmy,
     moveArmies,
     attack,
-    selectAttacker,
-    selectDefender,
     deselectTerritory,
     selectTerritoryFrom,
     selectTerritoryTo,
-    getArmies,
+    getNumberOfArmies,
     endsTurn,
+    endsAttacks,
+    playCards,
     confirmMove,
-    trisBonusCalculator
+    trisBonusCalculator,
+    surrender
 };

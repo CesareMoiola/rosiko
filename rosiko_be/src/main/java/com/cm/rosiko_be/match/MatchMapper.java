@@ -1,5 +1,6 @@
 package com.cm.rosiko_be.match;
 
+import com.cm.rosiko_be.map.GameMapMapper;
 import com.cm.rosiko_be.map.territory.TerritoryMapper;
 import com.cm.rosiko_be.player.PlayerMapper;
 import java.util.ArrayList;
@@ -18,7 +19,7 @@ public class MatchMapper {
         matchDTO.setState(match.getState());
         matchDTO.setPassword(match.getPassword());
         matchDTO.setPlayers(PlayerMapper.toPlayerDTO(match.getPlayers()));
-        matchDTO.setMap(match.getMap());
+        matchDTO.setMap(GameMapMapper.toGameMapDTO((match.getMap())));
 
         if(match.getPlayerOnDuty() != null){
             matchDTO.setPlayerOnDutyId(match.getPlayerOnDuty().getId());

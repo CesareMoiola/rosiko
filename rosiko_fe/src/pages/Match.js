@@ -1,29 +1,31 @@
 import React, { useState, useEffect, useContext } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import ControlPanel from "../components/ControlPanel";
-import Map from "../components/Map";
+import GameMap from "../components/Map";
 import { UserContext } from './App';
 import Mission from "../components/Mission";
 import GameCard from "../components/GameCard";
 import '../styles/Match.css';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { getTheme } from "../js/armiesPalette";
-import MatchController, { getMatch, getPlayer } from '../js/matchActions';
+import MatchController, { getMatch, getPlayer, placeArmies } from '../js/matchActions';
+import axios from 'axios';
+import endPoint from "../js/endPoint";
 
 function Match() { 
     const navigate = useNavigate();
-    let { id } = useParams();
-    const {client, playerId} = useContext(UserContext);
+    let { id: matchId } = useParams();
+    const {client, userId, isConnect} = useContext(UserContext);
     const [match, setMatch] = useState(null);
     const [player, setPlayer] = useState(null);
-    const [placedArmies, setPlacedArmies] = useState(0);   //Armate piazzate durante il turno
-    const [movedArmies, setMovedArmies] = useState(0);     //Armate mosse durante il turno        
+    const [armiesToPlaceThisTurn, setArmiesToPlaceThisTurn] = useState({});
+    const [movedArmiesThisTurn, setMovedArmiesThisTurn] = useState(0);     //Armate mosse durante il turno        
 
     useEffect(()=>{
 
         const fetchData = async () => {
             try{
-                let match = await getMatch( id );
+                let match = await getMatch( matchId );
                 setMatch(match);
             }
             catch( error ){
@@ -32,114 +34,106 @@ function Match() {
         }
 
         fetchData();
-        socketSubscription();
+        if(isConnect) socketSubscription();
         
-    },[id]);
+    },[matchId, isConnect]);
 
     useEffect(()=>{
-        let player = getPlayer(match, playerId);
+        let player = getPlayer(match, userId);
         setPlayer(player);
-    },[playerId, match])
-
+    },[match, userId])
 
     const socketSubscription = () => {
-        try{
+
+        const subscribe = () => {
             client.subscribe( "/user/queue/match", function (payload) { 
                 console.log("Upload match from socket subscription")
-                setMatch(JSON.parse(payload.body));
+                let matchUpdated = JSON.parse(payload.body)
+                console.dir(matchUpdated)
+                setMatch(matchUpdated);
             })
         }
+
+        try{
+            subscribe()
+        }
         catch(e){
-            client.onConnect(()=>{
-                client.subscribe( "/user/queue/match", function (payload) { 
-                    console.log("Upload match from socket subscription")
-                    setMatch(JSON.parse(payload.body));
-                })
-            }) 
+            client.onConnect(() => { subscribe() }) 
         }
     }
 
     const onClickHandler = (e) => {
-        if(e.target.className.animVal.includes("territory")) {
-            let territories = match.map.territories;
-            let territoryId = e.target.parentElement.id;
+        if( !e.target.className.animVal.includes("territory")) return
 
-            //Piazzamento armate durante il proprio turno
-            if((match.stage === "INITIAL_PLACEMENT" || match.stage === "PLACEMENT") && match.playerOnDutyId === playerId){
-                for(let i=0; i<territories.length; i++){
-                    if(territories[i].id === territoryId && territories[i].owner.id === playerId){
-                        try{                   
-                            MatchController.placeArmy(player, match, territories[i].id, placedArmies, setPlacedArmies);
-                        }
-                        catch(e){
-                          console.error(e);
-                          navigate("/"); 
-                        }
-                        break;
+        let territories = match.map.territories;
+        let territoryId = e.target.parentElement.id;            
+        
+        if(canPlayerPlaceArmies()){ 
+            placeArmyHandler( territoryId ) 
+            return
+        }
+
+        //Fase di attacco durante il proprio turno
+        if(match.stage === "ATTACK" && match.playerOnDutyId === userId){
+            
+            for(let i=0; i<territories.length; i++){
+                //Selezione del territorio attaccante
+                if(territories[i].id === territoryId && territories[i].ownerId === player.id && territories[i].selectable === true){ 
+                    try{
+                        selectAttacker(territories[i])
                     }
+                    catch(e){
+                        console.error(e)
+                    }
+                    break;
+                }
+
+                //Selezione del territorio difensore
+                if(territories[i].id === territoryId && !territories[i].ownerId !== player.id && territories[i].selectable === true && match.attacker !== null){ 
+                    try{
+                        selectDefender(territories[i])
+                    }
+                    catch(e){
+                        console.error(e);
+                    }
+                    break;
                 }
             }
+        }
 
-            //Fase di attacco durante il proprio turno
-            if(match.stage === "ATTACK" && match.playerOnDutyId === playerId){
-                
-                for(let i=0; i<territories.length; i++){
-                    //Selezione del territorio attaccante
-                    if(territories[i].id === territoryId && territories[i].owner.id === player.id && territories[i].clickable === true){ 
-                        try{MatchController.selectAttacker(match, territories[i], setMatch );}
-                        catch(e){
-                          console.error(e);
-                          navigate("/"); 
-                        }
-                        break;
+        //Fase di spostamento delle armate
+        if(match.stage === "DISPLACEMENT" && match.playerOnDutyId === userId){
+            
+            for(let i=0; i<territories.length; i++){
+                //Selezione del territorio da cui spostare le armate
+                if(territories[i].id === territoryId && territories[i].ownerId === userId && territories[i].selectable === true && match.territoryFrom === null){                        
+                    try{MatchController.selectTerritoryFrom(match, territories[i], setMatch);}
+                    catch(e){
+                        console.error(e);
+                        navigate("/"); 
                     }
+                    break;
+                }
 
-                    //Selezione del territorio difensore
-                    if(territories[i].id === territoryId && !territories[i].owner.id !== player.id && territories[i].clickable === true && match.attacker !== null){ 
-                        try{MatchController.selectDefender(match, territories[i], setMatch );}
-                        catch(e){
-                          console.error(e);
-                          navigate("/"); 
-                        }
-                        break;
+                //Selezione del territorio su cui spostare le armate
+                if(territories[i].id === territoryId && territories[i].ownerId === userId && territories[i].selectable === true && match.territoryFrom !== null){                        
+                    try{MatchController.selectTerritoryTo(match, territories[i], setMatch);}
+                    catch(e){
+                        console.error(e);
+                        navigate("/"); 
                     }
+                    break;
                 }
             }
-
-            //Fase di spostamento delle armate
-            if(match.stage === "DISPLACEMENT" && match.playerOnDutyId === playerId){
-                
-                for(let i=0; i<territories.length; i++){
-                    //Selezione del territorio da cui spostare le armate
-                    if(territories[i].id === territoryId && territories[i].owner.id === playerId && territories[i].clickable === true && match.territoryFrom === null){                        
-                        try{MatchController.selectTerritoryFrom(match, territories[i], setMatch);}
-                        catch(e){
-                          console.error(e);
-                          navigate("/"); 
-                        }
-                        break;
-                    }
-
-                    //Selezione del territorio su cui spostare le armate
-                    if(territories[i].id === territoryId && territories[i].owner.id === playerId && territories[i].clickable === true && match.territoryFrom !== null){                        
-                        try{MatchController.selectTerritoryTo(match, territories[i], setMatch);}
-                        catch(e){
-                          console.error(e);
-                          navigate("/"); 
-                        }
-                        break;
-                    }
-                }
-            }
-        }       
+        } 
     }
     
     const onMouseOverHandler = (e) => {        
-        if(playerId === match.playerOnDutyId){
+        if(userId === match.playerOnDutyId){
             let territories = match.map.territories;
             let territoryId = e.target.parentElement.id;        
             for(let i=0; i < territories.length; i++){
-                if(territories[i].id === territoryId && territories[i].clickable === true){
+                if(territories[i].id === territoryId && territories[i].selectable === true){
                     e.target.parentElement.children[0].style.opacity = "0.6";
                     e.target.parentElement.style.cursor = "pointer";
                     break;
@@ -188,9 +182,6 @@ function Match() {
         let cardList = [];
         let component = null;
 
-        console.log("getGameCards")
-        console.dir(player)
-
         for(let i=0; i<cards.length; i++){
             cardList[i] = (
                 <GameCard 
@@ -209,6 +200,81 @@ function Match() {
         }
 
         return component;
+    } 
+
+    const canPlayerPlaceArmies = () => {
+
+        if(player === null) return false
+
+        let response = (
+            player.id === match.playerOnDutyId
+            && player.availableArmies > 0
+            && (
+                (match.stage === "INITIAL_PLACEMENT" && Number(player.armiesPlacedThisTurn) < 3) 
+                || match.stage === "PLACEMENT"
+            )
+        )
+
+        console.log("canPlayerPlaceArmies? " + player.armiesPlacedThisTurn, player.availableArmies + " response: " + response)
+
+        return response
+    }
+
+    const placeArmyHandler = ( territoryId ) => {
+
+        let territory = getTerritoryById(territoryId)
+
+        if(territory.ownerId === userId){
+            
+            player.armiesPlacedThisTurn++
+            player.availableArmies--
+            setPlayer(JSON.parse(JSON.stringify(player)))
+            placeOneArmy( territoryId )
+
+            if(!canPlayerPlaceArmies() && !(armiesToPlaceThisTurn === null)){
+                console.log("You can't place armies no more ")
+                placeArmies(matchId, armiesToPlaceThisTurn, setArmiesToPlaceThisTurn)
+            }
+            else{
+                console.log("You can still place armies")
+            }
+        }
+    }
+
+    const placeOneArmy = ( territoryId ) => {    
+
+        let newArmiesToPlaceThisTurn = armiesToPlaceThisTurn
+
+        if(newArmiesToPlaceThisTurn === undefined) newArmiesToPlaceThisTurn = {}
+
+        let armiesToPlace = newArmiesToPlaceThisTurn[territoryId]
+        if( armiesToPlace === undefined ){
+            armiesToPlace = 1
+        }
+        else armiesToPlace++
+    
+        newArmiesToPlaceThisTurn[territoryId] = armiesToPlace
+
+        console.dir(newArmiesToPlaceThisTurn)
+        console.log(player.armiesPlacedThisTurn)
+        setArmiesToPlaceThisTurn(JSON.parse(JSON.stringify(newArmiesToPlaceThisTurn)))
+    }
+
+    const getTerritoryById = (territoryId) => {
+        let territories = match.map.territories
+        let targetTerritory = null
+    
+        for(let i=0; i < territories.length; i++){
+    
+            let territory = territories[i];
+    
+            if( territory != null && territory.id === territoryId){
+                targetTerritory = territory
+                break
+            }
+        }
+    
+        return targetTerritory
     }
 
     const getMatchComponent = () => {
@@ -222,10 +288,6 @@ function Match() {
             return null;
         }
 
-
-        console.log("Match is not null")
-        console.dir(match);
-
         return (
             <div className="match">
                 <div className="mission_div">
@@ -235,12 +297,12 @@ function Match() {
                     /> 
                 </div>                    
                 { getGameCards(player.cards) }
-                <Map               
+                <GameMap               
                     className="map menu"  
                     match = { match }
                     player = { player }
-                    placedarmies = { placedArmies }
-                    movedarmies = { movedArmies }
+                    placedarmies = { armiesToPlaceThisTurn }
+                    movedarmies = { movedArmiesThisTurn }
                     onClick = { onClickHandler }
                     onMouseOver = { onMouseOverHandler }
                     onMouseOut = { onMouseOutHandler }
@@ -250,11 +312,33 @@ function Match() {
                     player = {player} 
                     cards = {player.cards} 
                     setMatch = {setMatch} 
-                    movedArmies = {movedArmies} 
-                    setMovedArmies = {setMovedArmies}/>
+                    movedArmies = {movedArmiesThisTurn} 
+                    setMovedArmies = {setMovedArmiesThisTurn}/>
             </div>
         )
         
+    }
+
+    const selectAttacker = (territory) => {
+        console.log("Select the attacker")
+        console.dir(match)
+        try{
+            axios.put(endPoint + '/api/v1/match/select_attacker', {"matchId": match.id, "territoryId": territory.id})
+        }
+        catch(error){
+            console.error(error)
+        }
+    }
+
+    const selectDefender = (territory) => {
+        console.log("Select the defender")
+        console.dir(match)
+        try{
+            axios.put(endPoint + '/api/v1/match/select_defender', {"matchId": match.id, "territoryId": territory.id})
+        }
+        catch(error){
+            console.error(error)
+        }
     }
 
     return (

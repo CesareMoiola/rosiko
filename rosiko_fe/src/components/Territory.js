@@ -12,14 +12,14 @@ const getNumberOfDice = (props) => {
     let dice = 0;
 
     if(props.variant === "attacker"){
-        if(props.territory.armies > 1) dice = 1;
-        if(props.territory.armies > 2) dice = 2;
-        if(props.territory.armies > 3) dice = 3;
+        if(props.territory.placedArmies > 1) dice = 1;
+        if(props.territory.placedArmies > 2) dice = 2;
+        if(props.territory.placedArmies > 3) dice = 3;
     }
     if(props.variant === "defender"){
-        if(props.territory.armies >= 1) dice = 1;
-        if(props.territory.armies >= 2) dice = 2;
-        if(props.territory.armies >= 3) dice = 3;
+        if(props.territory.placedArmies >= 1) dice = 1;
+        if(props.territory.placedArmies >= 2) dice = 2;
+        if(props.territory.placedArmies >= 3) dice = 3;
     }  
 
     return dice;
@@ -65,7 +65,7 @@ const Terrirory = (props) => {
     const getAttackButton = () =>{
 
         if(props.variant === "attacker" && 
-        (props.match.defender === null || props.match.attacker.owner.id !== props.match.defender.owner.id)) {
+        (props.match.defender === null || props.match.attacker.ownerId !== props.match.defender.ownerId)) {
             return(
                 <Button 
                     className="attack_button" 
@@ -90,7 +90,7 @@ const Terrirory = (props) => {
                     className="exit_button" 
                     aria-label="exit" 
                     size="small" 
-                    onClick={()=>{MatchController.deselectTerritory(props.match, props.territory, props.setMatch, props.setMovedArmies);}}>                
+                    onClick={()=>{MatchController.deselectTerritory(props.match, props.territory);}}>                
                     <CloseIcon sx={{color: ArmiesTheme[props.territory.color].contrastText}}/>
                 </IconButton>   
             );                     
@@ -202,6 +202,7 @@ const Terrirory = (props) => {
 
     //Ritorna lo slider per lo spostamento delle armate successivo alla conquista del territorio
     const getMoveArmiesAfterAttack = () => {
+
         let component = null
 
         const handleSliderChange = (event, newValue) => {
@@ -212,11 +213,11 @@ const Terrirory = (props) => {
 
         if( props.match.territoryFrom !== null 
             && props.match.territoryTo !== null 
-            && props.match.territoryFrom.owner.id === props.match.territoryTo.owner.id 
+            && props.match.territoryFrom.ownerId === props.match.territoryTo.ownerId 
             && props.territory.id === props.match.territoryFrom.id
         ){            
             let minArmies = 0;
-            let maxArmies = props.match.attacker.armies -1;
+            let maxArmies = props.match.attacker.placedArmies -1;
 
             if(props.movedArmies < minArmies) props.setMovedArmies(minArmies);
             
@@ -251,11 +252,11 @@ const Terrirory = (props) => {
 
         if( props.match.territoryFrom !== null 
             && props.match.territoryTo !== null 
-            && props.match.territoryFrom.owner.id === props.match.territoryTo.owner.id 
+            && props.match.territoryFrom.ownerId === props.match.territoryTo.ownerId 
             && props.territory.id === props.match.territoryFrom.id
         ) {            
             let minArmies = 0;
-            let maxArmies = props.match.territoryFrom.armies -1;
+            let maxArmies = props.match.territoryFrom.placedArmies -1;
             
             if(minArmies !== maxArmies){
                 component = (
@@ -289,7 +290,7 @@ const Terrirory = (props) => {
     return (
         <Card className="territory" style={{backgroundColor: ArmiesTheme[props.territory.color].main}}>
             {getCloseButton()}
-            <Chip className="armies_chip" size="small" label={MatchController.getArmies(props.match, props.territory, props.placedArmies, props.movedArmies)}/>
+            <Chip className="armies_chip" size="small" label={MatchController.getNumberOfArmies(props.match, props.territory, props.placedArmies, props.movedArmies)}/>
             <CardContent className="territory_card_content">                
                 <Typography className="title_card" component="div" textAlign="center" sx={{color: ArmiesTheme[props.territory.color].contrastText}}>
                     {props.territory.name}

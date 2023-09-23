@@ -11,7 +11,7 @@ function capitalizeFirstLetter(string) {
 
 function NewMatch(){
 
-  const { client, playerId } = useContext(UserContext);
+  const { client, userId } = useContext(UserContext);
   const [matchName, setMatchName] = useState('');
   const [password, setPassword] = useState('');
   const [playerName, setPlayerName] = useState('');
@@ -35,7 +35,7 @@ function NewMatch(){
     console.log("New match submit");
     
     let matchId = await newMatch(matchName, password);
-    await joinMatch(playerId, playerName, matchId);
+    await joinMatch(userId, playerName, matchId);
     
     if(matchId !== null) navigate("/waiting_room/" + matchId);
   }

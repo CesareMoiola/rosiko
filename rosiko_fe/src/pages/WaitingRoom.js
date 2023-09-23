@@ -8,7 +8,7 @@ import '../styles/WaitingRoom.css';
 import {getMatch, leavesMatch, startMatch} from "../js/matchActions";
 
 function WaitingRoom() {   
-    const {client, playerId} = useContext(UserContext);
+    const {client, userId, isConnect} = useContext(UserContext);
     const [match, setMatch] = useState();
     const navigate = useNavigate();
     let { id } = useParams();  
@@ -17,13 +17,13 @@ function WaitingRoom() {
     useEffect(
         () => {
             try{
-                socketSubscribe();
+                if(isConnect) socketSubscribe();
             }
             catch(e){
-                console.log("No socket connection");
-                console.dir(client);
+                console.error("Subscription failed")
+                client.onConnect( () => { socketSubscribe() })
             } 
-    }, [])
+    }, [isConnect])
     
     useEffect(()=>{
         const fetchData = async ()=>{
@@ -47,10 +47,10 @@ function WaitingRoom() {
         client.subscribe("/user/queue/match", payload => {
             let updatedMatch = JSON.parse(payload.body);
             console.log("/user/queue/match updatedMatch:");
-            console.dir(updatedMatch);
             setMatch(updatedMatch);
         },
-        {id: "waiting_room"});
+        {id: "waiting_room"})
+        console.log("Socket subscribed to /user/queue/match")
     }
 
     const getPlayers = () => {
@@ -74,7 +74,7 @@ function WaitingRoom() {
 
     const leavesMatchSubmit = () => {
         try{
-            leavesMatch(playerId, match.id);
+            leavesMatch(userId, match.id);
             setMatch(null);
         }
         catch(e){

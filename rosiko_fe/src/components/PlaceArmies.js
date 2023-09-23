@@ -10,8 +10,6 @@ import { ArmiesTheme } from "../js/armiesPalette";
 import MatchController from "../js/matchActions";
 import StarIcon from '@mui/icons-material/Star';
 
-const ApiGateway = require("../js/apiGateway").default;
-
 function PlaceArmies(props) {
 
     const theme = useTheme();
@@ -30,7 +28,7 @@ function PlaceArmies(props) {
         }
 
         if(cardSet.length === 3){
-            ApiGateway.playCards(props.match, props.player, cardSet);
+            MatchController.playCards(props.match, props.player, cardSet);
         }
     }
 

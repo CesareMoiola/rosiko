@@ -12,9 +12,7 @@ import java.util.List;
 @Data
 public class PlayerDTO implements Serializable {
     private String id;
-    private String socketID;
     private String name ;
-    private Long currentMatchID;
     private Color color = null;
     private int availableArmies = 0;
     private MissionDTO mission;
@@ -24,9 +22,8 @@ public class PlayerDTO implements Serializable {
     private boolean mustDrawACard = false;
     private List<Card> cards = new ArrayList<>();
 
-    public PlayerDTO(String id, String  socketId, String name){
+    public PlayerDTO(String id, String name){
         this.id = id;
-        this.socketID = socketId;
         this.name = name;
     }
 }

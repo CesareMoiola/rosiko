@@ -9,7 +9,7 @@ import MatchController from "../js/matchActions";
 function Displacement(props) {
     const [territoryFrom, setTerritoryFrom] = useState(props.match.territoryFrom);
     const [territoryTo, setTerritoryTo] = useState(props.match.territoryTo);
-    let isPlayerOnDuty = props.match.playerOnDuty.id === props.player.id;
+    let isPlayerOnDuty = props.match.playerOnDutyId === props.player.id;
     let showArrow = props.match.territoryFrom !== null && props.match.territoryTo !== null;
     let showTitle = (props.match.territoryFrom !== null || props.match.territoryTo !== null) || isPlayerOnDuty;
 
@@ -64,7 +64,7 @@ function Displacement(props) {
 
         if(isPlayerOnDuty === true){
             if(props.movedArmies <= 0) {button = <Button className="ends_turn_button" onClick={() => {MatchController.endsTurn(props.match)}} variant="outlined">Ends turn</Button>;}
-            else{ button = <Button className="ends_turn_button" onClick={() => {MatchController.confirmMove(props.match, props.movedArmies)}} variant="contained" >Confirm move</Button> }
+            else{ button = <Button className="ends_turn_button" onClick={() => {MatchController.confirmMove(props.match, props.movedArmies, props.setMovedArmies)}} variant="contained" >Confirm move</Button> }
         }
 
         return button;

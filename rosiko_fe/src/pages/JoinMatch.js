@@ -14,12 +14,10 @@ function capitalizeFirstLetter(string) {
 
 const JoinMatch = () => {
   const navigate = useNavigate();
-  const { client, playerId } = useContext(UserContext);
+  const { client, userId } = useContext(UserContext);
   const [matches, setMatches] = useState([]);
   const [matchId, setMatchId] = useState(undefined);
   const [playerName, setPlayerName] = useState("");
-
-  console.log("Player ID: " + playerId);
 
 
   useEffect(
@@ -30,13 +28,13 @@ const JoinMatch = () => {
         setMatches(matches);
       }
 
-      if(playerId !== null){
+      if(userId !== null){
         fetchData()
           .catch( (error)=>{
             console.error(error);
           })
       }      
-    }, [playerId]
+    }, [userId]
   )
 
   const webSocketSubscription = () => {
@@ -60,7 +58,7 @@ const JoinMatch = () => {
   const joinMatchSubmit = async ( event ) => {
     event.preventDefault();
 
-    let success = joinMatch(playerId, playerName, matchId);
+    let success = joinMatch(userId, playerName, matchId);
     if(success){
 
       client.unsubscribe("joinableMatches");

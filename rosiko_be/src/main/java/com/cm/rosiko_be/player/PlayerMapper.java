@@ -11,9 +11,8 @@ public class PlayerMapper {
 
         if(player == null) return null;
 
-        PlayerDTO playerDTO = new PlayerDTO(player.getId(), player.getSocketID(), player.getName());
+        PlayerDTO playerDTO = new PlayerDTO(player.getId(), player.getName());
 
-        playerDTO.setCurrentMatchID(player.getCurrentMatchID());
         playerDTO.setColor(player.getColor());
         playerDTO.setAvailableArmies(player.getAvailableArmies());
         playerDTO.setMission(MissionMapper.toMissionDTO(player.getMission()));

@@ -8,18 +8,18 @@ function Home() {
   return (
     <div className="home">
       <div className="menu">
-        <Typography className='home-title' variant='h1' style={{fontWeight: "bold"}}>Euronics</Typography>
+        <Typography className='home-title' variant='h1' style={{fontWeight: "bold"}}>Rosiko</Typography>
           <div className="home-buttons-container">          
             <Button className="home-button" 
               variant="outlined"  
               component={RouterLink}
-              to="/new_match">New</Button>
+              to="/new_match">New game</Button>
             <br/>
             <Button 
               className="home-button" 
               variant="contained" 
               component={RouterLink}
-              to="/join_match">Join</Button>
+              to="/join_match">Join game</Button>
           </div>
       </div>
     </div>

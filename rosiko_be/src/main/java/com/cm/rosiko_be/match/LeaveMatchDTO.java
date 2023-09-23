@@ -5,6 +5,6 @@ import java.io.Serializable;
 
 @Data
 public class LeaveMatchDTO implements Serializable {
-    long matchId;
-    String playerId;
+    private Long matchId;
+    private String userId;
 }

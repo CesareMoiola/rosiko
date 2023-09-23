@@ -11,6 +11,7 @@ import com.cm.rosiko_be.mission.MissionsService;
 import com.cm.rosiko_be.player.Player;
 import com.cm.rosiko_be.services.TimerService;
 import com.cm.rosiko_be.socket.WSServices;
+import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -19,6 +20,7 @@ import static com.cm.rosiko_be.enums.CardType.*;
 import static com.cm.rosiko_be.enums.Stage.*;
 
 @Slf4j
+@Data
 @Service
 public class MatchService {
 
@@ -39,7 +41,9 @@ public class MatchService {
     public static final int SET_CARDS_NUMBER = 3;           //Numero di carte per fare un tris
     public static final int CARD_TERRITORY_BONUS = 2;       //Numero armate bonus se si possiede il territorio della carta giocata
     public static final int MINIMUM_AVAIABLE_ARMIES = 1;    //Numero armate bonus se si possiede il territorio della carta giocata
-    public static final int MAX_INACTIVITY_PERIOD = 10;     //Minuti di inattività consentiti per ogni giocatore
+    public static final int MAX_INACTIVITY_PERIOD = 100;    //Minuti di inattività consentiti per ogni giocatore
+    public static final int NUMBER_OF_JOLLY_IN_THE_DECK = 2;
+    public static final int DICE_ROLLING_DELAY = 1000;
 
     @Autowired
     public WSServices wsServices;
@@ -56,7 +60,8 @@ public class MatchService {
     public MatchService(){}
 
 
-    public void start(){
+
+    public void startMatch(){
         if(!areThereEnoughPlayers()) {
             log.error("Match started without enough players");
             return;
@@ -66,16 +71,82 @@ public class MatchService {
 
         initialMatchPreparation();
 
-        playTurn();
-
-        initialArmiesPlacement();
+        prepareStage();
     }
 
+    public void placeArmies(Map<String, Integer> armiesToPlace) throws Exception {
 
-    private boolean areThereEnoughPlayers(){
-        int numberOfPlayers = match.getPlayers().size();
-        return  numberOfPlayers >= MIN_PLAYERS && numberOfPlayers <= MAX_PLAYERS;
+        if( !checkArmiesToPlace(armiesToPlace) ) throw new Exception("It is not possible to place these armies");
+
+        for (Map.Entry<String, Integer> entry : armiesToPlace.entrySet()) {
+            Territory territory = match.getMap().getTerritory(entry.getKey());
+            placeArmies(territory, entry.getValue());
+        }
+
+        nextStage();
     }
+
+    public void attack(int numberOfAttackerDice){
+
+        diceRollingDelay();
+
+        if(match.getAttacker() == null || match.getDefender() == null) {
+            match.setDiceAttacker(null);
+            match.setDiceDefender(null);
+            return;
+        }
+
+        List<Integer> dicesAttackerList = getDicesAttacker(numberOfAttackerDice);
+        List<Integer> dicesDefenderList = getDicesDefender();
+        int armiesLostByAttacker = 0;
+        int armiesLostByDefender = 0;
+        String[] diceAttackerResult = new String[MAX_ATTACKING_DICES];
+        String[] diceDefenderResult = new String[MAX_ATTACKING_DICES];
+
+
+        //Rolling of the dice
+        diceRoll(dicesAttackerList);
+        diceRoll(dicesDefenderList);
+
+        //Calculation of armies lost by the attacker and defender
+        for(int i=0; i<Integer.min(dicesAttackerList.size(), dicesDefenderList.size()); i++){
+            if( dicesAttackerList.get(i) > dicesDefenderList.get(i) ){
+                armiesLostByDefender++;
+            }
+            else{
+                armiesLostByAttacker++;
+            }
+        }
+
+        //Default values
+        for(int i=0; i<MAX_ATTACKING_DICES; i++){
+            diceAttackerResult[i] = "none";
+            diceDefenderResult[i] = "none";
+        }
+
+        //Actual values
+        for(int i=0; i< dicesAttackerList.size(); i++){
+            diceAttackerResult[i] = dicesAttackerList.get(i).toString();
+        }
+
+        //Actual values
+        for(int i=0; i< dicesDefenderList.size(); i++){
+            diceDefenderResult[i] = dicesDefenderList.get(i).toString();
+        }
+
+        match.setDiceAttacker(diceAttackerResult);
+        match.setDiceDefender(diceDefenderResult);
+
+        //Decrease in defeated armies
+        match.getAttacker().removeArmies(armiesLostByAttacker);
+        match.getDefender().removeArmies(armiesLostByDefender);
+
+        //Case of conquest
+        conquest(dicesAttackerList.size());
+
+        nextStage();
+    }
+
 
     private void initialMatchPreparation(){
         setTheOrderOfPlayers();
@@ -87,6 +158,127 @@ public class MatchService {
         distributionOfTerritoriesToPlayers();
 
         setDeckOfCards();
+
+        match.setStage(INITIAL_PLACEMENT);
+
+        placeMinimumArmiesOnEachTerritory();
+    }
+
+    private void setFirstStageOfTheTurn(){
+
+        int turn = match.getTurn();
+        Stage firstStage;
+
+        if(turn > 0){
+            if(isTheFirstTurnOfThePlayer(match.getPlayerOnDuty())){
+                firstStage = ATTACK;
+            }
+            else{
+                firstStage = PLACEMENT;
+            }
+        }
+        else{
+            firstStage = INITIAL_PLACEMENT;
+        }
+
+        match.setStage(firstStage);
+    }
+
+    private void prepareStage(){
+        timerService.stopTimer();
+
+        calculateWinner();
+
+        switch(match.getStage()) {
+            case INITIAL_PLACEMENT: break;
+            case PLACEMENT: assignArmiesToThePlayer(); break;
+            case ATTACK: prepareAttackStage(); break;
+            case DISPLACEMENT: prepareDisplacementStage(); break;
+            case GAME_OVER: prepareGameOverStage(); break;
+        }
+
+        setSelectableTerritories();
+
+        timerService.startTimer(this);
+    }
+
+    private void nextStage(){
+        Stage matchStage = match.getStage();
+        Stage nextStage = null;
+
+        switch (matchStage){
+            case INITIAL_PLACEMENT: nextTurn(); break;
+            case PLACEMENT: nextStage=ATTACK; break;
+            case ATTACK: nextStage=ATTACK; break;
+            case DISPLACEMENT: nextTurn(); break;
+            case GAME_OVER: break;
+            default: break;
+        }
+
+        if(nextStage!=null){
+            match.setStage(nextStage);
+        }
+
+        prepareStage();
+    }
+
+    private void nextTurn(){
+
+        Stage stage = match.getStage();
+        int turn = match.getTurn();
+
+        if(!stage.equals(INITIAL_PLACEMENT) || isInitialPlacementOver()){
+            turn++;
+            match.setTurn(turn);
+        }
+
+        setPlayerOnDuty();
+
+        resetPlayerActions(match.getPlayerOnDuty());
+
+        setFirstStageOfTheTurn();
+
+        prepareStage();
+    }
+
+    private void setPlayerOnDuty(){
+
+        Player newPlayerOnDuty;
+
+        if(match.getStage().equals(INITIAL_PLACEMENT)){
+            newPlayerOnDuty = nextPlayerWithAvailableArmies();
+
+            if(newPlayerOnDuty == null){
+                newPlayerOnDuty = match.getActivePlayers().get(0);
+            }
+        }
+        else {
+            newPlayerOnDuty = getNextPlayer();
+        }
+
+        match.setPlayerOnDuty(newPlayerOnDuty);
+    }
+
+
+    //--------------------------OLD------------------------------------------------
+
+    private void resetPlayerActions(Player player){
+        if(player != null) {
+            player.setArmiesPlacedThisTurn(0);
+        }
+    }
+
+    private void diceRollingDelay(){
+        try {
+            Thread.sleep(DICE_ROLLING_DELAY);
+        } catch (InterruptedException ie) {
+            Thread.currentThread().interrupt();
+        }
+    }
+
+    private boolean areThereEnoughPlayers(){
+        int numberOfPlayers = match.getPlayers().size();
+        return  numberOfPlayers >= MIN_PLAYERS && numberOfPlayers <= MAX_PLAYERS;
     }
 
     private void setTheOrderOfPlayers(){
@@ -147,29 +339,30 @@ public class MatchService {
         }
 
         //Add jolly cards
-        cards.add(new Card(cards.size(), CardType.JOLLY));
-        cards.add(new Card(cards.size(), CardType.JOLLY));
+        for (int i=0; i<NUMBER_OF_JOLLY_IN_THE_DECK; i++){
+            cards.add(new Card(cards.size(), CardType.JOLLY));
+        }
 
         Collections.shuffle(cards);
         match.setCards(cards);
     }
 
+    private void placeMinimumArmiesOnEachTerritory(){
+        List<Territory> territories = match.getMap().getTerritories();
+        List<Player> players = match.getPlayers();
 
-    public void playTurn(){
-        timerService.stopTimer();
+        for(Territory territory : territories){
+            if(territory.getPlacedArmies() < MIN_ARMIES_FOR_TERRITORY){
+                placeArmies(territory, MIN_ARMIES_FOR_TERRITORY);
+            }
+        }
 
-        setWinner();
-
-        if(isGameOver()) match.setStage(GAME_OVER);
-
-        handleTurn();
-
-        setSelectableTerritories();
-
-        timerService.startTimer(this);
+        for( Player player : players){
+            resetPlayerActions(player);
+        }
     }
 
-    public void setWinner(){
+    private void calculateWinner(){
         List<Player> activePlayers = match.getActivePlayers();
 
         if(activePlayers.size() == 1) match.setWinner(activePlayers.get(0));
@@ -180,68 +373,55 @@ public class MatchService {
                 }
             }
         }
+
+        if(match.getWinner() != null) match.setStage(GAME_OVER);
     }
 
-    private boolean isGameOver(){
+    private void placeArmies(Territory territory, int armies){
+        Player player = territory.getOwner();
+        int availableArmies = player.getAvailableArmies();
 
-        List<Player> activePlayers = match.getActivePlayers();
-
-        return match.getWinner() != null || activePlayers.size() < MIN_PLAYERS;
-    }
-
-    private void handleTurn(){
-        Stage stage = match.getStage();
-
-        switch(stage) {
-            case INITIAL_PLACEMENT: initialArmyPlacement(); break;
-            case PLACEMENT: armyPlacement(); break;
-            case ATTACK: attack(); break;
-            case DISPLACEMENT: displacement(); break;
-            case GAME_OVER: gameOver(); break;
+        if( availableArmies >= armies ){
+            player.setAvailableArmies(availableArmies - armies);
+            player.increaseArmiesPlacedThisTurn(armies);
+            territory.addArmies(armies);
         }
     }
 
-    void nextStage(){
-        Stage stage = match.getStage();
-        Stage newStage = stage;
+    private boolean checkArmiesToPlace(Map<String, Integer> armiesToPlace){
+        GameMap map = match.getMap();
+        Player player = match.getPlayerOnDuty();
+        boolean isPlayerTheOwner = true;
+        boolean isNumberOfArmiesCorrect = true;
+        boolean areAvailableArmiesEnough = true;
+        int totalArmiesToPlace = 0;
 
-        switch (stage){
-            case PLACEMENT: newStage = ATTACK; break;
-            case ATTACK: newStage = DISPLACEMENT; break;
-            case DISPLACEMENT: newStage = PLACEMENT; break;
+        for (Map.Entry<String, Integer> entry : armiesToPlace.entrySet()) {
+            Territory territory = map.getTerritory(entry.getKey());
+
+            // Is player the owner of target territories?
+            isPlayerTheOwner = territory.getOwner().equals(player);
+
+            totalArmiesToPlace += entry.getValue();
         }
 
-        match.setStage(newStage);
-    }
-
-    void initialArmyPlacement(){
-        Player playerOnDuty = match.getPlayerOnDuty();
-        int armiesPlacedThisTurn = playerOnDuty.getArmiesPlacedThisTurn();
-        int availableArmies = playerOnDuty.getAvailableArmies();
-
-        if( armiesPlacedThisTurn >= INITIAL_ARMIES_TO_PLACE
-                || availableArmies == 0
-                || !playerOnDuty.isActive()
-        ){
-            endTurn();
+        // Is the number of armies consistent with the stage of the turn?
+        switch (match.getStage()){
+            case INITIAL_PLACEMENT: isNumberOfArmiesCorrect = totalArmiesToPlace <= INITIAL_ARMIES_TO_PLACE; break;
+            case PLACEMENT: isNumberOfArmiesCorrect = true; break;
+            default: isNumberOfArmiesCorrect = totalArmiesToPlace == 0; break;
         }
-        else{
-            if(playerOnDuty == null){
-                match.setPlayerOnDuty(match.getPlayers().get(0));
-                match.setStage(PLACEMENT);
-            }
-        }
+
+        // Are armies > 0
+        if(isNumberOfArmiesCorrect) isNumberOfArmiesCorrect = totalArmiesToPlace > 0;
+
+        // Does player have enough armies available?
+        areAvailableArmiesEnough = player.getAvailableArmies() >= totalArmiesToPlace;
+
+        return isPlayerTheOwner && isNumberOfArmiesCorrect && areAvailableArmiesEnough;
     }
 
-    void armyPlacement(){
-        Player playerOnDuty = match.getPlayerOnDuty();
-        if(!match.areArmiesAssignedToPlayer()) assignArmiesToPlayer();
-        if( playerOnDuty.getAvailableArmies() <= 0 ) nextStage();
-    }
-
-    void attack(){
-        Player playerOnDuty = match.getPlayerOnDuty();
-
+    private void prepareAttackStage(){
         Territory territoryFrom = match.getTerritoryFrom();
         Territory territoryTo = match.getTerritoryTo();
 
@@ -258,37 +438,17 @@ public class MatchService {
         }
     }
 
-    void displacement(){
+    private void prepareDisplacementStage(){
         if(match.isMovementConfirmed()){
-            endTurn();
+            endsTurn();
         }
         return;
     }
 
-    void gameOver(){
+    private void prepareGameOverStage(){
         wsServices.sendsUpdatedMatchToPlayers(match.getId());
     }
 
-    //Piazza le armate sui territori indicati
-    public void placeArmies(Map<String, Integer> armiesToPlace){
-        GameMap map = match.getMap();
-        Player player = match.getPlayerOnDuty();
-        int placeableArmies = match.getPlayerOnDuty().getAvailableArmies();   //Armate piazzabili
-        int placedArmies = 0;   //Armate piazzate
-
-        //Controlla che il numero di armate piazzate sono corrette e che i territori siano del giocatore
-        for (Map.Entry<String, Integer> entry : armiesToPlace.entrySet()) {
-            Territory territory = map.getTerritory(entry.getKey());
-            placedArmies += entry.getValue();
-
-            //Aggiorna le armate nella mappa
-            if(placedArmies <= placeableArmies && territory.getOwner().getSocketID().equals(player.getSocketID())){
-                placeArmies(territory, entry.getValue());
-            }
-        }
-
-        playTurn();
-    }
 
     //Seleziona un proprio territorio dal quale sia possibile attaccare
     public void selectAttacker(String territoryId){
@@ -304,7 +464,7 @@ public class MatchService {
             match.setTerritoryFrom(null);
         }
 
-        playTurn();
+        prepareStage();
     }
 
     //Seleziona un proprio territorio dal quale sia possibile attaccare
@@ -317,14 +477,23 @@ public class MatchService {
             match.setTerritoryTo(null);
             match.setTerritoryFrom(null);
         }
-        playTurn();
+        prepareStage();
     }
 
     //Deseleziona un territorio che sia quello attaccante o quello difensivo
     public void deselectTerritory(String territoryId){
         //Se il territorio è quello attaccante lo deseleziona e deseleziona pure quello difensivo
         if(match.getAttacker()!= null && match.getAttacker().getId().equals(territoryId)){
-            match.setAttacker(null);
+            if(
+                    match.getDefender() != null
+                    && match.getDefender().getOwner().equals(match.getAttacker().getOwner())
+                    && match.getDefender().getPlacedArmies() >= MINIMUM_ATTACKING_ARMIES
+            ){
+                match.setAttacker(match.getDefender());
+            }
+            else{
+                match.setAttacker(null);
+            }
             match.setDefender(null);
         }
 
@@ -344,7 +513,7 @@ public class MatchService {
             match.setTerritoryTo(null);
         }
 
-        playTurn();
+        prepareStage();
     }
 
     //Deseleziona tutti i territori
@@ -355,82 +524,33 @@ public class MatchService {
         match.setTerritoryTo(null);
     }
 
-    //L'attaccker attacca il defender con i dadi specificati nell'attributo difende.
-    public void attack(int numberOfAttackerDice){
-        if(match.getAttacker() == null || match.getDefender() == null) {
-            match.setDiceAttacker(null);
-            match.setDiceDefender(null);
-            return;
-        }
-
-        List<Integer> dicesAttackerList = getDicesAttacker(numberOfAttackerDice);
-        List<Integer> dicesDefenderList = getDicesDefender();
-
-        int armiesLostByAttacker = 0;
-        int armiesLostByDefender = 0;
-
-        //Lancio dei dadi
-        diceRoll(dicesAttackerList);
-        diceRoll(dicesDefenderList);
-
-        //Calcolo delle armate perse dall'attaccante e dal difensore;
-        for(int i=0; i<Integer.min(dicesAttackerList.size(), dicesDefenderList.size()); i++){
-            if( dicesAttackerList.get(i) > dicesDefenderList.get(i) ) {armiesLostByDefender++;}
-            else {armiesLostByAttacker++;}
-        }
-
-        //Salvataggio esito dei dadi nel match
-        String[] diceAttackerResult = new String[MAX_ATTACKING_DICES];
-        String[] diceDefenderResult = new String[MAX_ATTACKING_DICES];
-        for(int i=0; i<MAX_ATTACKING_DICES; i++){
-            diceAttackerResult[i] = "none";
-            diceDefenderResult[i] = "none";
-        }
-        for(int i=0; i< dicesAttackerList.size(); i++){
-            diceAttackerResult[i] = dicesAttackerList.get(i).toString();
-        }
-        for(int i=0; i< dicesDefenderList.size(); i++){
-            diceDefenderResult[i] = dicesDefenderList.get(i).toString();
-        }
-        match.setDiceAttacker(diceAttackerResult);
-        match.setDiceDefender(diceDefenderResult);
-
-        //Decremento delle armate sconfitte
-        match.getAttacker().removeArmies(armiesLostByAttacker);
-        match.getDefender().removeArmies(armiesLostByDefender);
-
-        //Caso di conquista
-        conquest(dicesAttackerList.size());
-
-        playTurn();
-    }
 
     //Inizia la dase di spostamento
     public void displacementStage(){
         deselectTerritories();
         match.setStage(DISPLACEMENT);
         match.setMovementConfirmed(false);
-        playTurn();
+        prepareStage();
     }
 
     //Seleziona il territorio dal quale spostare le armate
     public void selectTerritoryFrom(String territoryId){
         Territory territory = match.getMap().getTerritory(territoryId);
-        if(territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID()) && territory.getPlacedArmies() > MIN_ARMIES_FOR_TERRITORY){
+        if(territory.getOwner().getId().equals(match.getPlayerOnDuty().getId()) && territory.getPlacedArmies() > MIN_ARMIES_FOR_TERRITORY){
             match.setTerritoryFrom(territory);
             match.setDefender(null);
         }
 
-        playTurn();
+        prepareStage();
     }
 
     //Seleziona il territorio sul quale spostare le armate
     public void selectTerritoryTo(String territoryId){
         Territory territory = match.getMap().getTerritory(territoryId);
 
-        if(     territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+        if(     territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                 && match.getTerritoryFrom() != null
-                && territory.getOwner().getSocketID().equals(match.getTerritoryFrom().getOwner().getSocketID())){
+                && territory.getOwner().getId().equals(match.getTerritoryFrom().getOwner().getId())){
             if(territory.isBordering(match.getTerritoryFrom())) {
                 match.setTerritoryTo(territory);
                 match.setDefender(null);
@@ -438,7 +558,7 @@ public class MatchService {
             else match.setTerritoryFrom(territory);
         }
 
-        playTurn();
+        prepareStage();
     }
 
     //Gioca il tris nel caso sia il proprio turno ed è la fase del piazzamento delle armate
@@ -449,7 +569,7 @@ public class MatchService {
         List<Card> playerCards = new ArrayList<>();
         boolean bonus = false;
 
-        if(player.getSocketID().equals(playerId) && match.getStage().equals(PLACEMENT) && cardsId.length == SET_CARDS_NUMBER){
+        if(player.getId().equals(playerId) && match.getStage().equals(PLACEMENT) && cardsId.length == SET_CARDS_NUMBER){
 
             //Get cards
             for(int cardId : cardsId){
@@ -541,7 +661,7 @@ public class MatchService {
                 for(Card card : playerCards){
                     if(!card.getCardType().equals(JOLLY)){
                         Player owner = match.getMap().getTerritory(card.getTerritoryId()).getOwner();
-                        if(owner.getSocketID().equals(player.getSocketID())) bonusArmies += CARD_TERRITORY_BONUS;
+                        if(owner.getId().equals(player.getId())) bonusArmies += CARD_TERRITORY_BONUS;
                     }
                 }
 
@@ -556,34 +676,8 @@ public class MatchService {
         }
     }
 
-    //Piazzamento iniziale delle armate
-    private void initialArmiesPlacement(){
-
-        //Ogni giocatore piazza un'armata sui propri territori
-        for(Territory territory : match.getMap().getTerritories()){
-            placeArmies(territory, 1);
-            territory.getOwner().setArmiesPlacedThisTurn(0); //non conteggia l'armata come piazzata questo turno
-        }
-
-        //Viene settata la fase di gioco in cui i giocatori devono piazzare 3 armate per turno fino all'esaurimento
-        match.setStage(INITIAL_PLACEMENT);
-    }
-
-    //Piazzamento di un numero di armate da parte di un giocatore
-    private void placeArmies(Territory territory, int armies){
-        Player player = territory.getOwner();
-        int availableArmies = player.getAvailableArmies();
-
-        //Se il giocatore ha abbastanza armate le posiziona sul territorio
-        if( availableArmies >= armies ){
-            player.setAvailableArmies(availableArmies - armies);
-            player.increaseArmiesPlacedThisTurn(armies);
-            territory.addArmies(armies);
-        }
-    }
-
     //Calcola e assegna le armate disponibili per il piazzamento al giocatore di turno.
-    private void assignArmiesToPlayer(){
+    private void assignArmiesToThePlayer(){
         Player player = match.getPlayerOnDuty();
         int territoriesCounter = match.getTerritoriesOwned(player).size();
         List<Continent> continentsOwned = match.getContinentsOwned(player);
@@ -617,7 +711,9 @@ public class MatchService {
         //Fase di piazzamento
         if(match.getStage().equals(INITIAL_PLACEMENT) || match.getStage().equals(PLACEMENT)){
             for(Territory territory : match.getMap().getTerritories()){
-                if(territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())){
+                if(territory.getOwner() != null
+                        && territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
+                ){
                     territory.setSelectable(true);
                 }
             }
@@ -628,14 +724,14 @@ public class MatchService {
             //Se bisogna fare lo spostamento perché si è conquistato un territorio non sono selezionabili altri territori
             if(     match.getTerritoryFrom() != null
                     && match.getTerritoryTo() != null
-                    && match.getTerritoryFrom().getOwner().getSocketID().equals(match.getTerritoryTo().getOwner().getSocketID())
+                    && match.getTerritoryFrom().getOwner().getId().equals(match.getTerritoryTo().getOwner().getId())
                     && match.getTerritoryFrom().getPlacedArmies() > MIN_ARMIES_FOR_TERRITORY
             ) return;
 
             //Va selezionato un attaccante
             if(match.getAttacker() == null){
                 for(Territory territory : match.getMap().getTerritories()){
-                    if(     territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+                    if(     territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                             && territory.getPlacedArmies() >= MINIMUM_ATTACKING_ARMIES){
                         territory.setSelectable(true);
                     }
@@ -646,14 +742,14 @@ public class MatchService {
                 for(Territory territory : match.getMap().getTerritories()){
                     if(
                         (   //Se il territorio è mio e ha abbastanza armate per un attacco e non è il territorio attaccante
-                            territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+                            territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                             && territory.getPlacedArmies() >= MINIMUM_ATTACKING_ARMIES
                             && !territory.getId().equals(match.getAttacker().getId())
                         )
                             ||
                         (   //Se il territorio è confinante all'attaccante e non è mio
                             territory.isBordering(match.getAttacker())
-                            && !territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+                            && !territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                         )
                     ){
                         territory.setSelectable(true);
@@ -667,7 +763,7 @@ public class MatchService {
             for(Territory territory : match.getMap().getTerritories()){
                 //Va selezionato un territorio con abbastanza armate spostabili da cui trasferire le armate
                 if(match.getTerritoryFrom() == null){
-                    if(     territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+                    if(     territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                             && territory.getPlacedArmies() > MIN_ARMIES_FOR_TERRITORY){
                         territory.setSelectable(true);
                     }
@@ -676,10 +772,10 @@ public class MatchService {
                 //Oppure un territorio non confinante dal quale spostare le armate
                 if(match.getTerritoryFrom() != null && match.getTerritoryTo() == null){
                     if(     !territory.getId().equals(match.getTerritoryFrom().getId()) &&
-                            (territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+                            (territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                             && territory.isBordering(match.getTerritoryFrom()))
                             ||
-                            (territory.getOwner().getSocketID().equals(match.getPlayerOnDuty().getSocketID())
+                            (territory.getOwner().getId().equals(match.getPlayerOnDuty().getId())
                             && territory.getPlacedArmies() > MIN_ARMIES_FOR_TERRITORY)
                     ){
                         territory.setSelectable(true);
@@ -732,36 +828,48 @@ public class MatchService {
 
     //Nel caso in cui l'attaccante sconfiggesse tutte le armate del difensore allora conquista il territorio attaccato
     private void conquest(int attackArmies){
-        Territory attacker = match.getAttacker();
-        Territory defender = match.getDefender();
+        Territory attackerTerritory = match.getAttacker();
+        Territory defenderTerritory = match.getDefender();
         Player player = match.getPlayerOnDuty();
-        Player enemy = defender.getOwner();
+        Player defender = defenderTerritory.getOwner();
 
         /*Se il difensore non ha più armate, l'attaccante diventa il proprietario del territorio
         e ci vengono trasferite le armate che hanno attaccato*/
-        if(defender.getPlacedArmies() <= 0){
-            defender.setOwner(attacker.getOwner());
+        if(defenderTerritory.getPlacedArmies() <= 0){
+            defenderTerritory.setOwner(attackerTerritory.getOwner());
+
+            //Set the minimum movement
             match.setTerritoryFrom(match.getAttacker());
             match.setTerritoryTo(match.getDefender());
             moveArmies(match.getTerritoryFrom(), match.getTerritoryTo(), attackArmies, false);
+
+            /*If there are no more possible movement select the conquest territory as the attacker
+            if(defenderTerritory.getPlacedArmies() <= MIN_ARMIES_FOR_TERRITORY){
+                match.setTerritoryFrom(null);
+                match.setTerritoryTo(null);
+                match.setAttacker(defenderTerritory);
+                match.setDefender(null);
+            }
+            */
+
             player.setMustDrawACard(true);     //A fine turno il giocatore potrà pescare una carta
             match.setMovementConfirmed(false);
 
             //Controlla se il giocatore sconfitto ha perso tutti i territori
-            List<Territory> territories = match.getTerritoriesOwned(enemy);
+            List<Territory> territories = match.getTerritoriesOwned(defender);
             if(territories.size() == 0){
-                player.addDefeatedPlayer(enemy);
-                player.addCards(enemy.takeCards());
-                enemy.setActive(false);
+                player.addDefeatedPlayer(defender);
+                player.addCards(defender.takeCards());
+                defender.setActive(false);
             }
 
             //Controlla se c'è un vincitore
-            isGameOver();
+            calculateWinner();
         }
     }
 
     //Inizia il turno successivo
-    public void endTurn(){
+    public void endsTurn(){
         Player player = match.getPlayerOnDuty();
 
         //If the player has conquered a territory this turn then draws a card
@@ -773,34 +881,21 @@ public class MatchService {
         match.setArmiesWereAssigned(false);
         deselectTerritories();
 
-        setNewTurn();
+        nextTurn();
 
-        playTurn();
+        prepareStage();
     }
 
-    private void setNewTurn(){
-
-        Stage stage = match.getStage();
+    private boolean isTheFirstTurnOfThePlayer(Player player){
+        int positionOfThePlayer = match.getActivePlayers().indexOf(player) + 1;
         int turn = match.getTurn();
+        boolean isTheFirstTurn = turn == positionOfThePlayer;
 
-        if(!stage.equals(INITIAL_PLACEMENT)){
-            match.setTurn(turn + 1);
-            match.setStage(PLACEMENT);
-        }
-
-        if(stage.equals(INITIAL_PLACEMENT)) {
-            Player nextPlayer = nextPlayerWithAvailableArmies();
-            if(nextPlayer == null){
-                match.setStage(PLACEMENT);
-                nextPlayer = firstActivePlayer();
-            }
-            match.setPlayerOnDuty(nextPlayer);
-        }
-        else match.setPlayerOnDuty(nextPlayer());
+        return  isTheFirstTurn;
     }
 
     //Ritorna il giocatore attivo successivo
-    private Player nextPlayer(){
+    private Player getNextPlayer(){
         List<Player> players = match.getPlayers();
         Player turnPlayer = match.getPlayerOnDuty();
         Player nextPlayer = null;
@@ -815,9 +910,9 @@ public class MatchService {
             nextPlayer = players.get(index);
             playerFound = nextPlayer.isActive();
             if(nextPlayer.equals(turnPlayer)) {
-                    playerFound = true;
-                    nextPlayer = null;
-                }
+                playerFound = true;
+                nextPlayer = null;
+            }
         }
 
         return nextPlayer;
@@ -844,7 +939,7 @@ public class MatchService {
     }
 
     //Ritorna il giocatore attivo successivo
-    private Player nextPlayer(Player player){
+    private Player getNextPlayer(Player player){
         List<Player> players = match.getPlayers();
         Player nextPlayer = null;
         int index = players.indexOf(player);
@@ -885,41 +980,34 @@ public class MatchService {
         }
     }
 
+    private boolean isInitialPlacementOver(){
+        return nextPlayerWithAvailableArmies() == null;
+    }
+
     //Ritorna il primo giocatore seguendo il giro che abbia ancora armate disponibili
     private Player nextPlayerWithAvailableArmies(){
         Player nextPlayer = null;
         Player turnPlayer = match.getPlayerOnDuty();
-        Player currentPlayer = nextPlayer();
+        Player currentPlayer = getNextPlayer();
 
         //Controlla se ci sono giocatori attivi
         List<Player> activePlayers = match.getActivePlayers();
 
-        //Se è rimasto un solo giocatore attivo diventa il vincitore
-        if(activePlayers.size() == 1){
-            Player player = activePlayers.get(0);
-            match.setWinner(player);
-            nextPlayer = player;
-        }
-
         //Cicla finché non trova il porssimo giocatore con armate disponibili
         if(activePlayers.size() > 1){
-            while (nextPlayer == null && !currentPlayer.getSocketID().equals(turnPlayer.getSocketID())){
+            while (nextPlayer == null && !currentPlayer.getId().equals(turnPlayer.getId())){
                 if(currentPlayer.getAvailableArmies() > 0) nextPlayer = currentPlayer;
-                else currentPlayer = nextPlayer(currentPlayer);
+                else currentPlayer = getNextPlayer(currentPlayer);
             }
         }
 
         return nextPlayer;
     }
 
-    public void setMatch(Match match) {
-        this.match = match;
-    }
 
-    public Match getMatch(){return this.match;}
 
     //Fase di spostamento delle armate, indica le armate da spostare
-    public void displacementFase(String territoryFromId, String territoryToId, int armies, boolean deselectAfterMove){
+    public void displaceArmies(String territoryFromId, String territoryToId, int armies, boolean deselectAfterMove){
         Territory territoryFrom = match.getMap().getTerritory(territoryFromId);
         Territory territoryTo = match.getMap().getTerritory(territoryToId);
 
@@ -933,7 +1021,7 @@ public class MatchService {
             else selectAttacker(territoryTo.getId());
         }
 
-        playTurn();
+        prepareStage();
     }
 
     //Sposta le armate da un territorio a un altro
@@ -960,9 +1048,9 @@ public class MatchService {
     public void surrender(String playerId){
         List<Player> players = match.getPlayers();
         for (Player player: players) {
-            if(player.getSocketID().equals(playerId)){
+            if(player.getId().equals(playerId)){
                 player.setActive(false);
-                endTurn();
+                endsTurn();
                 break;
             }
         }

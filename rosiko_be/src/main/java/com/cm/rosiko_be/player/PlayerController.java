@@ -1,18 +1,16 @@
 package com.cm.rosiko_be.player;
 
 import com.cm.rosiko_be.matches_manager.MatchesManager;
-import org.apache.tomcat.util.json.JSONParser;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-
 import java.util.Map;
 
 @RestController
 @RequestMapping("/api/v1/player")
 @CrossOrigin(origins = "*")
 public class PlayerController {
-
+    /*
     @Autowired
     private PlayerService playerService;
 
@@ -33,11 +31,13 @@ public class PlayerController {
 
     @PutMapping("/update_socket/{id}")
     public void updateSocket(@PathVariable("id") String id, @RequestBody Map<String, String> payload){
-        playerService.updateSocket(id, payload.get("socketId"));
+        Player playerUpdated = playerService.updateSocket(id, payload.get("socketId"));
+        matchesManager.updatePlayer(playerUpdated);
     }
 
     @PutMapping("/update")
     public void updatePlayer(@RequestBody PlayerDTO playerDTO){
         playerService.updatePlayer(playerDTO);
     }
+     */
 }

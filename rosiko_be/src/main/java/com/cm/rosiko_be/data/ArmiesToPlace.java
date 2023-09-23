@@ -1,26 +1,13 @@
 package com.cm.rosiko_be.data;
 
+import lombok.Data;
+import java.io.Serializable;
 import java.util.Map;
 
-public class ArmiesToPlace {
+@Data
+public class ArmiesToPlace implements Serializable {
     private Long matchId;
     private Map<String, Integer> armies;
 
     public ArmiesToPlace(){super();}
-
-    public Long getMatchId() {
-        return matchId;
-    }
-
-    public void setMatchId(Long matchId) {
-        this.matchId = matchId;
-    }
-
-    public Map<String, Integer> getArmies() {
-        return armies;
-    }
-
-    public void setArmies(Map<String, Integer> armies) {
-        this.armies = armies;
-    }
 }

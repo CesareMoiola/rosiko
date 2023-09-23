@@ -1,0 +1,124 @@
+package com.cm.rosiko_be.socket;
+
+import com.cm.rosiko_be.match.MatchDTO;
+import com.cm.rosiko_be.matches_manager.MatchesManager;
+import com.cm.rosiko_be.match.Match;
+import com.cm.rosiko_be.match.MatchService;
+import com.cm.rosiko_be.player.PlayerDTO;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.messaging.handler.annotation.MessageMapping;
+import org.springframework.messaging.handler.annotation.Payload;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import java.security.Principal;
+import java.util.Map;
+
+
+/*Questa classe si occupa di recepire i messaggi arrivati tramite websocket e rispondere*/
+@RequestMapping("/api/v0/match")
+@Controller
+public class SocketController {
+
+
+    private final int RESPONSE_DELAY = 0; //Secondi di attesa prima di mandare la risposta
+
+
+    @Autowired
+    public MatchService matchService;
+
+    @Autowired
+    public MatchesManager matchesManager;
+
+    @Autowired
+    public WSServices webSocketServices;
+
+    /**
+     * Manda il match aggiornato ai player partecipanti
+     */
+    @MessageMapping("/match")
+    public void getMatch(@Payload Map<String, String> json) {
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+    }
+
+    @MessageMapping("/join_match")
+    public void joinMatch(@Payload MatchDTO matchDTO, PlayerDTO playerDTO, Principal principal){
+        Match match = matchesManager.getMatch(matchDTO.getId());
+        try {
+            //match.addNewPlayer(json.get("playerName"), json.get("playerID"), principal.getName());
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+
+        webSocketServices.sendsUpdatedMatchToPlayers(match.getId(), principal.getName());
+        webSocketServices.notifyJoinableMatches();
+    }
+
+    /**Deseleziona il territorio*/
+    @MessageMapping("/deselect_territory")
+    public void deselectTerritory(@Payload Map<String, String> json) {
+        matchService.setMatch(matchesManager.getMatch(Long.parseLong(json.get("matchId"))));
+        matchService.deselectTerritory(json.get("territoryId"));
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+    }
+
+    /**Attack*/
+    @MessageMapping("/attack")
+    public void attack(@Payload Map<String, String> json) {
+        int numberOfAttackerDice = 0;
+        try{numberOfAttackerDice = Integer.parseInt(json.get("numberOfAttackerDice"));}
+        catch (NumberFormatException e){
+            e.printStackTrace();
+        }
+
+        matchService.setMatch(matchesManager.getMatch(Long.parseLong(json.get("matchId"))));
+        matchService.attack(numberOfAttackerDice);
+
+        try {
+            Thread.sleep(RESPONSE_DELAY * 1000);
+        } catch (InterruptedException ie) {
+            Thread.currentThread().interrupt();
+        }
+
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+    }
+
+
+
+    /**Select territory from which to move armies*/
+    @MessageMapping("/select_territory_from")
+    public void selectTerritoryFrom(@Payload Map<String, String> json) {
+        matchService.setMatch(matchesManager.getMatch(Long.parseLong(json.get("matchId"))));
+        matchService.selectTerritoryFrom(json.get("territoryId"));
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+    }
+
+    /**Select territory to which to move armies*/
+    @MessageMapping("/select_territory_to")
+    public void selectTerritoryTo(@Payload Map<String, String> json) {
+        matchService.setMatch(matchesManager.getMatch(Long.parseLong(json.get("matchId"))));
+        matchService.selectTerritoryTo(json.get("territoryId"));
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+    }
+
+    /**Confirm armies movement*/
+    @MessageMapping("/confirm_move")
+    public void confirmMove(@Payload Map<String, String> json) {
+        matchService.setMatch(matchesManager.getMatch(Long.parseLong(json.get("matchId"))));
+        matchService.displacementFase(json.get("territoryFrom"), json.get("territoryTo"), Integer.parseInt(json.get("movedArmies")), false);
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+    }
+
+
+
+    /**eavs match*/
+    @MessageMapping("/leaves_match")
+    public void leavesMatch(@Payload Map<String, String> json) {
+        long matchId = Long.parseLong(json.get("matchId"));
+        String playerId = json.get("playerId");
+
+        matchesManager.removePlayerFromWaitingRoom(matchId, playerId);
+        webSocketServices.sendsUpdatedMatchToPlayers(Long.parseLong(json.get("matchId")));
+        webSocketServices.notifyJoinableMatches();
+    }
+}

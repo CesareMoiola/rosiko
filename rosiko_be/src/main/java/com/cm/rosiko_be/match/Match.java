@@ -18,9 +18,9 @@ import java.util.List;
 public class Match {
     private long id;
     private String name;
-    private MatchState state = MatchState.WAITING;;
+    private MatchState state = MatchState.WAITING;
     private String password;
-    private List<Player> players = new ArrayList<Player>();
+    private List<Player> players = new ArrayList<>();
     private GameMap map = new GameMap();
     private Player playerOnDuty;
     private int turn = 0;
@@ -54,7 +54,7 @@ public class Match {
         }
 
         //Inizializza la lista colorsTaken con tutti i colori utilizzati dagli altri giocatori
-        List<Color> colorsTaken = new ArrayList<Color>();
+        List<Color> colorsTaken = new ArrayList<>();
         for (Player currentPlayer : players) {
             colorsTaken.add(currentPlayer.getColor());
         }

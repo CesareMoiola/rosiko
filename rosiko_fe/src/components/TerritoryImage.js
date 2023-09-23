@@ -8,7 +8,7 @@ const getFill = (props) => {
     let player = props.player;
 
     for(let i=0; i<territories.length; i++){
-        if(territories[i].id === card.territoryId && territories[i].owner.id === player.id){
+        if(territories[i].id === card.territoryId && territories[i].ownerId === player.id){
             color = ArmiesTheme[player.color].main;
             break;
         }

@@ -4,11 +4,15 @@ import '../styles/GameOver.css';
 import { useTheme } from '@mui/styles';
 import { Link as RouterLink } from 'react-router-dom';
 import { ArmiesTheme } from "../js/armiesPalette";
-import apiGateway from "../js/apiGateway";
+import MatchController from '../js/matchActions';
 
 const GameOver = (props) => {
 
   const theme = useTheme();
+
+  const surrender = () => {
+    MatchController.surrender(props.match, props.player)
+  }
 
   const getMessage = () => {
 
@@ -52,7 +56,7 @@ const GameOver = (props) => {
           className = "margin_right" 
           variant = "outlined"
           color="primary"
-          onClick = {() => {apiGateway.surrender(props.match, props.player)}}
+          onClick = {() => {surrender()}}
           component={RouterLink} 
           to="/">
           Yes

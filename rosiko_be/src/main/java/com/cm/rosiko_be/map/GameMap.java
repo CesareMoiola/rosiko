@@ -5,12 +5,10 @@ import com.cm.rosiko_be.map.continent.ContinentsDAO;
 import com.cm.rosiko_be.map.territory.TerriroriesDAO;
 import com.cm.rosiko_be.map.territory.Territory;
 import lombok.Data;
-
-import java.io.Serializable;
 import java.util.List;
 
 @Data
-public class GameMap implements Serializable {
+public class GameMap{
     private List<Continent> continents;
     private List<Territory> territories;
 

@@ -1,51 +1,51 @@
 import endPoint from "./endPoint";
 import axios from 'axios';
 
-export async function resumePlayer(){
+export async function resumeUser(){
 
-    let player = null
-    let playerId = localStorage.getItem("playerId")
+    let user = null
+    let userId = localStorage.getItem("userId")
 
-    if( playerId === null || playerId === "null" ){
-        player = await getNewPlayer();
+    if( userId === null || userId === "null" ){
+        user = await getNewUser();
     }
     else{
-        player = await getPlayer(playerId);
+        user = await getUser(userId);
     }
 
-    localStorage.setItem("playerId", player.id)
-    localStorage.setItem("matchId", player.currentMatchID)
+    localStorage.setItem("userId", user.id)
+    localStorage.setItem("matchId", user.currentMatchId)
 
-    return player;
+    return user;
 }
 
-export async function getPlayer( playerID ){
+export async function getUser( userId ){
 
-    let player = null;
+    let user = null;
     
     try{
-        let response = await axios.get( endPoint + '/api/v1/player/' + playerID )
-        player = response.data;
+        let response = await axios.get( endPoint + '/api/v1/user/' + userId )
+        user = response.data;
     }
     catch(error){
         console.error(error);
     }
 
-    return player;
+    return user;
 }
 
-export async function getNewPlayer(){
-    let player = null;
+export async function getNewUser(){
+    let user = null;
     
     try{
-        let response = await axios.get( endPoint + '/api/v1/player/new_player' )
-        player = response.data;
+        let response = await axios.get( endPoint + '/api/v1/user/new_user' )
+        user = response.data;
     }
     catch(error){
         console.error(error);
     }
     
-    return player;
+    return user;
 }
 
 export const updatePlayer = ( player ) => {
@@ -55,10 +55,13 @@ export const updatePlayer = ( player ) => {
     }); 
 }
 
-export const updateSocketId = ( playerId, socketId ) => {
-    if(playerId !==  null && socketId !==  null){
-        axios.put( endPoint + '/api/v1/player/update_socket/' + playerId, { "socketId": socketId } )
-         .then(() => console.log('Socket updated'))
+export const updateSocketId = ( userId, socketId, setSocketId ) => {
+    if(userId !==  null && socketId !==  null){
+        axios.put( endPoint + '/api/v1/user/update_socket/' + userId, { "socketId": socketId } )
+         .then(() => {
+            setSocketId(socketId)
+            console.log('Socket updated')
+        })
          .catch( error => console.error(error))
     }
 }

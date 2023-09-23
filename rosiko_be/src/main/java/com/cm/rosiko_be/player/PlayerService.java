@@ -9,7 +9,7 @@ import java.util.UUID;
 @Slf4j
 @Service
 public class PlayerService {
-
+    /*
     List<Player> players = new ArrayList<>();
 
     public Player getNewPlayer(){
@@ -43,14 +43,13 @@ public class PlayerService {
 
     public void updatePlayer(PlayerDTO playerDTO){
         Player player = getPlayer(playerDTO.getId());
-        player.setSocketID(playerDTO.getSocketID());
         player.setName(playerDTO.getName());
     }
 
-    public void updateSocket(String id, String socketId){
+    public Player updateSocket(String id, String socketId){
         log.info("Player " + id + " update socket: " + socketId);
         Player player = getPlayer(id);
-        player.setSocketID(socketId);
+        return player;
     }
 
     private String getNewId(){
@@ -69,5 +68,5 @@ public class PlayerService {
         while (playerId == null);
 
         return playerId;
-    }
+    }*/
 }

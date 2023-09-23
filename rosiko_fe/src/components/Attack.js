@@ -5,13 +5,12 @@ import '../styles/Attack.css';
 import Arrow from "./Arrow";
 import {ArmiesTheme} from "../js/armiesPalette";
 import MatchController from '../js/matchActions';
-import apiGateway from "../js/apiGateway";
 
 function Attack(props) {
     const [attackerTerritory, setAttackerTerritory] = useState(props.match.attacker);
     const [defenderTerritory, setDefenderTerritory] = useState(props.match.defender); 
     const [isRolling, setRolling] = useState(false); 
-    let isPlayerOnDuty = props.match.playerOnDuty.id === props.player.id;
+    let isPlayerOnDuty = props.match.playerOnDutyId === props.player.id;
     let showArrow = props.match.attacker !== null && props.match.defender !== null;
     let showTitle = (props.match.attacker !== null || props.match.defender !== null) || isPlayerOnDuty;
 
@@ -71,22 +70,33 @@ function Attack(props) {
     const getButtons = () => {
         let button = null;
 
-        const endAttacks = () => {
-            apiGateway.endsAttack(props.match);
+        const endAttacks = () => {            
+            MatchController.endsAttacks(props.match)
+        }
+
+        const endsTurn = () => {
+            MatchController.endsTurn(props.match)
         }
 
         if( isPlayerOnDuty === true) {
-            if( props.movedArmies > 0 || (
+            if( 
                 props.match.territoryFrom !== null 
                 && props.match.territoryTo !== null 
-                && props.match.territoryFrom.owner.id === props.match.territoryTo.owner.id)
+                && props.match.territoryFrom.ownerId === props.match.territoryTo.ownerId
             ){
-                button = <Button className="ends_turn_button" onClick={() => {MatchController.confirmMove(props.match, props.movedArmies)}} variant="contained" >Confirm move</Button>;
+                let minArmies = 0;
+                let maxArmies = props.match.territoryFrom.placedArmies -1;
+            
+                if(minArmies !== maxArmies){
+                    button = <Button className="ends_turn_button" onClick={() => {
+                        MatchController.confirmMove(props.match, props.movedArmies, props.setMovedArmies)
+                    }} variant="contained" >Confirm move</Button>;
+                }
             }
             else{ 
                 button = <div>
                     <Button className = "ends_attack_button margin_right" onClick={endAttacks} variant="outlined">Ends attacks</Button> 
-                    <Button className = "ends_attack_button" onClick={()=>{apiGateway.endsTurn(props.match)}} variant="outlined">Ends turn</Button> 
+                    <Button className = "ends_attack_button" onClick={endsTurn} variant="outlined">Ends turn</Button> 
                 </div>
             }
         }

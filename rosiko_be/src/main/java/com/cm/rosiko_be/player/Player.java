@@ -11,9 +11,7 @@ import java.util.List;
 @Data
 public class Player {
     private String id;
-    private String socketID;
     private String name;
-    private Long currentMatchID;
     private Color color = null;
     private int availableArmies = 0;                //Armate che ha a disposizione il giocatore per essere posizionate sui territori
     private Mission mission;                        //Obiettivo da raggiungere per vincere la partita
@@ -27,9 +25,8 @@ public class Player {
         this.id = id;
     }
 
-    public Player(String id, String socketID, String name){
+    public Player(String id, String name){
         this.id = id;
-        this.socketID = socketID;
         this.name = name;
     }
 

@@ -16,8 +16,6 @@ function ControlPanel(props) {
     const [surrenderPanel, setSurrenderPanel] = useState(false);
     let isPlayerOnDuty = props.match.playerOnDutyId === props.player.id;
 
-    console.log("Id player on duty? " + isPlayerOnDuty)
-
     const getColor = (player) => {
         let color = null;
         let playerOnDuty = getPlayerOnDuty(props.match);
