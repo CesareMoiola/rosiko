@@ -2,6 +2,17 @@ version: '3.8'
 services:
   backend:
     build: ./rosiko_be
+    container_name: rosiko_be
+    ports: 
+      - '8081:8081'
   frontend:
     build: ./rosiko_fe
+    container_name: rosiko_fe
+    ports: 
+      - '3000:3000'
+    volumes: 
+      - ./rosiko_fe:/usr/src/app/rosiko_fe
+      - /usr/src/app/node_modules
+    stdin_open: true
+    tty: true
   

@@ -2,7 +2,7 @@ import Home from './Home.js';
 import NewMatch from './NewMatch.js';
 import '../styles/App.css';
 import {Route, Routes} from 'react-router-dom';
-import WaitingRoom from './waitingRoom.js';
+import WaitingRoom from './WaitingRoom.js';
 import Match from './Match.js';
 import React, { useState, createContext } from 'react';
 import { createTheme, ThemeProvider } from "@mui/material/styles";
