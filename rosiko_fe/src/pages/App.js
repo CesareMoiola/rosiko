@@ -1,4 +1,5 @@
 import Home from './Home.js';
+import Error from './Error.js';
 import NewMatch from './NewMatch.js';
 import '../styles/App.css';
 import {Route, Routes} from 'react-router-dom';
@@ -113,6 +114,7 @@ function App() {
       <div className="App" style={{ backgroundColor:"#e0e0e0"}}>
         <ThemeProvider theme = {theme}>
           <Routes>
+            <Route path="*" element={<Error/>}/>
             <Route path="/" element={<Home/>}/>
             <Route path="/home" element={<Home/>}/>
             <Route path="/new_match" element={<NewMatch/>}/>

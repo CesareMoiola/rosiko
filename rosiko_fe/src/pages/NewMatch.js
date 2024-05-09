@@ -11,7 +11,7 @@ function capitalizeFirstLetter(string) {
 
 function NewMatch(){
 
-  const { client, userId } = useContext(UserContext);
+  const { YYclient, userId } = useContext(UserContext);
   const [matchName, setMatchName] = useState('');
   const [password, setPassword] = useState('');
   const [playerName, setPlayerName] = useState('');
